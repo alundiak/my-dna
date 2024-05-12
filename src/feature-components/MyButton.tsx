@@ -7,7 +7,7 @@ export default function MyButton(props: ButtonProps) {
       {...props}
       style={css({
         color: "black",
-        "&:hover": { color: "blue" },
+        // "&:hover": { color: "blue" },
       })}
     />
   );
