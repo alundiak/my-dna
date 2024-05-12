@@ -1,13 +1,26 @@
 Y-DNA app
 ===
 
+## Idea 1 - DONE
+
+To have at least list of FTDNA groups which I frequently check, so to have one place to navigate from. MAYBE integrated with FTDNA API.
+
+## Idea 2 - TODO
+
+To represent Y-DNA Discover tree based on SNP, and every joint as hyperlink to to the SNP-based page.
+
+![img](./ftdna-ydna-idea-jan-2024.png)
+
+## Tech stack
+
 - Used React + TS SWC Vite setup https://vitejs.dev/guide/#scaffolding-your-first-vite-project
 - Used CSS Nesting 2023-2024 supported https://caniuse.com/css-nesting
 - Used CSS React Hooks https://css-hooks.com/docs/react/configuration
 - Used [Reactstrap](https://reactstrap.github.io/?path=/docs/components-layout--layout)  + [Bootstrap](https://getbootstrap.com/docs/5.3/layout/grid/)
+- Deployment via GitHub Pages (with Vite config).
 
 
-# React + TypeScript + Vite
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
