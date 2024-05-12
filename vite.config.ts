@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build/y-dna-app', // default dist
+    outDir: 'build', // default dist
   },
-  base: '/y-dna-app/',
+  base: '/',
 })
