@@ -7,7 +7,7 @@
   },
   {
     "idGroup": "dinaric-alps-dna",
-    "idPublic": "dinaric-alps-dna",
+    "idPublic": "dinaric_alps_dna",
     "myMembership": true
   },
   {
@@ -26,6 +26,11 @@
     "myMembership": true
   },
   {
+    "idGroup": "carpatho-rusyn",
+    "idPublic": "carpatho-rusyn",
+    "myMembership": true
+  },
+  {
     "idGroup": "polish",
     "idPublic": "polish",
     "myMembership": true
@@ -36,8 +41,8 @@
     "myMembership": true
   },
   {
-    "idGroup": "carpatho-rusyn",
-    "idPublic": "carpatho-rusyn",
+    "idGroup": "belarus",
+    "idPublic": "belarus",
     "myMembership": true
   },
   {
@@ -53,7 +58,7 @@
   {
     "idGroup": "finland",
     "idPublic": "Finland",
-    "myMembership": false
+    "myMembership": true
   },
   {
     "idGroup": "forrestfinn",
@@ -99,11 +104,6 @@
   {
     "idGroup": "serbian-dna-project",
     "idPublic": "SerbianDNAProject",
-    "myMembership": true
-  },
-  {
-    "idGroup": "belarus",
-    "idPublic": "belarus",
     "myMembership": true
   },
   {
