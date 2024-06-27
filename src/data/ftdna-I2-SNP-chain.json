@@ -18,6 +18,12 @@
     ]
   },
   "I-Y3120",
+  {
+    "snp": "I-Y508496",
+    "people": [
+      "TBD"
+    ]
+  },
   "I-Y4460",
   {
     "snp": "I-Y3106",
@@ -52,7 +58,7 @@
   {
     "snp": "I-FGC63213",
     "same-level-snps": [
-      "I-BY182167",
+      "I-BY182167 (also same level as I-FGC63213)",
       "I-FGC8449 (also same level as Q-FGC8433)",
       "I-Y4298 (also same level as Q-FGC8433)"
     ],
