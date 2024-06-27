@@ -241,5 +241,10 @@
     "idGroup": "frenchheritage",
     "idPublic": "frenchheritage",
     "myMembership": false
+  },
+  {
+    "idGroup": "ancient-dna",
+    "idPublic": "AncientDNA",
+    "myMembership": false
   }
 ]
