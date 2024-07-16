@@ -26,6 +26,17 @@ Table just an example:
 
 But most probably it can be simple list, UI-formatted nice and when scrolling all info is shown. Maybe some animation, not sure.
 
+Inspired by FTDNA table actually:
+
+![img1](img1.png)
+
+which I would simply extend with Historical data, so I could easily find myself in space and time when I think about SNP or age of Y-DNA men with such SNP in they Y chromosome.
+
+Something also similar to MyTrueAncestry Full Detailed Timeline
+
+![img2](img2.png)
+
+Left side could be SNP + age info and right side could be History notes, ancient tribes, ethnicities, nationalities, etc.
 
 ## Tech stack
 
