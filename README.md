@@ -11,6 +11,22 @@ To represent Y-DNA Discover tree based on SNP, and every joint as hyperlink to t
 
 ![img](./ftdna-ydna-idea-jan-2024.png)
 
+
+## Idea 3 (or 2.2) - TODO
+
+A list of SNPs with historical info, from no to Y-Adam. Similar way I described in my [article](https://lundiak.wordpress.com/2023/08/07/from-ydna-adam-to-andrii-haplogroup-i2a-globetrekker/)
+
+Table just an example:
+
+| SNP     | Age | History notes, Sources      |
+|----------|-----|-----------------|
+| Y4460 | 30  | note 1, source 1 |
+| CTS10228 | 25  | note 2, source 2 |
+| P37 | 40  | note 3, source 3 |
+
+But most probably it can be simple list, UI-formatted nice and when scrolling all info is shown. Maybe some animation, not sure.
+
+
 ## Tech stack
 
 - Used React + TS SWC Vite setup https://vitejs.dev/guide/#scaffolding-your-first-vite-project
@@ -18,7 +34,6 @@ To represent Y-DNA Discover tree based on SNP, and every joint as hyperlink to t
 - Used CSS React Hooks https://css-hooks.com/docs/react/configuration
 - Used [Reactstrap](https://reactstrap.github.io/?path=/docs/components-layout--layout)  + [Bootstrap](https://getbootstrap.com/docs/5.3/layout/grid/)
 - Deployment via GitHub Pages (with Vite config).
-
 
 ## React + TypeScript + Vite
 
