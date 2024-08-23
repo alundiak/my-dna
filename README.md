@@ -38,6 +38,11 @@ Something also similar to MyTrueAncestry Full Detailed Timeline
 
 Left side could be SNP + age info and right side could be History notes, ancient tribes, ethnicities, nationalities, etc.
 
+Maybe use Bootstrap Accordion => https://getbootstrap.com/docs/5.3/components/accordion/
+or https://getbootstrap.com/docs/5.3/components/card/
+
+
+
 ## Tech stack
 
 - Used React + TS SWC Vite setup https://vitejs.dev/guide/#scaffolding-your-first-vite-project
