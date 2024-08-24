@@ -26,6 +26,11 @@
     "myMembership": true
   },
   {
+    "idGroup": "poltavaregion",
+    "idPublic": "poltavaregion",
+    "myMembership": false
+  },
+  {
     "idGroup": "carpatho-rusyn",
     "idPublic": "carpatho-rusyn",
     "myMembership": true
@@ -34,6 +39,26 @@
     "idGroup": "polish",
     "idPublic": "polish",
     "myMembership": true
+  },
+  {
+    "idGroup": "pol-lithnobility",
+    "idPublic": "POL-LITHNOBILITY",
+    "myMembership": false
+  },
+  {
+    "idGroup": "ossolinski",
+    "idPublic": "ossolinski",
+    "myMembership": false
+  },
+  {
+    "idGroup": "otwock",
+    "idPublic": "otwock",
+    "myMembership": false
+  },
+  {
+    "idGroup": "dna-stia",
+    "idPublic": "DNA-stia",
+    "myMembership": false
   },
   {
     "idGroup": "podlasie",
@@ -68,6 +93,16 @@
   {
     "idGroup": "finno-ugric-dna",
     "idPublic": "Finno-UgricDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "hebrew",
+    "idPublic": "Hebrew",
+    "myMembership": false
+  },
+  {
+    "idGroup": "hebrew-finnish-project",
+    "idPublic": "HEBREW%20FINNISH%20PROJECT",
     "myMembership": false
   },
   {
@@ -208,6 +243,12 @@
     "myMembership": false
   },
   {
+    "idGroup": "cossack-dna",
+    "idPublic": "CossackDNA",
+    "mtDnaResults": true,
+    "myMembership": false
+  },
+  {
     "idGroup": "ukraine-black-sea",
     "idPublic": "UkraineBlackSea",
     "myMembership": false
@@ -228,8 +269,13 @@
     "myMembership": false
   },
   {
-    "idGroup": "colonial-usa-deutsch",
-    "idPublic": "colonial-usa-deutsch",
+    "idGroup": "frenchheritage",
+    "idPublic": "frenchheritage",
+    "myMembership": false
+  },
+  {
+    "idGroup": "portugal",
+    "idPublic": "portugal",
     "myMembership": false
   },
   {
@@ -238,8 +284,28 @@
     "myMembership": false
   },
   {
-    "idGroup": "frenchheritage",
-    "idPublic": "frenchheritage",
+    "idGroup": "ontario-province-canada",
+    "idPublic": "Ontario-Province-Canada",
+    "myMembership": false
+  },
+  {
+    "idGroup": "colonial-usa-deutsch",
+    "idPublic": "colonial-usa-deutsch",
+    "myMembership": false
+  },
+  {
+    "idGroup": "ny-state-dna",
+    "idPublic": "NY-State-DNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "tx-state-gs",
+    "idPublic": "TXStateGS",
+    "myMembership": false
+  },
+  {
+    "idGroup": "iowa",
+    "idPublic": "iowa",
     "myMembership": false
   },
   {
