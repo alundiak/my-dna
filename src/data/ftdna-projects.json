@@ -167,6 +167,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "luther",
+    "idPublic": "Luther",
+    "myMembership": false
+  },
+  {
     "idGroup": "slovenia",
     "idPublic": "slovenia",
     "myMembership": false
