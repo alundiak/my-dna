@@ -15,6 +15,9 @@ function App() {
     <>
       <header>
         <h2>Y-DNA info (FTDNA, YFULL, SNP Tracker)</h2>
+        <div>
+          <a href="https://www.familytreedna.com/group-project-search">FamilyTreeDNA Group Projects Search</a>
+        </div>
       </header>
 
       <div className="y-dna-app">
