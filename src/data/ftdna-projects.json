@@ -158,6 +158,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "norway",
+    "idPublic": "norway",
+    "myMembership": false
+  },
+  {
     "idGroup": "vikingydna",
     "idPublic": "vikingydna",
     "myMembership": false
