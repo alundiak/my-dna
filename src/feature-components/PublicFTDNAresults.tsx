@@ -1,5 +1,6 @@
 import { Col, Row } from 'reactstrap';
-import { ListOfPublicResults } from '../base-components/ListOfPublicResults';
+import { YdnaPublicResults } from '../base-components/YdnaPublicResults';
+import { MTdnaPublicResults } from '../base-components/MTdnaPublicResults';
 import { useProjectsData } from './common';
 
 export function PublicFTDNAresults() {
@@ -8,15 +9,29 @@ export function PublicFTDNAresults() {
   return <>
     <Row>
       <Col>
-        <h3>Public DNA results</h3>
+        <h3>yDNA Public results</h3>
         <section>
-          <ListOfPublicResults data={myFtdnaProjects} />
+          <YdnaPublicResults data={myFtdnaProjects} />
         </section>
       </Col>
       <Col>
-        <h3>Public DNA results (not member)</h3>
+        <h3>yDNA Public results (not member)</h3>
         <section>
-          <ListOfPublicResults data={otherFtdnaProjects} />
+          <YdnaPublicResults data={otherFtdnaProjects} />
+        </section>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <h3>mtDNA Public results</h3>
+        <section>
+          <MTdnaPublicResults data={myFtdnaProjects} />
+        </section>
+      </Col>
+      <Col>
+        <h3>mtDNA Public results (not member)</h3>
+        <section>
+          <MTdnaPublicResults data={otherFtdnaProjects} />
         </section>
       </Col>
     </Row>

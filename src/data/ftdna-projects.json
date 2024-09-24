@@ -113,14 +113,24 @@
     "myMembership": false
   },
   {
+    "idGroup": "balticsea",
+    "idPublic": "balticsea",
+    "myMembership": true
+  },
+  {
     "idGroup": "lituania-propria",
     "idPublic": "LituaniaPropria",
     "myMembership": true
   },
   {
-    "idGroup": "balticsea",
-    "idPublic": "balticsea",
-    "myMembership": true
+    "idGroup": "ostpreussen-east-prussia",
+    "idPublic": "Ostpreussen_East_Prussia",
+    "myMembership": false
+  },
+  {
+    "idGroup": "prussia-preussen",
+    "idPublic": "PrussiaPreussen",
+    "myMembership": false
   },
   {
     "idGroup": "finland",
@@ -135,6 +145,16 @@
   {
     "idGroup": "finno-ugric-dna",
     "idPublic": "Finno-UgricDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "estonia",
+    "idPublic": "Estonia",
+    "myMembership": false
+  },
+  {
+    "idGroup": "latvia",
+    "idPublic": "Latvia",
     "myMembership": false
   },
   {
@@ -155,6 +175,11 @@
   {
     "idGroup": "sweden",
     "idPublic": "Sweden",
+    "myMembership": false
+  },
+  {
+    "idGroup": "gotland",
+    "idPublic": "gotland",
     "myMembership": false
   },
   {
@@ -249,6 +274,11 @@
     "myMembership": true
   },
   {
+    "idGroup": "romanydna",
+    "idPublic": "romanydna",
+    "myMembership": false
+  },
+  {
     "idGroup": "serbian-dna-project",
     "idPublic": "SerbianDNAProject",
     "myMembership": true
@@ -261,6 +291,31 @@
   {
     "idGroup": "czech",
     "idPublic": "czech",
+    "myMembership": false
+  },
+  {
+    "idGroup": "slovakia",
+    "idPublic": "slovakia",
+    "myMembership": false
+  },
+  {
+    "idGroup": "spis-county-slovakia",
+    "idPublic": "Spis_County_Slovakia",
+    "myMembership": false
+  },
+  {
+    "idGroup": "osturna",
+    "idPublic": "osturna",
+    "myMembership": false
+  },
+  {
+    "idGroup": "jewish-prague",
+    "idPublic": "JewishPrague",
+    "myMembership": false
+  },
+  {
+    "idGroup": "jewish-czech-slovak",
+    "idPublic": "jewish-czech-slovak",
     "myMembership": false
   },
   {
@@ -286,6 +341,11 @@
   {
     "idGroup": "frenchheritage",
     "idPublic": "frenchheritage",
+    "myMembership": false
+  },
+  {
+    "idGroup": "acadian-heritage",
+    "idPublic": "AcadianHeritage",
     "myMembership": false
   },
   {

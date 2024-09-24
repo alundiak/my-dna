@@ -1,0 +1,20 @@
+[
+  {
+    "idGroup": "h-mt-dna-haplogroup",
+    "idPublic": "H%20mtDNA%20Haplogroup",
+    "mtDnaResults": true,
+    "myMembership": true
+  },
+  {
+    "idGroup": "hungarian-mt-dn-aproject",
+    "idPublic": "HungarianMtDNAproject",
+    "mtDnaResults": true,
+    "myMembership": true
+  },
+  {
+    "idGroup": "mt-dna-h13",
+    "idPublic": "mtDNA_H13",
+    "mtDnaResults": true,
+    "myMembership": true
+  }
+]
