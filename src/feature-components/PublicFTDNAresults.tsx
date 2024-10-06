@@ -4,7 +4,7 @@ import { MTdnaPublicResults } from '../base-components/MTdnaPublicResults';
 import { useProjectsData } from './common';
 
 export function PublicFTDNAresults() {
-  const [myFtdnaProjects, otherFtdnaProjects] = useProjectsData();
+  const [myFtdnaProjects, otherFtdnaProjects, myMtDnaProjects, otherMtDnaProjects] = useProjectsData();
 
   return <>
     <Row>
@@ -25,13 +25,19 @@ export function PublicFTDNAresults() {
       <Col>
         <h3>mtDNA Public results</h3>
         <section>
+          <p>including mtDNA results also:</p>
           <MTdnaPublicResults data={myFtdnaProjects} />
+          <p>mtDNA projects only:</p>
+          <MTdnaPublicResults data={myMtDnaProjects} />
         </section>
       </Col>
       <Col>
         <h3>mtDNA Public results (not member)</h3>
         <section>
+          <p>including mtDNA results also:</p>
           <MTdnaPublicResults data={otherFtdnaProjects} />
+          <p>mtDNA projects only:</p>
+          <MTdnaPublicResults data={otherMtDnaProjects} />
         </section>
       </Col>
     </Row>
