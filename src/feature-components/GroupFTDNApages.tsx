@@ -8,7 +8,7 @@ export function GroupFTDNApages() {
   return <>
     <Row>
       <Col>
-        <h3>Projects pages</h3>
+        <h3 id="projects">Projects pages</h3>
         <section>
           <ListOfProjects data={myFtdnaProjects} />
         </section>

@@ -1,6 +1,6 @@
 export function DiscoverFTDNApagesByPerson() {
   return <>
-    <h3>Discover FTDNA Y-DNA pages by Person Name</h3>
+    <h3 id="discover-by-people">Discover FTDNA Y-DNA pages by Person Name</h3>
     <section>
       <ul>
         <li>

@@ -7,7 +7,7 @@ export function DiscoverFTDNApages() {
   return <>
     <Row>
       <Col>
-        <h3>Discover pages</h3>
+        <h3 id="discover">Discover pages</h3>
         <section>
           <ListOfDiscoverPages data={myFtdnaProjects} />
         </section>

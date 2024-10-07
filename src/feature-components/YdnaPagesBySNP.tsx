@@ -5,7 +5,7 @@ import { parseSNP_data } from './common';
 
 export function YdnaPagesBySNP() {
   return <>
-    <h3>Y-DNA pages by SNP</h3>
+    <h3 id="y-dna-pages-by-snp">Y-DNA pages by SNP</h3>
     <section>
       <ul>
         {

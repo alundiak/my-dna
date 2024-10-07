@@ -23,23 +23,43 @@ function App() {
         </div>
       </header>
 
-      <div className="y-dna-app">
-        <Container>
-          <GroupFTDNApages />
-          <PublicFTDNAresults />
-          <DiscoverFTDNApages />
+      <div className="y-dna-app mt-5">
 
-          <YdnaPagesBySNP />
+        <div className="row">
 
-          <DiscoverFTDNApagesByPerson />
-          <YfullPagesByPerson />
-        </Container>
+          <div className="col-2">
+            <div id="simple-list-example" className="d-flex flex-column gap-2 simple-list-example-scrollspy my-nav">
+              <a className="p-1 rounded" href="#projects">Projects</a>
+              <a className="p-1 rounded" href="#y-dna-public">yDNA Public</a>
+              <a className="p-1 rounded" href="#mt-dna-public">mtDNA Public</a>
+              <a className="p-1 rounded" href="#discover">Discover</a>
+              <a className="p-1 rounded" href="#y-dna-pages-by-snp">Y-DNA pages by SNP</a>
+              <a className="p-1 rounded" href="#discover-by-people">Discover pages by Person</a>
+              <a className="p-1 rounded" href="#yfull-pages">YFULL</a>
+            </div>
+          </div>
 
-        <MyButton>Test</MyButton>
+          <div className="col-10">
+            <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex={0}>
+              <Container>
+                <GroupFTDNApages />
+                <PublicFTDNAresults />
+                <DiscoverFTDNApages />
+                <YdnaPagesBySNP />
+                <DiscoverFTDNApagesByPerson />
+                <YfullPagesByPerson />
+              </Container>
 
-        <footer>
-          <MyContactsInfo />
-        </footer>
+              <MyButton>Test</MyButton>
+
+              <footer>
+                <MyContactsInfo />
+              </footer>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </>
   )

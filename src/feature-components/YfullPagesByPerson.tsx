@@ -1,6 +1,6 @@
 export function YfullPagesByPerson() {
   return <>
-    <h3>YFULL pages (other people or DNA samples NOT direct in my Y-DNA SNP chain)</h3>
+    <h3 id="yfull-pages">YFULL pages (other people or DNA samples NOT direct in my Y-DNA SNP chain)</h3>
     <section>
       <ul>
         <li>

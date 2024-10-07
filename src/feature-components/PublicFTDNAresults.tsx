@@ -9,7 +9,7 @@ export function PublicFTDNAresults() {
   return <>
     <Row>
       <Col>
-        <h3>yDNA Public results</h3>
+        <h3 id="y-dna-public">yDNA Public results</h3>
         <section>
           <YdnaPublicResults data={myFtdnaProjects} />
         </section>
@@ -23,7 +23,7 @@ export function PublicFTDNAresults() {
     </Row>
     <Row>
       <Col>
-        <h3>mtDNA Public results</h3>
+        <h3 id="mt-dna-public">mtDNA Public results</h3>
         <section>
           <p>including mtDNA results also:</p>
           <MTdnaPublicResults data={myFtdnaProjects} />
