@@ -1,5 +1,6 @@
 Y-DNA app
 ===
+A place to aggregate Y-DNA and mt-DNA info from services I use ([FamilyTreeDNA](https://www.familytreedna.com/), [YFULL](https://www.yfull.com/), [YSeq](https://www.yseq.net/), etc.)
 
 ## Idea 1 - DONE
 
@@ -46,10 +47,11 @@ or https://getbootstrap.com/docs/5.3/components/card/
 ## Tech stack
 
 - Used [React + TS SWC Vite setup ](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
-- Used [Reactstrap](https://reactstrap.github.io/?path=/docs/components-layout--layout)  + [Bootstrap](https://getbootstrap.com/docs/5.3/layout/grid/)
-- Used [CSS React Hooks ](https://css-hooks.com/docs/react/configuration). After attempt to [migrate from v2 to v3](https://css-hooks.com/docs/migration/v3/), I realized CSS hooks became too complicated for my brain.
- - I could use [Styled Components](https://github.com/styled-components/styled-components) becaus eit looks most reasonable solution, for complex projects.
- - Because of [CSS Nesting](https://caniuse.com/css-nesting) support since Dec-2023 I decided to use basic, native CSS, relying on `import "./MyFile.css"` which is enough for me.
+- Used [Reactstrap](https://reactstrap.github.io) + [Bootstrap](https://getbootstrap.com)
+- CSS
+  - I used [CSS React Hooks](https://css-hooks.com/docs/react/configuration) at first. After attempt to [migrate from v2 to v3](https://css-hooks.com/docs/migration/v3/), I realized CSS hooks became too complicated for my brain.
+  - I could use [Styled Components](https://github.com/styled-components/styled-components) because it looks most reasonable solution, for complex projects.
+  - Because of [CSS Nesting](https://caniuse.com/css-nesting) support since Dec-2023 I decided to use basic, native CSS, and relying on `import "./MyFile.css"` is very much enough for me.
 - Deployment via GitHub Pages (with Vite config).
 
 
@@ -73,7 +75,7 @@ If you are developing a production application, we recommend updating the config
 - Configure the top-level `parserOptions` property like this:
 
 ```js
-export default tseslint.config({
+export default tsESlint.config({
   languageOptions: {
     // other options...
     parserOptions: {
@@ -84,15 +86,15 @@ export default tseslint.config({
 })
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Replace `tsESlint.configs.recommended` to `tsESlint.configs.recommendedTypeChecked` or `tsESlint.configs.strictTypeChecked`
+- Optionally add `...tsESlint.configs.stylisticTypeChecked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
 ```js
 // eslint.config.js
 import react from 'eslint-plugin-react'
 
-export default tseslint.config({
+export default tsESlint.config({
   // Set the react version
   settings: { react: { version: '18.3' } },
   plugins: {
