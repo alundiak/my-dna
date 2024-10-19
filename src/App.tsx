@@ -7,8 +7,9 @@ import { DiscoverFTDNApagesByPerson } from './feature-components/DiscoverFTDNApa
 import { YdnaPagesBySNP } from './feature-components/YdnaPagesBySNP'
 import { YfullPagesByPerson } from './feature-components/YfullPagesByPerson'
 import { MyContactsInfo } from './feature-components/MyContactsInfo'
-import MyButton from './feature-components/MyButton';
-import MyNav from './feature-components/MyNav';
+
+// import MySideNav from './feature-components/MySideNav';
+// import ExampleNav from './feature-components/ExampleNav';
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
         </div>
       </header>
 
-      {/* <MyNav /> */}
+      {/* <MySideNav /> */}
 
       <div className="y-dna-app mt-5">
 
@@ -52,8 +53,6 @@ function App() {
                 <DiscoverFTDNApagesByPerson />
                 <YfullPagesByPerson />
               </Container>
-
-              <MyButton>Test</MyButton>
 
               <footer>
                 <MyContactsInfo />

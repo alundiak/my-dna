@@ -1,14 +1,19 @@
-import { ButtonProps } from "reactstrap";
-import { css } from "../css";
+import { Button, ButtonProps } from "reactstrap";
+import "./MyButton.css";
 
-export default function MyButton(props: ButtonProps) {
+export function MyBasicButton(props: ButtonProps) {
   return (
     <button
+      className="myButton"
       {...props}
-      style={css({
-        color: "black",
-        // "&:hover": { color: "blue" },
-      })}
+    />
+  );
+}
+
+export function MyReactstrapButton(props: ButtonProps) {
+  return (
+    <Button
+      {...props}
     />
   );
 }

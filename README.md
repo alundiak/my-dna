@@ -45,17 +45,16 @@ or https://getbootstrap.com/docs/5.3/components/card/
 
 ## Tech stack
 
-- Used React + TS SWC Vite setup https://vitejs.dev/guide/#scaffolding-your-first-vite-project
-- Used CSS Nesting 2023-2024 supported https://caniuse.com/css-nesting
-- Used CSS React Hooks https://css-hooks.com/docs/react/configuration
+- Used [React + TS SWC Vite setup ](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 - Used [Reactstrap](https://reactstrap.github.io/?path=/docs/components-layout--layout)  + [Bootstrap](https://getbootstrap.com/docs/5.3/layout/grid/)
+- Used [CSS React Hooks ](https://css-hooks.com/docs/react/configuration). After attempt to [migrate from v2 to v3](https://css-hooks.com/docs/migration/v3/), I realized CSS hooks became too complicated for my brain.
+ - I could use [Styled Components](https://github.com/styled-components/styled-components) becaus eit looks most reasonable solution, for complex projects.
+ - Because of [CSS Nesting](https://caniuse.com/css-nesting) support since Dec-2023 I decided to use basic, native CSS, relying on `import "./MyFile.css"` which is enough for me.
 - Deployment via GitHub Pages (with Vite config).
 
 ## React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
+Initially project bootstrapped with minimal setup within Vite, with HMR and some ESLint rules. Official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
