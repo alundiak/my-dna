@@ -77,15 +77,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-
-.my-nav {
-  position: sticky;
-  /* position: fixed; */
-  top: 10px;
-  left: 10px;
-}
-
-.my-nav.simple-list-example-scrollspy .active {
-  background-color: #712cf926;
-}

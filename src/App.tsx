@@ -8,6 +8,7 @@ import { YdnaPagesBySNP } from './feature-components/YdnaPagesBySNP'
 import { YfullPagesByPerson } from './feature-components/YfullPagesByPerson'
 import { MyContactsInfo } from './feature-components/MyContactsInfo'
 import MyButton from './feature-components/MyButton';
+import MyNav from './feature-components/MyNav';
 
 function App() {
 
@@ -23,13 +24,15 @@ function App() {
         </div>
       </header>
 
+      {/* <MyNav /> */}
+
       <div className="y-dna-app mt-5">
 
         <div className="row">
 
           <div className="col-2">
-            <div id="simple-list-example" className="d-flex flex-column gap-2 simple-list-example-scrollspy my-nav">
-              <a className="p-1 rounded" href="#projects">Projects</a>
+            <div id="my-nav" className="d-flex flex-column gap-2 my-nav-scrollspy">
+              <a className="p-1 rounded active" href="#projects">Projects</a>
               <a className="p-1 rounded" href="#y-dna-public">yDNA Public</a>
               <a className="p-1 rounded" href="#mt-dna-public">mtDNA Public</a>
               <a className="p-1 rounded" href="#discover">Discover</a>
@@ -40,7 +43,7 @@ function App() {
           </div>
 
           <div className="col-10">
-            <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex={0}>
+            <div data-bs-spy="scroll" data-bs-target="#my-nav" data-bs-offset="0" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex={0}>
               <Container>
                 <GroupFTDNApages />
                 <PublicFTDNAresults />
