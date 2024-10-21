@@ -392,5 +392,20 @@
     "idGroup": "ancient-dna",
     "idPublic": "AncientDNA",
     "myMembership": false
+  },
+  {
+    "idGroup": "r-1a",
+    "idPublic": "R1a",
+    "myMembership": false
+  },
+  {
+    "idGroup": "r-1b",
+    "idPublic": "r1b",
+    "myMembership": false
+  },
+  {
+    "idGroup": "ireland",
+    "idPublic": "IRELAND",
+    "myMembership": false
   }
 ]
