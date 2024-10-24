@@ -1,9 +1,9 @@
 {
-  "name": "@lundiak/y-dna-app",
+  "name": "@lundiak/my-dna",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://alundiak.github.io/y-dna-app/",
+  "homepage": "https://alundiak.github.io/my-dna/",
   "scripts": {
     "start": "npm run dev",
     "dev": "vite",
@@ -21,16 +21,16 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
-    "@types/react": "^18.3.10",
+    "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^9.11.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.12",
+    "eslint-plugin-react-refresh": "^0.4.13",
     "gh-pages": "^6.2.0",
     "globals": "^15.9.0",
     "typescript": "^5.5.3",
-    "typescript-eslint": "^8.7.0",
-    "vite": "^5.4.8"
+    "typescript-eslint": "^8.11.0",
+    "vite": "^5.4.10"
   }
 }

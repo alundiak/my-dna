@@ -2,6 +2,8 @@ export const FTDNA_GROUP = 'https://www.familytreedna.com/groups';
 export const FTDNA_PUBLIC = 'https://www.familytreedna.com/public';
 export const FTDNA_DISCOVER = 'https://discover.familytreedna.com/groups';
 export const FTDNA_DISCOVER_Y_DNA = 'https://discover.familytreedna.com/y-dna';
+// Main page https://discover.familytreedna.com/,
+// so maybe mito Discover will be under https://discover.familytreedna.com/mt-dna
 export const FTDNA_DISCOVER_Y_DNA_SECTIONS = [
   "story",
   "frequency",

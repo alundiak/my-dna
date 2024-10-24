@@ -1,4 +1,4 @@
-Y-DNA app
+My DNA app
 ===
 A place to aggregate Y-DNA and mt-DNA info from services I use ([FamilyTreeDNA](https://www.familytreedna.com/), [YFULL](https://www.yfull.com/), [YSeq](https://www.yseq.net/), etc.)
 

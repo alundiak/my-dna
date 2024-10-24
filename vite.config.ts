@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'build', // default value = 'dist
   },
-  base: '/y-dna-app',
+  base: '/my-dna',
 })
