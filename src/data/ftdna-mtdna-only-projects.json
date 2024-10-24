@@ -4,7 +4,7 @@
     "idPublic": "H%20mtDNA%20Haplogroup",
     "mtDnaResults": true,
     "myMembership": true,
-    "requireLogin": true
+    "resultsRequireLogin": true
   },
   {
     "idGroup": "hungarian-mt-dn-aproject",

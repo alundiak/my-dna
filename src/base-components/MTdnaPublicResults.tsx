@@ -1,5 +1,5 @@
 import { FTDNA_PUBLIC } from "../shared/constant";
-import { RequiresLogin } from "./RequireLogin";
+import { KeyIcon } from "./KeyIcon";
 
 export function MTdnaPublicResults({ data }: { data: any }) {
   return <>
@@ -18,7 +18,7 @@ export function MTdnaPublicResults({ data }: { data: any }) {
 
           return (
             <li key={key}>
-              <span>{item.idGroup}</span> | <a href={mtDNAResultsURL} target="_blank">mtResults</a> | <a href={mtMapResultsURL} target="_blank">mtMap</a> | {item.requireLogin && <RequiresLogin />}
+              <span>{item.idGroup}</span> | <a href={mtDNAResultsURL} target="_blank">mtResults</a> | <a href={mtMapResultsURL} target="_blank">mtMap</a> {item.resultsRequireLogin && (<>| <KeyIcon /></>)}
             </li>
           );
         })

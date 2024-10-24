@@ -80,11 +80,13 @@
   {
     "idGroup": "ossolinski",
     "idPublic": "ossolinski",
+    "mtDnaResults": false,
     "myMembership": false
   },
   {
     "idGroup": "otwock",
     "idPublic": "otwock",
+    "mtDnaResults": false,
     "myMembership": false
   },
   {
@@ -185,11 +187,14 @@
   {
     "idGroup": "norway",
     "idPublic": "norway",
+    "resultsDisabled": false,
     "myMembership": false
   },
   {
     "idGroup": "vikingydna",
     "idPublic": "vikingydna",
+    "mtDnaResults": null,
+    "resultsDisabled": true,
     "myMembership": false
   },
   {

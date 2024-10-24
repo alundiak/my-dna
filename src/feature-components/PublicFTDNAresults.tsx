@@ -1,10 +1,13 @@
 import { Col, Row } from 'reactstrap';
 import { YdnaPublicResults } from '../base-components/YdnaPublicResults';
 import { MTdnaPublicResults } from '../base-components/MTdnaPublicResults';
-import { useProjectsData } from '../shared/common';
+import { extractProjectsWithDisabledResults, useProjectsData } from '../shared/common';
+import { DisabledProjectsSection } from './DisabledProjectsSection';
 
 export function PublicFTDNAresults() {
   const [myFtdnaProjects, otherFtdnaProjects, myMtDnaProjects, otherMtDnaProjects] = useProjectsData();
+
+  const { enabled: otherFtdnaProjectsEnabled, disabled: otherFtdnaProjectsDisabled, } = extractProjectsWithDisabledResults(otherFtdnaProjects);
 
   return <>
     <Row>
@@ -17,8 +20,11 @@ export function PublicFTDNAresults() {
       <Col>
         <h3>yDNA Public results (not member)</h3>
         <section>
-          <YdnaPublicResults data={otherFtdnaProjects} />
+          <YdnaPublicResults data={otherFtdnaProjectsEnabled} />
         </section>
+        {otherFtdnaProjectsDisabled && (
+          <DisabledProjectsSection data={otherFtdnaProjectsDisabled} />
+        )}
       </Col>
     </Row>
     <Row>

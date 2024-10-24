@@ -33,6 +33,17 @@ export function filterFTDNAmtDNAonlyProjects({ myMembership }: FilterParams) {
   });
 }
 
+export function extractProjectsWithDisabledResults(allProjects: any) {
+  return allProjects.reduce((result: any, project: any) => {
+    if (project.resultsDisabled) {
+      result.disabled.push(project);
+    } else {
+      result.enabled.push(project);
+    }
+    return result;
+  }, { enabled: [], disabled: [] });
+}
+
 // TBD
 export function useProjectsData() {
   const myFtdnaProjects = filterFTDNAprojects({ myMembership: true });
