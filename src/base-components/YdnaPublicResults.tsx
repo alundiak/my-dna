@@ -1,4 +1,4 @@
-import { FTDNA_PUBLIC } from "../feature-components/constant";
+import { FTDNA_PUBLIC } from "../shared/constant";
 
 export function YdnaPublicResults({ data }: { data: any }) {
   return <>

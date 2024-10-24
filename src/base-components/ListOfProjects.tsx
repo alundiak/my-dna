@@ -1,4 +1,4 @@
-import { FTDNA_GROUP } from "../feature-components/constant";
+import { FTDNA_GROUP } from "../shared/constant";
 
 export function ListOfProjects({ data }: { data: any }) {
   return <>

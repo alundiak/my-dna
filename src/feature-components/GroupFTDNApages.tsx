@@ -1,6 +1,6 @@
 import { Col, Row } from 'reactstrap';
 import { ListOfProjects } from '../base-components/ListOfProjects';
-import { useProjectsData } from './common';
+import { useProjectsData } from '../shared/common';
 
 export function GroupFTDNApages() {
   const [myFtdnaProjects, otherFtdnaProjects] = useProjectsData();

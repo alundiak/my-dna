@@ -1,4 +1,4 @@
-import { FTDNA_DISCOVER } from "../feature-components/constant";
+import { FTDNA_DISCOVER } from "../shared/constant";
 
 export function ListOfDiscoverPages({ data }: { data: any }) {
   return <>

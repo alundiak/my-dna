@@ -1,10 +1,16 @@
-import { FTDNA_PUBLIC } from "../feature-components/constant";
+import { FTDNA_PUBLIC } from "../shared/constant";
+import { RequiresLogin } from "./RequireLogin";
 
 export function MTdnaPublicResults({ data }: { data: any }) {
   return <>
     <ul>
       {
         data.map((item: any, index: number) => {
+
+          if (item.mtDnaResults === false) {
+            return null;
+          }
+
           const key = `${index}-${item.idGroup}-mt-dna-results`;
 
           const mtDNAResultsURL = `${FTDNA_PUBLIC}/${item.idPublic}?iframe=mtresults`;
@@ -12,7 +18,7 @@ export function MTdnaPublicResults({ data }: { data: any }) {
 
           return (
             <li key={key}>
-              <span>{item.idPublic}</span> | <a href={mtDNAResultsURL} target="_blank">mtResults</a> | <a href={mtMapResultsURL} target="_blank">mtMap</a>
+              <span>{item.idGroup}</span> | <a href={mtDNAResultsURL} target="_blank">mtResults</a> | <a href={mtMapResultsURL} target="_blank">mtMap</a> | {item.requireLogin && <RequiresLogin />}
             </li>
           );
         })

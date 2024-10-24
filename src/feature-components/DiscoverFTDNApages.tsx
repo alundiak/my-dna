@@ -1,5 +1,5 @@
 import { Col, Row } from 'reactstrap';
-import { useProjectsData } from './common';
+import { useProjectsData } from '../shared/common';
 import { ListOfDiscoverPages } from '../base-components/ListOfDiscoverPages';
 
 export function DiscoverFTDNApages() {

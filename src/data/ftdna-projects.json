@@ -2,7 +2,7 @@
   {
     "idGroup": "i-2a-hap-group",
     "idPublic": "I2aHapGroup",
-    "mtDnaResults": null,
+    "mtDnaResults": false,
     "myMembership": true
   },
   {
@@ -38,7 +38,7 @@
   {
     "idGroup": "cossacks",
     "idPublic": "Cossacks",
-    "mtDnaResults": null,
+    "mtDnaResults": false,
     "myMembership": false
   },
   {

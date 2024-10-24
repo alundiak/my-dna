@@ -3,7 +3,8 @@
     "idGroup": "h-mt-dna-haplogroup",
     "idPublic": "H%20mtDNA%20Haplogroup",
     "mtDnaResults": true,
-    "myMembership": true
+    "myMembership": true,
+    "requireLogin": true
   },
   {
     "idGroup": "hungarian-mt-dn-aproject",

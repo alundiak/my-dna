@@ -1,7 +1,7 @@
 import { Col, Row } from 'reactstrap';
 import { YdnaPublicResults } from '../base-components/YdnaPublicResults';
 import { MTdnaPublicResults } from '../base-components/MTdnaPublicResults';
-import { useProjectsData } from './common';
+import { useProjectsData } from '../shared/common';
 
 export function PublicFTDNAresults() {
   const [myFtdnaProjects, otherFtdnaProjects, myMtDnaProjects, otherMtDnaProjects] = useProjectsData();
