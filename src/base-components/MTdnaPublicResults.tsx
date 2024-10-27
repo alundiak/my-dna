@@ -1,5 +1,5 @@
 import { FTDNA_PUBLIC } from "../shared/constant";
-import { KeyIcon } from "./KeyIcon";
+import { KeyIcon } from "./icons/KeyIcon";
 
 export function MTdnaPublicResults({ data }: { data: any }) {
   return <>

@@ -41,7 +41,10 @@ export function PublicFTDNAresults() {
         <h3>mtDNA Public results (not member)</h3>
         <section>
           <p>including mtDNA results also:</p>
-          <MTdnaPublicResults data={otherFtdnaProjects} />
+          <MTdnaPublicResults data={otherFtdnaProjectsEnabled} />
+          {otherFtdnaProjectsDisabled && (
+            <DisabledProjectsSection data={otherFtdnaProjectsDisabled} />
+          )}
           <p>mtDNA projects only:</p>
           <MTdnaPublicResults data={otherMtDnaProjects} />
         </section>

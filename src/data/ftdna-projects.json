@@ -200,7 +200,8 @@
   {
     "idGroup": "ponticandanatoliangreeksdna",
     "idPublic": "russiangreeks",
-    "myMembership": false
+    "myMembership": false,
+    "activityFeed": "disabledBecauseNotMember"
   },
   {
     "idGroup": "russian-nobility-dna",
@@ -266,7 +267,11 @@
   {
     "idGroup": "hungarian-magyar-y-dna-project",
     "idPublic": "Hungarian_Magyar_Y-DNA_Project",
-    "myMembership": false
+    "resultsDisabled": true,
+    "_mtDnaResults": false,
+    "yDnaResultsOnly": true,
+    "myMembership": false,
+    "actually": "pending"
   },
   {
     "idGroup": "jaszsag",
@@ -281,7 +286,8 @@
   {
     "idGroup": "romanydna",
     "idPublic": "romanydna",
-    "myMembership": false
+    "myMembership": false,
+    "resultsDisabled": true
   },
   {
     "idGroup": "serbian-dna-project",
@@ -296,7 +302,8 @@
   {
     "idGroup": "czech",
     "idPublic": "czech",
-    "myMembership": false
+    "myMembership": false,
+    "resultsDisabled": true
   },
   {
     "idGroup": "slovakia",
@@ -306,12 +313,15 @@
   {
     "idGroup": "spis-county-slovakia",
     "idPublic": "Spis_County_Slovakia",
-    "myMembership": false
+    "myMembership": false,
+    "resultsDisabled": true,
+    "onlyMapResults": true
   },
   {
     "idGroup": "osturna",
     "idPublic": "osturna",
-    "myMembership": false
+    "myMembership": false,
+    "resultsDisabled": true
   },
   {
     "idGroup": "jewish-prague",
@@ -321,7 +331,8 @@
   {
     "idGroup": "jewish-czech-slovak",
     "idPublic": "jewish-czech-slovak",
-    "myMembership": false
+    "myMembership": false,
+    "resultsDisabled": true
   },
   {
     "idGroup": "germany",
@@ -361,6 +372,7 @@
   {
     "idGroup": "i-2a-l161",
     "idPublic": "I2a-L161",
+    "mtDnaResults": false,
     "myMembership": false
   },
   {
