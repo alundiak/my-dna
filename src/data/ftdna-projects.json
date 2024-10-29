@@ -355,14 +355,54 @@
     "myMembership": false
   },
   {
-    "idGroup": "frenchheritage",
-    "idPublic": "frenchheritage",
+    "idGroup": "england",
+    "idPublic": "England",
+    "myMembership": false,
+    "mtDnaResults": false
+  },
+  {
+    "idGroup": "anglo-saxonydnaproject",
+    "idPublic": "AngloSaxonydnaproject",
+    "myMembership": false,
+    "yDnaResultsOnly": true,
+    "mtDnaResults": false
+  },
+  {
+    "idGroup": "british-isles",
+    "idPublic": "BritishIsles",
+    "myMembership": false,
+    "mtDnaResults": true
+  },
+  {
+    "idGroup": "britton",
+    "idPublic": "Britton",
+    "myMembership": false,
+    "mtDnaResults": false
+  },
+  {
+    "idGroup": "ireland",
+    "idPublic": "IRELAND",
     "myMembership": false
   },
   {
-    "idGroup": "acadian-heritage",
-    "idPublic": "AcadianHeritage",
+    "idGroup": "nifhs",
+    "idPublic": "NIFHS",
     "myMembership": false
+  },
+  {
+    "idGroup": "scandinavianswith-british-ydna",
+    "idPublic": "ScandinavianswithBritishYDNA",
+    "myMembership": false,
+    "verySmallGroup": true
+  },
+  {
+    "idGroup": "brittons-of-ireland",
+    "idPublic": "BrittonsofIreland",
+    "myMembership": false,
+    "yDnaResultsOnly": true,
+    "mtDnaResults": false,
+    "mapsDisabled": true,
+    "onlyMapResults": false
   },
   {
     "idGroup": "portugal",
@@ -370,9 +410,13 @@
     "myMembership": false
   },
   {
-    "idGroup": "i-2a-l161",
-    "idPublic": "I2a-L161",
-    "mtDnaResults": false,
+    "idGroup": "frenchheritage",
+    "idPublic": "frenchheritage",
+    "myMembership": false
+  },
+  {
+    "idGroup": "acadian-heritage",
+    "idPublic": "AcadianHeritage",
     "myMembership": false
   },
   {
@@ -396,6 +440,12 @@
     "myMembership": false
   },
   {
+    "idGroup": "maryland-dna",
+    "idPublic": "MarylandDNA",
+    "myMembership": false,
+    "mapsDisabled": true
+  },
+  {
     "idGroup": "tx-state-gs",
     "idPublic": "TXStateGS",
     "myMembership": false
@@ -411,6 +461,12 @@
     "myMembership": false
   },
   {
+    "idGroup": "i-2a-l161",
+    "idPublic": "I2a-L161",
+    "mtDnaResults": false,
+    "myMembership": false
+  },
+  {
     "idGroup": "r-1a",
     "idPublic": "R1a",
     "myMembership": false
@@ -418,11 +474,8 @@
   {
     "idGroup": "r-1b",
     "idPublic": "r1b",
-    "myMembership": false
-  },
-  {
-    "idGroup": "ireland",
-    "idPublic": "IRELAND",
-    "myMembership": false
+    "myMembership": false,
+    "mtDnaResults": false,
+    "yDnaResultsOnly": true
   }
 ]

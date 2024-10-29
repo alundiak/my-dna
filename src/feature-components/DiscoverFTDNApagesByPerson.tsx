@@ -4,13 +4,13 @@ export function DiscoverFTDNApagesByPerson() {
     <section>
       <ul>
         <li>
-          <a href="https://discover.familytreedna.com/y-dna/I-FT278687/tree">Taras Kravchenko</a>
+          <a href="https://discover.familytreedna.com/y-dna/I-FT278687/tree">I2a-Y3118+ - Taras Kravchenko</a>
         </li>
         <li>
-          <a href="https://discover.familytreedna.com/y-dna/I-BY78168/story">Vasyl Popovych (MRCA: Rev. Joachimi Lewicki)</a>
+          <a href="https://discover.familytreedna.com/y-dna/I-BY78168/story">I2a-BY78168 - Vasyl Popovych (MRCA: Rev. Joachimi Lewicki)</a>
         </li>
         <li>
-          <a href="https://discover.familytreedna.com/y-dna/I-FTF87323/tree">Ivan Zenevych (level of Krakauer 8)</a>
+          <a href="https://discover.familytreedna.com/y-dna/I-FTF87323/tree">I2a-FTF87323 Ivan Zenevych (level of Krakauer 8)</a>
         </li>
         <li>
           <a href="https://discover.familytreedna.com/y-dna/I-BY37221/tree">I2a-BY37221 - Mr from Lugansk (and also Rivne, Polatava and Mr Rajkov from Macedonia) - all nearby Zarubino/Irkutsk 32 ancient sample</a>

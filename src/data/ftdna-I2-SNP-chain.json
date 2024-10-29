@@ -10,11 +10,19 @@
   "I-CTS10936",
   "I-S19848",
   "I-CTS4002",
-  "I-CTS10228",
+  {
+    "snp": "I-CTS10228",
+    "people": [
+      "Artem Nochovkin (son of Valeriy Nochovkin)"
+    ]
+  },
   {
     "snp": "I-S20602",
     "people": [
-      "Kifa (FTDNA YDNA-37)"
+      "Kifa (FTDNA YDNA-37)",
+      "Sergiusz Mały",
+      "Oleksii Goliaka/Holiaka",
+      "Oleksii Striapko - https://www.facebook.com/oleksii.striapko"
     ]
   },
   "I-Y3120",
@@ -70,15 +78,15 @@
       "(FTDNA) Unknown Origin 5 - MIKHALCHUK 🇺🇦?🇷🇺?🇧🇾?",
       "(FTDNA) Unknown Origin 6 - PESHKOV 🇺🇦?🇷🇺?🇧🇾?",
       "(FTDNA) Unknown Origin 7 - DŁUGOSZ 🇵🇱",
-      "(FTDNA) Unknown Origin 8 - ROMPPAINEN 🇫🇮",
       "(FTDNA) Unknown Origin 9 - TKACH 🇷🇺🇺🇦",
-      "(FTDNA) Unknown Origin 10 - NOCHOVKIN 🇺🇦",
       "(FTDNA) Unknown Origin 11 - BOGOMOLOV 🇺🇦",
       "(FTDNA) Unknown Origin 12 - ?",
       "(FTDNA) Known 1 - Mykhailo LUNDIAK 🇺🇦 - my father",
       "(FTDNA) Known 2 - PISKUN 🇺🇦",
       "(FTDNA) Known 3 - HERMAN 🇺🇦🇵🇱",
-      "(FTDNA) Known 4 - FROLOV 🇷🇺🇺🇦 (formerly 'Unknown Origin 13-th')"
+      "(FTDNA) Known 4 - FROLOV 🇷🇺🇺🇦 (formerly 'Unknown Origin 13-th')",
+      "(FTDNA) Known 5 - ROMPPAINEN 🇫🇮🇷🇺(formerly 'Unknown Origin 8-th')",
+      "(FTDNA) Known 6 - NOCHOVKIN 🇺🇦 (formerly 'Unknown Origin 10-th')"
     ]
   },
   {

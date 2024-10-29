@@ -4,7 +4,10 @@ export function YfullPagesByPerson() {
     <section>
       <ul>
         <li>
-          <a href="https://www.yfull.com/tree/I-FT278687/">Taras Kravchenko</a>
+          <a href="https://www.yfull.com/tree/I-FT278687/">I2a+ Taras Kravchenko</a>
+        </li>
+        <li>
+          <a href="https://www.yfull.com/live/tree/N-M6921/">N1c+ Igor Dychta</a>
         </li>
       </ul>
     </section>
