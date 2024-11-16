@@ -70,7 +70,8 @@
   {
     "idGroup": "polish",
     "idPublic": "polish",
-    "myMembership": true
+    "myMembership": true,
+    "resultsRequireLogin": true
   },
   {
     "idGroup": "pol-lithnobility",
@@ -345,6 +346,19 @@
     "myMembership": false
   },
   {
+    "idGroup": "austria-hungary",
+    "idPublic": "austria-hungary",
+    "myMembership": "pending",
+    "resultsDisabled": true
+  },
+  {
+    "idGroup": "austriamt-dn-asearch",
+    "idPublic": "AustriamtDNAsearch",
+    "myMembership": false,
+    "mtDnaResults": true,
+    "verySmallGroup": true
+  },
+  {
     "idGroup": "slovenia",
     "idPublic": "slovenia",
     "myMembership": false
@@ -385,6 +399,13 @@
     "myMembership": false
   },
   {
+    "idGroup": "ireland-heritage",
+    "idPublic": "IrelandHeritage",
+    "myMembership": false,
+    "mtDnaResults": false,
+    "yDnaResultsOnly": true
+  },
+  {
     "idGroup": "nifhs",
     "idPublic": "NIFHS",
     "myMembership": false
@@ -403,6 +424,11 @@
     "mtDnaResults": false,
     "mapsDisabled": true,
     "onlyMapResults": false
+  },
+  {
+    "idGroup": "scottishdna",
+    "idPublic": "Scottishdna",
+    "myMembership": false
   },
   {
     "idGroup": "portugal",
@@ -477,5 +503,17 @@
     "myMembership": false,
     "mtDnaResults": false,
     "yDnaResultsOnly": true
+  },
+  {
+    "idGroup": "saudi-arabia",
+    "idPublic": "SaudiArabia",
+    "myMembership": false,
+    "mtDnaResults": false,
+    "yDnaResultsOnly": true
+  },
+  {
+    "idGroup": "middle-east",
+    "idPublic": "Middle-East",
+    "myMembership": false
   }
 ]
