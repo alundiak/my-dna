@@ -6,11 +6,13 @@ A place to aggregate Y-DNA and mt-DNA info from services I use ([FamilyTreeDNA](
 
 To have at least list of FTDNA groups which I frequently check, so to have one place to navigate from. MAYBE integrated with FTDNA API.
 
+![img1](images/my-dna-nov-2024.png)
+
 ## Idea 2 - TODO
 
 To represent Y-DNA Discover tree based on SNP, and every joint as hyperlink to to the SNP-based page.
 
-![img](./ftdna-ydna-idea-jan-2024.png)
+![img2](./images/ftdna-ydna-idea-jan-2024.png)
 
 
 ## Idea 3 (or 2.2) - TODO
@@ -29,13 +31,13 @@ But most probably it can be simple list, UI-formatted nice and when scrolling al
 
 Inspired by FTDNA table actually:
 
-![img1](img1.png)
+![img3](images/ftdna-ancestral-path.png)
 
 which I would simply extend with Historical data, so I could easily find myself in space and time when I think about SNP or age of Y-DNA men with such SNP in they Y chromosome.
 
-Something also similar to MyTrueAncestry Full Detailed Timeline
+Something also similar to [MyTrueAncestry](https://mytrueancestry.com/) Full Detailed Timeline
 
-![img2](img2.png)
+![img4](images/my-true-ancestry-example.png)
 
 Left side could be SNP + age info and right side could be History notes, ancient tribes, ethnicities, nationalities, etc.
 
