@@ -1,13 +1,17 @@
 import { Container } from 'reactstrap';
+
+import { MySideNav } from './base-components/MySideNav';
+import { sideNavData } from './shared/constant';
+
 import { GroupFTDNApages } from './feature-components/GroupFTDNApages';
 import { PublicFTDNAresults } from './feature-components/PublicFTDNAresults';
 import { YdnaDiscoverFTDNApages } from './feature-components/YdnaDiscoverFTDNApages';
 import { YdnaDiscoverFTDNApagesByPerson } from './feature-components/YdnaDiscoverFTDNApagesByPerson';
 import { YdnaPagesBySNP } from './feature-components/YdnaPagesBySNP';
 import { YfullPagesByPerson } from './feature-components/YfullPagesByPerson';
-import { MySideNav } from './feature-components/MySideNav';
 import { AppHeader } from './feature-components/AppHeader';
 import { AppFooter } from './feature-components/AppFooter';
+
 import './App.css';
 
 function App() {
@@ -21,7 +25,7 @@ function App() {
 
           <div className="col-2">
             <div id="my-side-nav" className="d-flex flex-column gap-2">
-              <MySideNav />
+              <MySideNav data={sideNavData} />
             </div>
           </div>
 

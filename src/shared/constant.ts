@@ -20,3 +20,17 @@ export const FTDNA_DISCOVER_Y_DNA_SECTIONS = [
 export const YFULL_URL = 'https://www.yfull.com/tree';
 
 export const SNP_TRACKER_URL = 'http://scaledinnovation.com/gg/snpTracker.html'; // Value for "?snp=" works both ways OK: "Y128456" or "I-Y128456"
+
+export const sideNavData = [
+  { id: "#home", label: "back to top" },
+  { id: "#projects", label: "Projects" },
+  { id: "#y-dna-public", label: "Y-DNA Public" },
+  { id: "#mt-dna-public", label: "mtDNA Public" },
+  // { id: "#mt-discover", label: "mtDNA Discover" }, // TBD future
+  { id: "#y-dna-pages-by-snp", label: "Y-DNA Pages by SNP" },
+  { id: "#y-discover", label: "Y-DNA Discover" },
+  { id: "#y-discover-by-people", label: "Y-DNA Discover pages by Person" },
+  // { id: "#mr-discover-by-people", label: "mt-DNA Discover pages by Person" }, // TBD future
+  { id: "#yfull-pages", label: "YFULL" },
+  { id: "#contacts", label: "My Contacts" },
+];
