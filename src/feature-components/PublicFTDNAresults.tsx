@@ -12,13 +12,13 @@ export function PublicFTDNAresults() {
   return <>
     <Row>
       <Col>
-        <h3 id="y-dna-public">yDNA Public results</h3>
+        <h3 id="y-dna-public">Y-DNA Public results</h3>
         <section>
           <YdnaPublicResults data={myFtdnaProjects} />
         </section>
       </Col>
       <Col>
-        <h3>yDNA Public results (not member)</h3>
+        <h3>Y-DNA Public results (not member)</h3>
         <section>
           <YdnaPublicResults data={otherFtdnaProjectsEnabled} />
         </section>

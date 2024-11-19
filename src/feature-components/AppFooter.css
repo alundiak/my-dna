@@ -1,0 +1,15 @@
+footer {
+  /* https://caniuse.com/css-nesting */
+  /* Since at least Dec-2023 CSS classes nesting is implemented in most of browsers */
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    >div {
+      align-items: center;
+    }
+  }
+}

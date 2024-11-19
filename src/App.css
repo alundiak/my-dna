@@ -4,36 +4,3 @@
   padding: 2rem; */
   /* text-align: center; */
 }
-
-
-#my-nav {
-  position: sticky;
-  top: 10px;
-  left: 10px;
-}
-
-.my-nav-scrollspy .active {
-  background-color: #712cf926;
-}
-
-
-footer {
-
-  /* https://caniuse.com/css-nesting */
-  /* Since at least Dec-2023 CSS classes nesting is implemented in most of browsers */
-
-  .links {
-    .facebook {
-      color: blue;
-    }
-
-    .github {
-      color: grey;
-    }
-
-    .blog {
-      color: green;
-    }
-  }
-
-}

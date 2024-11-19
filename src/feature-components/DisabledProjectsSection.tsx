@@ -8,13 +8,13 @@ export function DisabledProjectsSection({ data }: { data: any }) {
     const url = `${FTDNA_GROUP}/${item.idGroup}/dna-results`;
 
     return (
-      <>
+      <span key={`project-${item.idGroup}`}>
         <a href={url} target="_blank" key={item.idGroup}>
           {item.idGroup}
         </a>
         {item.onlyMapResults ? <MapIcon /> : null}
         {item.yDnaResultsOnly ? <GenderIcon gender="m" /> : null}
-      </>
+      </span>
     );
   });
 

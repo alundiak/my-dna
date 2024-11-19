@@ -1,0 +1,10 @@
+#my-side-nav {
+  position: sticky;
+  top: 10px;
+  left: 10px;
+
+  .active {
+    color: white;
+    background-color: #007bff;
+  }
+}
