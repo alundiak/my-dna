@@ -43,6 +43,8 @@ Maybe use Bootstrap Accordion => https://getbootstrap.com/docs/5.3/components/ac
 or https://getbootstrap.com/docs/5.3/components/card/
 
 
+## Idea 4 - my Matches
+But it contradicts then with [My Genealogy](https://github.com/alundiak/my-genealogy) purpose and in general [gen-end-gen](https://github.com/alundiak/gen-and-gen) project purpose.
 
 ## Tech stack
 

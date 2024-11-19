@@ -515,5 +515,16 @@
     "idGroup": "middle-east",
     "idPublic": "Middle-East",
     "myMembership": false
+  },
+  {
+    "idGroup": "pitts-dna-project-ftdna",
+    "idPublic": "Pitts_DNA_Project_FTDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "mc-collough",
+    "idPublic": "McCollough",
+    "myMembership": false,
+    "yDnaResultsOnly": true
   }
 ]
