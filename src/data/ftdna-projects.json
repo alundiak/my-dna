@@ -210,6 +210,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "kursk-dna-project",
+    "idPublic": "KurskDNAProject",
+    "myMembership": false
+  },
+  {
     "idGroup": "russiadna",
     "idPublic": "russiadna",
     "myMembership": false

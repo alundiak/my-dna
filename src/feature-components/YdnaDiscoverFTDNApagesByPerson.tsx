@@ -18,6 +18,9 @@ export function YdnaDiscoverFTDNApagesByPerson() {
         <li>
           <a href="https://discover.familytreedna.com/y-dna/N-M6921/tree">N1c-M6921 - Igor Dychta (Ukraine, Poland, Lithuania ... Gediminids )</a>
         </li>
+        <li>
+          <a href="https://discover.familytreedna.com/y-dna/R-BY50762/tree">R1b-U152\BY50762 - Vasyl Josypenko</a>
+        </li>
       </ul>
     </section>
   </>;
