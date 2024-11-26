@@ -63,6 +63,18 @@
     "myMembership": false
   },
   {
+    "idGroup": "romanian-moldovaand-bucovina",
+    "idPublic": "RomanianMoldovaandBucovina",
+    "myMembership": false,
+    "yDnaResultsOnly": true,
+    "mtDnaResults": false
+  },
+  {
+    "idGroup": "moldova",
+    "idPublic": "Moldova",
+    "myMembership": false
+  },
+  {
     "idGroup": "jewish-ukraine-west",
     "idPublic": "Jewish_Ukraine_West",
     "myMembership": false

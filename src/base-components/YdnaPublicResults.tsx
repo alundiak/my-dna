@@ -9,13 +9,13 @@ export function YdnaPublicResults({ data }: { data: any }) {
 
           // const yResultsURL = `${FTDNA_PUBLIC}/${item.idPublic}?iframe=yresults`; // OUTDATED
           // const yColorizedURL = `${FTDNA_PUBLIC}/${item.idPublic}?iframe=ycolorized`; // OUTDATED
-          const yColorizedURL = `${FTDNA_PUBLIC}/${item.idPublic}?iframe=ydna-results-overview`;
+          const yDnaResultsOverviewURL = `${FTDNA_PUBLIC}/${item.idPublic}?iframe=ydna-results-overview`;
           const ySNPResultsURL = `${FTDNA_PUBLIC}/${item.idPublic}?iframe=ysnp`;
           const yMapResultsURL = `${FTDNA_PUBLIC}/${item.idPublic}?iframe=ymap`;
 
           return (
             <li key={key}>
-              <span>{item.idPublic}</span> | <a href={yColorizedURL} target="_blank">yColorized</a> | <a href={ySNPResultsURL} target="_blank">ysnp</a> | <a href={yMapResultsURL} target="_blank">ymap</a>
+              <span>{item.idPublic}</span> | <a href={yDnaResultsOverviewURL} target="_blank">yResults</a> | <a href={ySNPResultsURL} target="_blank">ySnp</a> | <a href={yMapResultsURL} target="_blank">yMap</a>
             </li>
           );
         })
