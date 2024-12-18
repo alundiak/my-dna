@@ -31,6 +31,22 @@
     "myMembership": true
   },
   {
+    "idGroup": "volyn",
+    "idPublic": "Volyn",
+    "myMembership": false
+  },
+  {
+    "idGroup": "braclawszczyzna",
+    "idPublic": "Braclawszczyzna",
+    "myMembership": false
+  },
+  {
+    "idGroup": "desna-dna",
+    "idPublic": "zadesennya_dna",
+    "yDnaResultsOnly": true,
+    "myMembership": false
+  },
+  {
     "idGroup": "poltavaregion",
     "idPublic": "poltavaregion",
     "myMembership": false
@@ -506,6 +522,14 @@
   {
     "idGroup": "i-2a-l161",
     "idPublic": "I2a-L161",
+    "mtDnaResults": false,
+    "myMembership": false
+  },
+  {
+    "idGroup": "haplogroup-iydna",
+    "idPublic": "haplogroup-iydna",
+    "resultsRequireLogin": true,
+    "resultsDisabled": true,
     "mtDnaResults": false,
     "myMembership": false
   },
