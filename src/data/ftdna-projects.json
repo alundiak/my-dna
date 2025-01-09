@@ -41,6 +41,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "skarbek-awdaniec",
+    "idPublic": "skarbek_awdaniec",
+    "myMembership": false
+  },
+  {
     "idGroup": "desna-dna",
     "idPublic": "zadesennya_dna",
     "yDnaResultsOnly": true,
@@ -49,6 +54,11 @@
   {
     "idGroup": "poltavaregion",
     "idPublic": "poltavaregion",
+    "myMembership": false
+  },
+  {
+    "idGroup": "desna-dna",
+    "idPublic": "zadesennya_dna",
     "myMembership": false
   },
   {
@@ -531,6 +541,16 @@
     "resultsRequireLogin": true,
     "resultsDisabled": true,
     "mtDnaResults": false,
+    "myMembership": false
+  },
+  {
+    "idGroup": "holopainen-dna",
+    "idPublic": "HolopainenDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "chaplogroup",
+    "idPublic": "Chaplogroup",
     "myMembership": false
   },
   {
