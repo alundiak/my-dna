@@ -566,6 +566,12 @@
     "yDnaResultsOnly": true
   },
   {
+    "idGroup": "y-dna-i1",
+    "idPublic": "y-dna-i1",
+    "myMembership": false,
+    "resultsRequireLogin": true
+  },
+  {
     "idGroup": "saudi-arabia",
     "idPublic": "SaudiArabia",
     "myMembership": false,
