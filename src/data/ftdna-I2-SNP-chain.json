@@ -1,5 +1,30 @@
 [
-  "I-P37",
+  {
+    "snp": "I-P37",
+    "people": [
+      "Andrei BELEI",
+      "Oleg Yantytskyy",
+      "Ron DŁUGOSZ",
+      "Dave St john",
+      "Gary Bernard Kulaw",
+      "Mr. ANTE MARTINOVIC",
+      "Mr. Anton Chernykh",
+      "Robert Bassett",
+      "Alain Gilbert A Lux",
+      "Douglas Edward Nadybal",
+      "Harold Levine [AB-089]",
+      "Mr. Alejandro Chaparro Sr.",
+      "Mr. Emmanuel Leblanc",
+      "Mr. Mikhail Innokentievich Mozharovsky",
+      "Mr. Peter James Light",
+      "Mr. Tomasz Piotr Piotrowski",
+      "Mr. Veselin Borislavov Vouchkov",
+      "Nikolay Ryzhov",
+      "Oleg Andriyovych Savko",
+      "Raymond George Dellefield",
+      ""
+    ]
+  },
   "I-M423",
   "I-S2770",
   "I-CTS11030",
@@ -22,7 +47,13 @@
       "Kifa (FTDNA YDNA-37)",
       "Sergiusz Mały",
       "Oleksii Goliaka/Holiaka",
-      "Oleksii Striapko - https://www.facebook.com/oleksii.striapko"
+      "Oleksii Striapko - https://www.facebook.com/oleksii.striapko",
+      "Ivan Simeonov Stojkov",
+      "John Popp Jr.",
+      "Edward Behringer",
+      "Leonid Masterov",
+      "Vladimir Gorbachev",
+      "jozef skop"
     ]
   },
   "I-Y3120",
@@ -68,7 +99,8 @@
     "same-level-snps": [
       "I-BY182167 (also same level as I-FGC63213)",
       "I-FGC8449 (also same level as Q-FGC8433)",
-      "I-Y4298 (also same level as Q-FGC8433)"
+      "I-Y4298 (also same level as Q-FGC8433)",
+      "I-MF803497"
     ],
     "people": [
       "(FTDNA) Unknown Origin 1 - SADOWY 🇺🇦🇵🇱🇺🇸",
@@ -88,6 +120,12 @@
     ]
   },
   {
+    "snp": "I-FGC63213*",
+    "people": [
+      "(YFULL) Anton POLYAKOV 🇷🇺 (states that MRCA is Brothers CHEREPANOV)"
+    ]
+  },
+  {
     "snp": "I-F7424",
     "same-level-snps": [
       "tbd"
@@ -103,7 +141,7 @@
     ],
     "people": [
       "(FTDNA) Known 7 - FROLOV 🇷🇺🇺🇦 (formerly 'Unknown Origin 13')",
-      "(FTDNA) Known 8 - HOLOPAINEN 🇷🇺 (formerly 'Unknown Origin 12')"
+      "(FTDNA) Known 8 - HOLOPAINEN 🇫🇮?🇷🇺 (formerly 'Unknown Origin 12')"
     ]
   },
   {
@@ -127,12 +165,6 @@
       "(YFULL) ZAGORUIKO 🇺🇦"
     ]
   },
-  "I-BY182167",
-  "I-FGC8449",
-  "I-Y4298",
-  "I-MF803497",
-  "I-Y128937",
-  "I-BY51714",
   "I-FT88512",
   "I-FT88745",
   "I-FT88796"
