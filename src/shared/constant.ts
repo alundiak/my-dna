@@ -17,7 +17,10 @@ export const FTDNA_DISCOVER_Y_DNA_SECTIONS = [
   "scientific",
   "compare"
 ];
-export const YFULL_URL = 'https://www.yfull.com/tree';
+
+export const YFULL_URL_CLASSIC = 'https://www.yfull.com/tree';
+export const YFULL_URL_LIVE = 'https://www.yfull.com/live/tree';
+export const YFULL_URL = YFULL_URL_LIVE;
 
 export const SNP_TRACKER_URL = 'http://scaledinnovation.com/gg/snpTracker.html'; // Value for "?snp=" works both ways OK: "Y128456" or "I-Y128456"
 
