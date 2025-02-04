@@ -31,8 +31,8 @@ export const sideNavData = [
   { id: "#mt-dna-public", label: "mtDNA Public" },
   // { id: "#mt-discover", label: "mtDNA Discover" }, // TBD future
   { id: "#y-dna-pages-by-snp", label: "Y-DNA Pages by SNP" },
-  { id: "#y-discover", label: "Y-DNA Discover" },
-  { id: "#y-discover-by-people", label: "Y-DNA Discover pages by Person" },
+  { id: "#y-discover", label: "Y-DNA Group Time Tree" },
+  { id: "#y-discover-by-people", label: "Y-DNA Time Tree pages by Person" },
   // { id: "#mr-discover-by-people", label: "mt-DNA Discover pages by Person" }, // TBD future
   { id: "#yfull-pages", label: "YFULL" },
   { id: "#contacts", label: "My Contacts" },
