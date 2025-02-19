@@ -1,6 +1,6 @@
 export const FTDNA_GROUP = 'https://www.familytreedna.com/groups';
 export const FTDNA_PUBLIC = 'https://www.familytreedna.com/public';
-export const FTDNA_DISCOVER = 'https://discover.familytreedna.com/groups';
+export const FTDNA_DISCOVER_GROUP_TIME_TREE = 'https://discover.familytreedna.com/groups';
 export const FTDNA_DISCOVER_Y_DNA = 'https://discover.familytreedna.com/y-dna';
 // Main page https://discover.familytreedna.com/,
 // so maybe mito Discover will be under https://discover.familytreedna.com/mt-dna
@@ -29,7 +29,7 @@ export const sideNavData = [
   { id: "#projects", label: "Projects" },
   { id: "#y-dna-public", label: "Y-DNA Public" },
   { id: "#mt-dna-public", label: "mtDNA Public" },
-  { id: "#y-discover", label: "Y-DNA Group Time Tree" },
+  { id: "#y-group-time-tree", label: "Y-DNA Group Time Tree" },
   { id: "#y-dna-pages-by-snp", label: "Y-DNA Pages by SNP" },
   { id: "#y-discover-by-people", label: "Y-DNA Time Tree pages by Person" },
   // { id: "#mt-discover", label: "mtDNA Discover" }, // TBD future

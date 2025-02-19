@@ -234,6 +234,16 @@
     "myMembership": true
   },
   {
+    "idGroup": "lunda",
+    "idPublic": "LUNDA",
+    "myMembership": true
+  },
+  {
+    "idGroup": "kowallis-and-kowalis",
+    "idPublic": "kowallis_and_kowalis",
+    "myMembership": false
+  },
+  {
     "idGroup": "norway",
     "idPublic": "norway",
     "resultsDisabled": false,
@@ -557,29 +567,6 @@
     "idGroup": "holopainen-dna",
     "idPublic": "HolopainenDNA",
     "myMembership": false
-  },
-  {
-    "idGroup": "chaplogroup",
-    "idPublic": "Chaplogroup",
-    "myMembership": false
-  },
-  {
-    "idGroup": "r-1a",
-    "idPublic": "R1a",
-    "myMembership": false
-  },
-  {
-    "idGroup": "r-1b",
-    "idPublic": "r1b",
-    "myMembership": false,
-    "mtDnaResults": false,
-    "yDnaResultsOnly": true
-  },
-  {
-    "idGroup": "y-dna-i1",
-    "idPublic": "y-dna-i1",
-    "myMembership": false,
-    "resultsRequireLogin": true
   },
   {
     "idGroup": "saudi-arabia",

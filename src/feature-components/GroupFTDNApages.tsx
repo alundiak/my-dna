@@ -1,25 +1,37 @@
-import { Col, Row } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 import { ListOfProjects } from '../base-components/ListOfProjects';
 import { useProjectsData } from '../shared/common';
+import notRelatedProjects from '../data/ftdna/not-related-to-me-projects.json';
 
 export function GroupFTDNApages() {
-  const [myFtdnaProjects, otherFtdnaProjects] = useProjectsData();
+  const [memberProjects, otherFtdnaProjects] = useProjectsData();
 
   return <>
-    <Row>
-      <Col>
-        <h3 id="projects">Projects pages</h3>
-        <section>
-          <ListOfProjects data={myFtdnaProjects} />
-        </section>
-      </Col>
-      <Col>
+    <h3 id="projects">Projects pages</h3>
+    <Container className="bg-light border">
 
-        <h3>Projects pages (not member)</h3>
-        <section>
-          <ListOfProjects data={otherFtdnaProjects} />
-        </section>
-      </Col>
-    </Row>
+      <Row>
+        <Col>
+          <h3>joined</h3>
+          <section>
+            <ListOfProjects data={memberProjects} />
+          </section>
+        </Col>
+
+        <Col>
+          <h3>interested but not member</h3>
+          <section>
+            <ListOfProjects data={otherFtdnaProjects} />
+          </section>
+        </Col>
+
+        <Col>
+          <h3>not me-related</h3>
+          <section>
+            <ListOfProjects data={notRelatedProjects} />
+          </section>
+        </Col>
+      </Row>
+    </Container>
   </>;
 }

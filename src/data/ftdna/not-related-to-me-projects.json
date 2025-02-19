@@ -1,0 +1,35 @@
+[
+  {
+    "idGroup": "y-dna-i1",
+    "idPublic": "y-dna-i1",
+    "myMembership": false,
+    "resultsRequireLogin": true
+  },
+  {
+    "idGroup": "r-1a",
+    "idPublic": "R1a",
+    "myMembership": false
+  },
+  {
+    "idGroup": "r-1a-y-haplogroup",
+    "idPublic": "R1aY-Haplogroup",
+    "myMembership": false
+  },
+  {
+    "idGroup": "r-1b",
+    "idPublic": "r1b",
+    "myMembership": false,
+    "mtDnaResults": false,
+    "yDnaResultsOnly": true
+  },
+  {
+    "idGroup": "chaplogroup",
+    "idPublic": "Chaplogroup",
+    "myMembership": false
+  },
+  {
+    "idGroup": "c3",
+    "idPublic": "C3",
+    "myMembership": false
+  }
+]

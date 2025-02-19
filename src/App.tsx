@@ -5,7 +5,7 @@ import { sideNavData } from './shared/constant';
 
 import { GroupFTDNApages } from './feature-components/GroupFTDNApages';
 import { PublicFTDNAresults } from './feature-components/PublicFTDNAresults';
-import { YdnaDiscoverFTDNApages } from './feature-components/YdnaDiscoverFTDNApages';
+import { YdnaDiscoverGroupTimeTree } from './feature-components/YdnaDiscoverGroupTimeTree';
 import { YdnaDiscoverFTDNApagesByPerson } from './feature-components/YdnaDiscoverFTDNApagesByPerson';
 import { YdnaPagesBySNP } from './feature-components/YdnaPagesBySNP';
 import { YfullPagesByPerson } from './feature-components/YfullPagesByPerson';
@@ -35,8 +35,8 @@ function App() {
                 <GroupFTDNApages />
                 <PublicFTDNAresults />
 
+                <YdnaDiscoverGroupTimeTree />
                 <YdnaPagesBySNP />
-                <YdnaDiscoverFTDNApages />
                 <YdnaDiscoverFTDNApagesByPerson />
 
                 <YfullPagesByPerson />
