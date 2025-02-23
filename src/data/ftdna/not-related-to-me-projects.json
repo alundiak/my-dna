@@ -31,5 +31,30 @@
     "idGroup": "c3",
     "idPublic": "C3",
     "myMembership": false
+  },
+  {
+    "idGroup": "bereziv-berezw",
+    "idPublic": "BerezivBerezw",
+    "myMembership": false
+  },
+  {
+    "idGroup": "hebrew",
+    "idPublic": "Hebrew",
+    "myMembership": false
+  },
+  {
+    "idGroup": "hebrew-finnish-project",
+    "idPublic": "HEBREW%20FINNISH%20PROJECT",
+    "myMembership": false
+  },
+  {
+    "idGroup": "hicks",
+    "idPublic": "HICKS",
+    "myMembership": false
+  },
+  {
+    "idGroup": "schneider",
+    "idPublic": "schneider",
+    "myMembership": false
   }
 ]

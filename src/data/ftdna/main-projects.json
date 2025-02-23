@@ -16,11 +16,6 @@
     "myMembership": true
   },
   {
-    "idGroup": "bereziv-berezw",
-    "idPublic": "BerezivBerezw",
-    "myMembership": false
-  },
-  {
     "idGroup": "carpatho-rusyn",
     "idPublic": "carpatho-rusyn",
     "myMembership": true
@@ -164,11 +159,6 @@
     "myMembership": true
   },
   {
-    "idGroup": "lituania-propria",
-    "idPublic": "LituaniaPropria",
-    "myMembership": true
-  },
-  {
     "idGroup": "ostpreussen-east-prussia",
     "idPublic": "Ostpreussen_East_Prussia",
     "myMembership": false
@@ -176,6 +166,21 @@
   {
     "idGroup": "prussia-preussen",
     "idPublic": "PrussiaPreussen",
+    "myMembership": false
+  },
+  {
+    "idGroup": "lituania-propria",
+    "idPublic": "LituaniaPropria",
+    "myMembership": true
+  },
+  {
+    "idGroup": "latvia",
+    "idPublic": "Latvia",
+    "myMembership": false
+  },
+  {
+    "idGroup": "estonia",
+    "idPublic": "Estonia",
     "myMembership": false
   },
   {
@@ -191,26 +196,6 @@
   {
     "idGroup": "finno-ugric-dna",
     "idPublic": "Finno-UgricDNA",
-    "myMembership": false
-  },
-  {
-    "idGroup": "estonia",
-    "idPublic": "Estonia",
-    "myMembership": false
-  },
-  {
-    "idGroup": "latvia",
-    "idPublic": "Latvia",
-    "myMembership": false
-  },
-  {
-    "idGroup": "hebrew",
-    "idPublic": "Hebrew",
-    "myMembership": false
-  },
-  {
-    "idGroup": "hebrew-finnish-project",
-    "idPublic": "HEBREW%20FINNISH%20PROJECT",
     "myMembership": false
   },
   {
