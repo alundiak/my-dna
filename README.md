@@ -6,7 +6,7 @@ A place to aggregate Y-DNA and mt-DNA info from services I use ([FamilyTreeDNA](
 
 To have at least list of FTDNA groups which I frequently check, so to have one place to navigate from. MAYBE integrated with FTDNA API.
 
-![img1](images/my-dna-nov-2024.png)
+![img1](images/my-dna-nov-2025.png)
 
 ## Idea 2 - TODO
 
