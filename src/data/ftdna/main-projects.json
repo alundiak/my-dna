@@ -11,11 +11,6 @@
     "myMembership": true
   },
   {
-    "idGroup": "ivano-frankivskregion",
-    "idPublic": "Ivano-Frankivskregion",
-    "myMembership": true
-  },
-  {
     "idGroup": "carpatho-rusyn",
     "idPublic": "carpatho-rusyn",
     "myMembership": true
@@ -216,11 +211,6 @@
   {
     "idGroup": "lund",
     "idPublic": "Lund",
-    "myMembership": true
-  },
-  {
-    "idGroup": "lunda",
-    "idPublic": "LUNDA",
     "myMembership": true
   },
   {

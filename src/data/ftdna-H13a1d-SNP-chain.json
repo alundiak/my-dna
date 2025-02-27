@@ -1,0 +1,33 @@
+[
+  {
+    "snp": "H13a1d",
+    "same-level-snps": [],
+    "people": ["Kateryna Babij", "4 🇫🇮", "2 🇮🇷"]
+  },
+  {
+    "snp": "H13a1d1",
+    "people": ["1 🇮🇷", "1 🇹🇷"]
+  },
+  {
+    "snp": "H13a1d2'3",
+    "same-level-snps": ["H13a1d2'3+195", "H13a1d2'3+16129"],
+    "people": ["1 🇭🇺", "4 🇫🇮", "1 🇹🇷", "1 Unknown"]
+  },
+  {
+    "snp": "H13a1d3",
+    "same-level-snps": ["1 🇧🇬", "1 🇧🇾", "2 🇵🇱", "1 🇮🇪", "1 Unknown"],
+    "people": ["TBD"]
+  },
+  {
+    "snp": "H13a1d4",
+    "same-level-snps": [],
+    "people": ["2 Unknown"]
+  },
+  {
+    "snp": "H13a1d5",
+    "people": ["1 🇺🇦", "1 🇨🇦", "1 🇦🇹", "1 Unknown"]
+  },
+  "ABC",
+  "XYZ",
+  "TBD"
+]

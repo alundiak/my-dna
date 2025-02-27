@@ -3,11 +3,11 @@ import { ListOfProjects } from '../base-components/ListOfProjects';
 import { useProjectsData } from '../shared/common';
 import notRelatedProjects from '../data/ftdna/not-related-to-me-projects.json';
 
-export function GroupFTDNApages() {
+export function OtherProjects() {
   const [memberProjects, otherFtdnaProjects] = useProjectsData();
 
   return <>
-    <h3 id="projects">Projects pages</h3>
+    <h3 id="other-projects">Other Projects</h3>
     <Container className="bg-light border">
 
       <Row>
