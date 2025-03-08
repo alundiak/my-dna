@@ -18,7 +18,8 @@
   {
     "idGroup": "ukrainian-dna",
     "idPublic": "UkrainianDNA",
-    "myMembership": true
+    "myMembership": true,
+    "resultsRequireLogin": true
   },
   {
     "idGroup": "ukraine",

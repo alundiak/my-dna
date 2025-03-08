@@ -56,5 +56,23 @@
     "idGroup": "schneider",
     "idPublic": "schneider",
     "myMembership": false
+  },
+  {
+    "idGroup": "karachev-dna-project",
+    "idPublic": "Karachev_DNA_project",
+    "myMembership": false,
+    "H13a1d": "true"
+  },
+  {
+    "idGroup": "armeniadnaproject",
+    "idPublic": "ArmeniaDNAProject",
+    "myMembership": false,
+    "H13a1d": "true"
+  },
+  {
+    "idGroup": "wiki-tree",
+    "idPublic": "WikiTree",
+    "myMembership": false,
+    "H13a1d": "true"
   }
 ]
