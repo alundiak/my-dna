@@ -23,7 +23,7 @@
       "Oleg Andriyovych Savko",
       "Raymond George Dellefield",
       "new Daujotas 🇱🇹",
-      "Kriauciaunas 🇱🇹 (Tyszkiewicz 🇵🇱) - I paid for his Big Y 700 UPGRADE"
+      "Kriauciaunas 🇧🇪🇱🇹 (Tyszkiewicz 🇵🇱) - I paid for his Big Y 700 UPGRADE"
     ]
   },
   "I-M423",
@@ -32,7 +32,12 @@
   "I-CTS5375",
   "I-CTS7213",
   "I-S10302",
-  "I-L621",
+  {
+    "snp": "I-L621",
+    "people": [
+      "Roman Drogomirecki 🇺🇦, Kornych"
+    ]
+  },
   "I-CTS10936",
   "I-S19848",
   "I-CTS4002",
@@ -55,7 +60,10 @@
       "Edward Behringer",
       "Leonid Masterov",
       "Vladimir Gorbachev 🇷🇺",
-      "jozef skop"
+      "jozef skop",
+      "Velyslav Lesyk 🇺🇦 (Lviv region, Старий Самбір) - managed by https://www.facebook.com/profile.php?id=100040914701293",
+      "Олег Сохацький (Дзвиняч, Тернопільска область) 🇺🇦",
+      "Roman Kozan, Liski, більше Polska 🇵🇱 (але мчастково Ukraine 🇺🇦)"
     ]
   },
   "I-Y3120",
@@ -65,7 +73,12 @@
       "TBD"
     ]
   },
-  "I-Y4460",
+  {
+    "snp": "I-Y4460",
+    "people": [
+      "KOSHMAN (Koszman, Kussman) 🇨🇦🇸🇰, Mar-2025. Big Y expected."
+    ]
+  },
   {
     "snp": "I-Y3106",
     "people": [

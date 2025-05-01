@@ -24,12 +24,11 @@ export const sideNavData = [
   { id: '#other-projects', label: 'Other Projects' },
 
   { id: '#y-dna-public', label: 'Y-DNA Public' },
-  { id: '#mt-dna-public', label: 'mtDNA Public' },
-
   { id: '#y-group-time-tree', label: 'Y-DNA Group Time Tree' },
-  // { id: '#mt-group-time-tree', label: 'mt-DNA Group Time Tree' },
-
   { id: '#y-dna-pages-by-snp', label: 'Y-DNA Pages by SNP' },
+
+  { id: '#mt-dna-public', label: 'mtDNA Public' },
+  // { id: '#mt-group-time-tree', label: 'mt-DNA Group Time Tree' },
   { id: '#mt-dna-pages-by-snp', label: 'mtDNA Pages by SNP' },
 
   { id: '#other-people', label: 'Other people' },

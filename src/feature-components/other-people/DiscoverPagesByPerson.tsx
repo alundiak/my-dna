@@ -35,6 +35,12 @@ export function DiscoverPagesByPerson() {
             <li>
               <a href="https://discover.familytreedna.com/y-dna/I-Z63">I1-Z63 - Сергій Фазульянов</a>
             </li>
+            <li>
+              <a href="https://discover.familytreedna.com/y-dna/R-L1029">R1a-L1029 - Mykhailo Iskiv</a>
+            </li>
+            <li>
+              <a href="https://discover.familytreedna.com/y-dna/I-Y7477">I1-Y7477 (200 BCE) - Albert Sayin</a>
+            </li>
           </ul>
         </section>
         <strong>mt-DNA</strong>
@@ -54,6 +60,9 @@ export function DiscoverPagesByPerson() {
             </li>
             <li>
               <a href="https://discover.familytreedna.com/mtdna/W3a1/">Sebastian Magnowski(Jezupol)</a>
+            </li>
+            <li>
+              <a href=""></a>
             </li>
           </ul>
         </section>

@@ -17,5 +17,11 @@
     "idPublic": "mtDNA_H13",
     "mtDnaResults": true,
     "myMembership": true
+  },
+  {
+    "idGroup": "mtdna-hstar",
+    "idPublic": "mtdna_hstar",
+    "mtDnaResults": true,
+    "myMembership": true
   }
 ]
