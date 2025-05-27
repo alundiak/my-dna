@@ -84,7 +84,9 @@
   {
     "snp": "I-Y3106",
     "people": [
-      "Szamoskozi 🇭🇺 (FTDNA) => I-Y3106 => I-FGC34839 => I-BY112455"
+      "Szamoskozi 🇭🇺 (FTDNA) => I-Y3106 => I-FGC34839 => I-BY112455",
+      "Lithuanian",
+      "Masterov"
     ]
   },
   {
@@ -128,13 +130,14 @@
       "(FTDNA) Unknown Origin 5 - MIKHALCHUK 🇺🇦?🇷🇺?🇧🇾?",
       "(FTDNA) Unknown Origin 6 - PESHKOV 🇺🇦?🇷🇺?🇧🇾?",
       "(FTDNA) Unknown Origin 7 - DŁUGOSZ 🇵🇱",
-      "(FTDNA) Unknown Origin 9 - TKACH 🇷🇺🇺🇦",
-      "(FTDNA) Unknown Origin 11 - BOGOMOLOV 🇺🇦",
+      "(FTDNA) Unknown Origin 8 - TKACH 🇷🇺🇺🇦",
+      "(FTDNA) Unknown Origin 9 - BOGOMOLOV 🇺🇦",
       "(FTDNA) Known 1 - Mykhailo LUNDIAK 🇺🇦 - my father",
       "(FTDNA) Known 2 - PISKUN 🇺🇦",
       "(FTDNA) Known 3 - HERMAN 🇺🇦🇵🇱",
-      "(FTDNA) Known 5 - ROMPPAINEN 🇫🇮🇷🇺 (formerly 'Unknown Origin 8')",
-      "(FTDNA) Known 6 - NOCHOVKIN 🇺🇦 (formerly 'Unknown Origin 10')"
+      "(FTDNA) Known 4 - ROMPPAINEN 🇫🇮🇷🇺",
+      "(FTDNA) Known 5 - NOCHOVKIN 🇺🇦",
+      "(FTDNA) Known 6 - PALONKO (Палёнко) 🇺🇦"
     ]
   },
   {
@@ -158,8 +161,8 @@
       "FTF48764"
     ],
     "people": [
-      "(FTDNA) Known 7 - FROLOV 🇷🇺🇺🇦 (formerly 'Unknown Origin 13')",
-      "(FTDNA) Known 8 - HOLOPAINEN 🇫🇮?🇷🇺 (formerly 'Unknown Origin 12')"
+      "(FTDNA) FROLOV 🇷🇺🇺🇦 (YFULL defines under Y4298)",
+      "(FTDNA) HOLOPAINEN 🇫🇮?🇷🇺"
     ]
   },
   {
