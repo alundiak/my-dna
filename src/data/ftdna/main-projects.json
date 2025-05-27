@@ -1,11 +1,5 @@
 [
   {
-    "idGroup": "i-2a-hap-group",
-    "idPublic": "I2aHapGroup",
-    "mtDnaResults": false,
-    "myMembership": true
-  },
-  {
     "idGroup": "dinaric-alps-dna",
     "idPublic": "dinaric_alps_dna",
     "myMembership": true
@@ -14,12 +8,6 @@
     "idGroup": "carpatho-rusyn",
     "idPublic": "carpatho-rusyn",
     "myMembership": true
-  },
-  {
-    "idGroup": "ukrainian-dna",
-    "idPublic": "UkrainianDNA",
-    "myMembership": true,
-    "resultsRequireLogin": true
   },
   {
     "idGroup": "ukraine",
@@ -192,6 +180,11 @@
   {
     "idGroup": "finno-ugric-dna",
     "idPublic": "Finno-UgricDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "estonian-swedes-dna",
+    "idPublic": "EstonianSwedesDNA",
     "myMembership": false
   },
   {

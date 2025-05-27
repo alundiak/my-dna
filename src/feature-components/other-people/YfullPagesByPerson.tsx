@@ -17,6 +17,9 @@ export function YfullPagesByPerson() {
             <li>
               <a href="https://www.yfull.com/live/tree/N-M6921/">N1c+ Igor Dychta</a>
             </li>
+            <li>
+              <a href="https://www.yfull.com/live/tree/N-Y304511/">N1c+ Максим Лактионов </a>
+            </li>
           </ul>
           <strong>mt-DNA pages</strong>
           <div>TBD</div>
