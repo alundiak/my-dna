@@ -1,7 +1,19 @@
 [
   {
-    "idGroup": "dinaric-alps-dna",
-    "idPublic": "dinaric_alps_dna",
+    "idGroup": "i-2a-hap-group",
+    "idPublic": "I2aHapGroup",
+    "mtDnaResults": false,
+    "myMembership": true
+  },
+  {
+    "idGroup": "ukrainian-dna",
+    "idPublic": "UkrainianDNA",
+    "myMembership": true,
+    "resultsRequireLogin": true
+  },
+  {
+    "idGroup": "ukraine",
+    "idPublic": "ukraine",
     "myMembership": true
   },
   {
@@ -10,8 +22,8 @@
     "myMembership": true
   },
   {
-    "idGroup": "ukraine",
-    "idPublic": "ukraine",
+    "idGroup": "dinaric-alps-dna",
+    "idPublic": "dinaric_alps_dna",
     "myMembership": true
   },
   {
@@ -38,11 +50,6 @@
   {
     "idGroup": "poltavaregion",
     "idPublic": "poltavaregion",
-    "myMembership": false
-  },
-  {
-    "idGroup": "desna-dna",
-    "idPublic": "zadesennya_dna",
     "myMembership": false
   },
   {

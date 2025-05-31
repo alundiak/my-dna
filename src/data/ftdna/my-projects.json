@@ -8,17 +8,5 @@
     "idGroup": "lunda",
     "idPublic": "LUNDA",
     "myMembership": true
-  },
-  {
-    "idGroup": "ukrainian-dna",
-    "idPublic": "UkrainianDNA",
-    "myMembership": true,
-    "resultsRequireLogin": true
-  },
-  {
-    "idGroup": "i-2a-hap-group",
-    "idPublic": "I2aHapGroup",
-    "mtDnaResults": false,
-    "myMembership": true
   }
 ]

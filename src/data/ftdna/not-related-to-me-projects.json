@@ -1,5 +1,11 @@
 [
   {
+    "idGroup": "piastdynasty",
+    "idPublic": "piastdynasty",
+    "myMembership": false,
+    "resultsRequireLogin": true
+  },
+  {
     "idGroup": "y-dna-i1",
     "idPublic": "y-dna-i1",
     "myMembership": false,
