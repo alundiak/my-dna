@@ -17,9 +17,19 @@
     "myMembership": true
   },
   {
+    "idGroup": "bereziv-berezw",
+    "idPublic": "BerezivBerezw",
+    "myMembership": false
+  },
+  {
     "idGroup": "carpatho-rusyn",
     "idPublic": "carpatho-rusyn",
     "myMembership": true
+  },
+  {
+    "idGroup": "lemko-genealogy",
+    "idPublic": "LemkoGenealogy",
+    "myMembership": false
   },
   {
     "idGroup": "dinaric-alps-dna",
@@ -233,6 +243,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "kursk-dna-project",
+    "idPublic": "KurskDNAProject",
+    "myMembership": false
+  },
+  {
     "idGroup": "ponticandanatoliangreeksdna",
     "idPublic": "russiangreeks",
     "myMembership": false,
@@ -244,8 +259,8 @@
     "myMembership": false
   },
   {
-    "idGroup": "kursk-dna-project",
-    "idPublic": "KurskDNAProject",
+    "idGroup": "russia",
+    "idPublic": "Russia",
     "myMembership": false
   },
   {
@@ -281,6 +296,16 @@
   {
     "idGroup": "anatol-balkan-caucas",
     "idPublic": "Anatol-Balkan-Caucas",
+    "myMembership": false
+  },
+  {
+    "idGroup": "Greece",
+    "idPublic": "Greece",
+    "myMembership": false
+  },
+  {
+    "idGroup": "pontic-greek",
+    "idPublic": "PonticGreek",
     "myMembership": false
   },
   {
@@ -500,71 +525,11 @@
     "myMembership": false
   },
   {
-    "idGroup": "ny-state-dna",
-    "idPublic": "NY-State-DNA",
-    "myMembership": false
-  },
-  {
-    "idGroup": "maryland-dna",
-    "idPublic": "MarylandDNA",
-    "myMembership": false,
-    "mapsDisabled": true
-  },
-  {
-    "idGroup": "tx-state-gs",
-    "idPublic": "TXStateGS",
-    "myMembership": false
-  },
-  {
-    "idGroup": "iowa",
-    "idPublic": "iowa",
-    "myMembership": false
-  },
-  {
-    "idGroup": "ancient-dna",
-    "idPublic": "AncientDNA",
-    "myMembership": false
-  },
-  {
-    "idGroup": "i-2a-l161",
-    "idPublic": "I2a-L161",
-    "mtDnaResults": false,
-    "myMembership": false
-  },
-  {
     "idGroup": "haplogroup-iydna",
     "idPublic": "haplogroup-iydna",
     "resultsRequireLogin": true,
     "resultsDisabled": true,
     "mtDnaResults": false,
     "myMembership": false
-  },
-  {
-    "idGroup": "holopainen-dna",
-    "idPublic": "HolopainenDNA",
-    "myMembership": false
-  },
-  {
-    "idGroup": "saudi-arabia",
-    "idPublic": "SaudiArabia",
-    "myMembership": false,
-    "mtDnaResults": false,
-    "yDnaResultsOnly": true
-  },
-  {
-    "idGroup": "middle-east",
-    "idPublic": "Middle-East",
-    "myMembership": false
-  },
-  {
-    "idGroup": "pitts-dna-project-ftdna",
-    "idPublic": "Pitts_DNA_Project_FTDNA",
-    "myMembership": false
-  },
-  {
-    "idGroup": "mc-collough",
-    "idPublic": "McCollough",
-    "myMembership": false,
-    "yDnaResultsOnly": true
   }
 ]

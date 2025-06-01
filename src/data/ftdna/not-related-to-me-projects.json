@@ -6,10 +6,26 @@
     "resultsRequireLogin": true
   },
   {
+    "idGroup": "poliakov",
+    "idPublic": "Poliakov",
+    "myMembership": false
+  },
+  {
+    "idGroup": "i-2a-l161",
+    "idPublic": "I2a-L161",
+    "mtDnaResults": false,
+    "myMembership": false
+  },
+  {
     "idGroup": "y-dna-i1",
     "idPublic": "y-dna-i1",
     "myMembership": false,
     "resultsRequireLogin": true
+  },
+  {
+    "idGroup": "i-1suomi",
+    "idPublic": "I1suomi",
+    "myMembership": false
   },
   {
     "idGroup": "r-1a",
@@ -36,11 +52,6 @@
   {
     "idGroup": "c3",
     "idPublic": "C3",
-    "myMembership": false
-  },
-  {
-    "idGroup": "bereziv-berezw",
-    "idPublic": "BerezivBerezw",
     "myMembership": false
   },
   {
@@ -80,5 +91,69 @@
     "idPublic": "WikiTree",
     "myMembership": false,
     "H13a1d": "true"
+  },
+  {
+    "idGroup": "holopainen-dna",
+    "idPublic": "HolopainenDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "patriots-and-royalty",
+    "idPublic": "Patriots_and_Royalty",
+    "myMembership": false
+  },
+  {
+    "idGroup": "newman",
+    "idPublic": "newman",
+    "myMembership": false
+  },
+  {
+    "idGroup": "saudi-arabia",
+    "idPublic": "SaudiArabia",
+    "myMembership": false,
+    "mtDnaResults": false,
+    "yDnaResultsOnly": true
+  },
+  {
+    "idGroup": "middle-east",
+    "idPublic": "Middle-East",
+    "myMembership": false
+  },
+  {
+    "idGroup": "pitts-dna-project-ftdna",
+    "idPublic": "Pitts_DNA_Project_FTDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "mc-collough",
+    "idPublic": "McCollough",
+    "myMembership": false,
+    "yDnaResultsOnly": true
+  },
+  {
+    "idGroup": "ny-state-dna",
+    "idPublic": "NY-State-DNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "maryland-dna",
+    "idPublic": "MarylandDNA",
+    "myMembership": false,
+    "mapsDisabled": true
+  },
+  {
+    "idGroup": "tx-state-gs",
+    "idPublic": "TXStateGS",
+    "myMembership": false
+  },
+  {
+    "idGroup": "iowa",
+    "idPublic": "iowa",
+    "myMembership": false
+  },
+  {
+    "idGroup": "ancient-dna",
+    "idPublic": "AncientDNA",
+    "myMembership": false
   }
 ]
