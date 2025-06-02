@@ -15,14 +15,14 @@ export function MyProjects() {
       <Container className="bg-light border">
         <Row>
           <Col>
-            <h3>Pages</h3>
+            <h4>Pages</h4>
             <section>
               <ListOfProjects data={myProjects} />
             </section>
           </Col>
 
           <Col>
-            <h3>Public</h3>
+            <h4>Public</h4>
             <strong>Y-DNA public</strong>
             <section>
               <YdnaPublicResults data={myProjects} />
@@ -35,7 +35,7 @@ export function MyProjects() {
           </Col>
 
           <Col>
-            <h3>Discover</h3>
+            <h4>Discover</h4>
             <strong>Y Group Time Tree</strong>
             <section>
               <ListOfGroupTimeTree data={myProjects} />

@@ -145,7 +145,7 @@
     ]
   },
   {
-    "snp": "I-FGC63213*",
+    "snp": "I-FGC63213-*",
     "people": [
       "(YFULL) Anton POLYAKOV 🇷🇺 (states that MRCA is Brothers CHEREPANOV)"
     ]
@@ -165,9 +165,15 @@
       "FTF48764"
     ],
     "people": [
-      "(FTDNA) FROLOV 🇷🇺🇺🇦 (YFULL defines under Y4298)",
+      "(FTDNA) FROLOV 🇷🇺🇺🇦 (YFULL defines under Y4298)"
+    ]
+  },
+  {
+    "snp": "I-FTF29262",
+    "same-level-snps": [],
+    "people": [
       "(FTDNA) HOLOPAINEN 🇫🇮?🇷🇺",
-      "(FTDNA) Unknown Origin"
+      "(FTDNA) Unknown Origin (Holopainen close match)"
     ]
   },
   {

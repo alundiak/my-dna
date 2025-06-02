@@ -7,23 +7,23 @@ export function YdnaDiscoverGroupTimeTree() {
   const [myFtdnaProjects, otherFtdnaProjects] = useProjectsData();
   return (
     <>
-      <h2 id="y-group-time-tree">Y-DNA FTDNA Group Time Tree pages</h2>
+      <h3 id="y-group-time-tree">Y-DNA FTDNA Group Time Tree pages</h3>
       <Container className="bg-light border">
         <Row>
           <Col>
-            <h3>my projects</h3>
+            <h4>my projects</h4>
             <section>
               <ListOfGroupTimeTree data={myFtdnaProjects} />
             </section>
           </Col>
           <Col>
-            <h3>not member</h3>
+            <h4>not member</h4>
             <section>
               <ListOfGroupTimeTree data={otherFtdnaProjects} />
             </section>
           </Col>
           <Col>
-            <h3>not me-related</h3>
+            <h4>not me-related</h4>
             <section>
               <ListOfGroupTimeTree data={notRelatedProjects} />
             </section>
