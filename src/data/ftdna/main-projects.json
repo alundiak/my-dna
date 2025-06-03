@@ -150,6 +150,11 @@
     "myMembership": true
   },
   {
+    "idGroup": "chechersk-dna",
+    "idPublic": "ChecherskDNA",
+    "myMembership": false
+  },
+  {
     "idGroup": "belarusian-nobility-dna",
     "idPublic": "Belarusian_Nobility_DNA",
     "myMembership": false
