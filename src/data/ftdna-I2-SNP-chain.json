@@ -120,7 +120,7 @@
   },
   {
     "snp": "I-FGC63213",
-    "same-level-snps": [
+    "sameLevelSNPs": [
       "I-BY182167 (also same level as I-FGC63213)",
       "I-FGC8449 (also same level as Q-FGC8433)",
       "I-Y4298 (also same level as Q-FGC8433)",
@@ -152,7 +152,7 @@
   },
   {
     "snp": "I-F7424",
-    "same-level-snps": [
+    "sameLevelSNPs": [
       "tbd"
     ],
     "people": [
@@ -161,7 +161,7 @@
   },
   {
     "snp": "I-FTF28876",
-    "same-level-snps": [
+    "sameLevelSNPs": [
       "FTF48764"
     ],
     "people": [
@@ -170,7 +170,7 @@
   },
   {
     "snp": "I-FTF29262",
-    "same-level-snps": [],
+    "sameLevelSNPs": [],
     "people": [
       "(FTDNA) HOLOPAINEN 🇫🇮?🇷🇺",
       "(FTDNA) Unknown Origin (Holopainen close match)"
@@ -178,7 +178,7 @@
   },
   {
     "snp": "I-FT89045",
-    "same-level-snps": [
+    "sameLevelSNPs": [
       "I-BY51714",
       "I-Y128937",
       "I-Y128456"
