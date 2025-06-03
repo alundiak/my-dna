@@ -77,9 +77,7 @@
   },
   {
     "snp": "I-Y4460",
-    "people": [
-      "KOSHMAN (Koszman, Kussman) 🇨🇦🇸🇰, Mar-2025. Big Y expected."
-    ]
+    "people": []
   },
   {
     "snp": "I-Y3106",
@@ -113,7 +111,8 @@
         "snp": "I-FT8963",
         "people": [
           "Kokov 🇷🇺 (FTDNA, YFULL)",
-          "Hulewicz/Gulevich 🇵🇱 de Wojuytcze 🇺🇦"
+          "Hulewicz/Gulevich 🇵🇱 de Wojuytcze 🇺🇦",
+          "KOSHMAN 🇨🇦 (Koszmann, Kussman), (🇸🇰 => Tužina), (🇺🇦 => Tudorovychi, Uhryniv)"
         ]
       }
     ]
