@@ -1,4 +1,4 @@
-@charset "UTF-8";#my-side-nav{position:sticky;top:10px;left:10px}#my-side-nav .active{color:#fff;background-color:#007bff}footer .links{display:flex;flex-wrap:wrap;gap:30px;justify-content:center}footer .links>div{align-items:center}/*!
+@charset "UTF-8";#my-side-nav{position:sticky;top:10px;left:10px}#my-side-nav .nav-link:hover{text-decoration:underline}#my-side-nav .active{color:#fff;background-color:#007bff}footer .links{display:flex;flex-wrap:wrap;gap:30px;justify-content:center}footer .links>div{align-items:center}.y-dna-app .col-10{min-width:1300px;overflow-wrap:break-word}/*!
  * Bootstrap  v5.3.6 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
