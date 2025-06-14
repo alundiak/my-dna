@@ -1,6 +1,7 @@
 export const FTDNA_GROUP = 'https://www.familytreedna.com/groups';
 export const FTDNA_PUBLIC = 'https://www.familytreedna.com/public';
-export const FTDNA_DISCOVER_GROUP_TIME_TREE = 'https://discover.familytreedna.com/groups';
+export const FTDNA_DISCOVER_GROUP_TIME_TREE =
+  'https://discover.familytreedna.com/groups';
 export const FTDNA_DISCOVER_Y_DNA = 'https://discover.familytreedna.com/y-dna';
 export const FTDNA_DISCOVER_MT_DNA = 'https://discover.familytreedna.com/mtdna';
 // Main page https://discover.familytreedna.com/,
@@ -32,7 +33,7 @@ export const SNP_TRACKER_URL = 'http://scaledinnovation.com/gg/snpTracker.html';
 export const THEY_TREE_URL = 'https://www.theytree.com';
 
 export const sideNavData = [
-  { id: 'home', label: 'back to top' },
+  // { id: 'home', label: 'back to top' }, // skipping in new approach
 
   { id: 'my-projects', label: 'My Projects' },
   { id: 'other-projects', label: 'Other Projects' },
@@ -43,12 +44,14 @@ export const sideNavData = [
   { id: 'y-group-time-tree', label: 'Y-DNA Group Time Tree' },
   // { id: 'mt-group-time-tree', label: 'mt-DNA Group Time Tree' },
 
-  { id: 'y-dna-pages-by-snp', label: 'Y-DNA Pages by SNP' },
-  { id: 'mt-dna-pages-by-snp', label: 'mtDNA Pages by SNP' },
+  { id: 'y-dna-pages-by-snp', label: 'Y-DNA Discover' },
+  { id: 'mt-dna-pages-by-snp', label: 'mtDNA Discover' },
 
-  { id: 'other-people', label: 'Other people' },
+  { id: 'discover-by-person', label: 'Discover (other)' },
   // { id: 'y-discover-by-person', label: 'Y-DNA Time Tree pages by Person' },
   // { id: 'mt-discover-by-person", label: "mt-DNA Discover pages by Person' },
 
-  { id: 'contacts', label: 'My Contacts' },
+  { id: 'yfull-pages-py-person', label: 'YFULL (other)' },
+
+  // { id: 'contacts', label: 'My Contacts' },
 ];

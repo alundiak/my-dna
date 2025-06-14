@@ -4,3 +4,10 @@
   padding: 2rem; */
   /* text-align: center; */
 }
+
+.y-dna-app {
+  .col-10 {
+    min-width: 1300px;
+    overflow-wrap: break-word;
+  }
+}

@@ -3,6 +3,10 @@
   top: 10px;
   left: 10px;
 
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
   .active {
     color: white;
     background-color: #007bff;

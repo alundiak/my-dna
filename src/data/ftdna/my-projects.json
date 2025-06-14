@@ -2,11 +2,13 @@
   {
     "idGroup": "ivano-frankivskregion",
     "idPublic": "Ivano-Frankivskregion",
-    "myMembership": true
+    "myMembership": true,
+    "admin": true
   },
   {
     "idGroup": "lunda",
     "idPublic": "LUNDA",
-    "myMembership": true
+    "myMembership": true,
+    "admin": true
   }
 ]

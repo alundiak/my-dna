@@ -1,5 +1,17 @@
 [
   {
+    "idGroup": "lunda",
+    "idPublic": "LUNDA",
+    "myMembership": true,
+    "admin": true
+  },
+  {
+    "idGroup": "ivano-frankivskregion",
+    "idPublic": "Ivano-Frankivskregion",
+    "myMembership": true,
+    "admin": true
+  },
+  {
     "idGroup": "i-2a-hap-group",
     "idPublic": "I2aHapGroup",
     "mtDnaResults": false,
@@ -215,6 +227,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "denmark",
+    "idPublic": "Denmark",
+    "myMembership": false
+  },
+  {
     "idGroup": "sweden",
     "idPublic": "Sweden",
     "myMembership": false
@@ -351,7 +368,7 @@
   {
     "idGroup": "romania",
     "idPublic": "Romania",
-    "myMembership": true
+    "myMembership": false
   },
   {
     "idGroup": "romanydna",

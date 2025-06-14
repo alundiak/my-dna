@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from 'reactstrap';
+import { Button, type ButtonProps } from 'reactstrap';
 import './MyButton.css';
 
 export function MyBasicButton(props: ButtonProps) {
