@@ -15,7 +15,8 @@ export function MySideNavRouting() {
   return (
     <Nav vertical className="bg-light p-1" style={{ minWidth: '240px' }}>
       {sideNavData.map((item: NavItemModel) => {
-        const path = item.id === 'my-projects' ? '' : item.id;
+        // const path = item.id === 'my-projects' ? '' : item.id;
+        const path = item.id === 'other-ftdna-projects' ? '' : item.id;
         const isActive =
           path === ''
             ? location.pathname === '/'

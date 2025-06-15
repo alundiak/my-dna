@@ -8,7 +8,7 @@ export function OtherProjects() {
 
   return (
     <>
-      <h3 id="other-projects">Other Projects</h3>
+      <h3 id="other-ftdna-projects">FTDNA Projects</h3>
       <Container className="bg-light border">
         <Row>
           <Col>

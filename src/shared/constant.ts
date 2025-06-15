@@ -35,8 +35,8 @@ export const THEY_TREE_URL = 'https://www.theytree.com';
 export const sideNavData = [
   // { id: 'home', label: 'back to top' }, // skipping in new approach
 
-  { id: 'my-projects', label: 'My Projects' },
-  { id: 'other-projects', label: 'Other Projects' },
+  // { id: 'my-ftdna-projects', label: 'My FTDNA Projects' },
+  { id: 'other-ftdna-projects', label: 'FTDNA Projects' },
 
   { id: 'y-dna-public', label: 'Y-DNA Public' },
   { id: 'mt-dna-public', label: 'mtDNA Public' },
