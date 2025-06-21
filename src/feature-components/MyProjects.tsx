@@ -11,7 +11,7 @@ export function MyProjects() {
 
   return (
     <>
-      <h3 id="my-projects">My Projects</h3>
+      <h3 id="my-ftdna-projects">My Projects</h3>
       <Container className="bg-light border">
         <Row>
           <Col>

@@ -113,6 +113,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "banat-dna",
+    "idPublic": "Banat-DNA",
+    "myMembership": false
+  },
+  {
     "idGroup": "saudi-arabia",
     "idPublic": "SaudiArabia",
     "myMembership": false,

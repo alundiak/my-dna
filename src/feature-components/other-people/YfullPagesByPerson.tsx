@@ -24,8 +24,8 @@ export function YfullPagesByPerson() {
               </a>
             </li>
             <li>
-              <a href="https://www.yfull.com/live/tree/N-Y304511/">
-                N1c+ Максим Лактионов{' '}
+              <a href="https://www.yfull.com/live/tree/N-Y304511/ ">
+                N1c+ Максим Лактионов (+ москвич)
               </a>
             </li>
           </ul>

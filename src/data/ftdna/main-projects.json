@@ -177,6 +177,11 @@
     "myMembership": true
   },
   {
+    "idGroup": "balto-slavic-dna",
+    "idPublic": "Balto-SlavicDNA",
+    "myMembership": true
+  },
+  {
     "idGroup": "ostpreussen-east-prussia",
     "idPublic": "Ostpreussen_East_Prussia",
     "myMembership": false
