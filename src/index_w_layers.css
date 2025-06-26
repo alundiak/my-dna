@@ -1,51 +1,10 @@
-@import 'bootstrap';
+/* LAYERS order, must be declared at the top of file */
+@layer packages, tokens, reset, base, links, components, utilities, andrii, lundiak;
+
 /* It works, injects CSS properly from node_modules */
 /* But if layers used it may depend on which level other CSS chunks included... */
 /* As experiment I will leave it here for some time */
-
-/* LAYERS order, must be declared at the top of file */
-@layer tokens, reset, base, components, utilities, andrii, lundiak;
-
-/* THAT was base code from Vite React boilerplate with small change by me */
-/*
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-*/
-
-/* And I added this new CODE, which I intend to wrap by some layer */
-/* But it doesn't work properly - Bootstrap CSS then takes in action */
-/* TBD */
-a {
-  /* color: #1a0dab; */
-  text-decoration: none;
-}
-
-a[target='_blank']:visited {
-  color: #4f0491;
-}
-
-a[target='_blank']:hover {
-  color: #535bf2;
-  text-decoration: underline;
-}
-
-a[target='_blank']:focus-visible {
-  outline: 2px solid #ff9800;
-  outline-offset: 3px;
-  text-decoration: none;
-}
-
-a[target='_blank']:active {
-  color: #b20000;
-}
-/* ___ */
-/* NEW */
+@import 'bootstrap' layer(packages);
 
 /* LAYERS implementations */
 
@@ -66,13 +25,39 @@ a[target='_blank']:active {
   }
 }
 
-@layer reset {
+/* kinda OK when bootstrap imported in as Unlayered */
+/* kinda bad, when bootstrap is imported via layer */
+/* @layer reset {
   *,
   *::before,
   *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+} */
+
+@layer base {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+
+    a:hover {
+      color: #747bff;
+    }
   }
 }
 
@@ -105,27 +90,30 @@ a[target='_blank']:active {
   }
 }
 
-@layer base {
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@layer links {
+  /* This code may work not properly if Bootstrap CSS imported as a" via JS, b) Unlayered, c) under some layer */
+  /* TBD */
+  a {
+    text-decoration: none;
   }
 
-  h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+  a[target='_blank']:visited {
+    color: #4f0491;
   }
 
-  @media (prefers-color-scheme: light) {
-    :root {
-      color: #213547;
-      background-color: #ffffff;
-    }
+  a[target='_blank']:hover {
+    color: #535bf2;
+    text-decoration: underline;
+  }
 
-    a:hover {
-      color: #747bff;
-    }
+  a[target='_blank']:focus-visible {
+    outline: 2px solid #ff9800;
+    outline-offset: 3px;
+    text-decoration: none;
+  }
+
+  a[target='_blank']:active {
+    color: #b20000;
   }
 }
 

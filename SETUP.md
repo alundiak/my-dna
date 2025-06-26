@@ -20,6 +20,13 @@ Decides to rework base `index.css` from Vite + React boilerplate into using CSS 
 | `frameworks` | ❌ No             | ⚠️ Sometimes        |
 | `packages`   | ❌ No             | ⚠️ Rare             |
 
+Cascade Order (from lowest to highest priority):
+
+- Browser styles
+- Layered styles (via `@layer`)
+- Unlayered styles (`@import` or direct CSS)
+- Inline styles or JS-modified styles
+
 ![example in browser](./images/css-layers.png)
 
 # 2024
