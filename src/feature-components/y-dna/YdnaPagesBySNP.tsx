@@ -1,17 +1,22 @@
 import { Container } from 'reactstrap';
 import i2aSNPdata from '../../data/ftdna-I2-SNP-chain.json';
 import { parseSNP_data } from '../../shared/common';
-import { FTDNA_DISCOVER_Y_DNA, SNP_TRACKER_URL, THEY_TREE_URL, YFULL_URL } from '../../shared/constant';
+import {
+  FTDNA_DISCOVER_Y_DNA,
+  SNP_TRACKER_URL,
+  THEY_TREE_URL,
+  YFULL_URL,
+} from '../../shared/constant';
 import { YdnaSNPmatchPeople } from './YdnaSNPmatchPeople';
 
-interface MyCustomData {
+interface MyYDnaCustomData {
   snp: string;
-  people: object;
+  people: string[];
   sameLevelSNPs?: string[];
-  children?: MyCustomData;
+  children?: MyYDnaCustomData;
 }
 
-const renderListItems = (element: MyCustomData | string, index: number) => {
+const renderListItems = (element: MyYDnaCustomData | string, index: number) => {
   const { SNP, people } = parseSNP_data(element);
   const key = `${index}-${SNP}-y-dna-snp`;
   const ftdnaURL = `${FTDNA_DISCOVER_Y_DNA}/${SNP}`; // TBD: maybe add/extend with suffixes
@@ -55,7 +60,9 @@ export function YdnaPagesBySNP() {
       <h3 id="y-dna-pages-by-snp">Y-DNA pages by SNP</h3>
       <Container className="bg-light border">
         <section>
-          <ul>{(i2aSNPdata as MyCustomData[] | string[]).map(renderListItems)}</ul>
+          <ul>
+            {(i2aSNPdata as MyYDnaCustomData[] | string[]).map(renderListItems)}
+          </ul>
         </section>
       </Container>
     </>

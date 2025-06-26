@@ -1,8 +1,15 @@
 [
   {
     "snp": "H13a1d",
-    "same-level-snps": [],
-    "haplotype": "",
+    "haplotypes": [
+      {
+        "value": "F9120919",
+        "people": [
+          "Bodnar",
+          "Krężel"
+        ]
+      }
+    ],
     "people": [
       "🇺🇦 Kateryna Babij",
       "+ 3 🇺🇦",
@@ -31,14 +38,14 @@
     ],
     "haplotypes": [
       {
-        "haplotypes": "F1621813",
+        "value": "F1621813",
         "people": [
           "1 🇭🇺",
           "3 Unknown"
         ]
       },
       {
-        "haplotype": "F5654829",
+        "value": "F5654829",
         "people": [
           "1 🇧🇾",
           "1 🇺🇦",
@@ -50,7 +57,6 @@
   },
   {
     "snp": "H13a1d4",
-    "same-level-snps": [],
     "people": [
       "Chello 🇨🇭?"
     ]

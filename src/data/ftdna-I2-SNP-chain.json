@@ -55,14 +55,14 @@
       "Oleksii Striapko 🇺🇦 - https://www.facebook.com/oleksii.striapko",
       "Ivan Simeonov Stojkov",
       "John Popp Jr.",
-      "Edward Behringer",
+      "Edward Behringer (STR match for Yanytskyy)",
       "Vladimir Gorbachev 🇷🇺",
       "jozef skop",
       "Velyslav Lesyk 🇺🇦 (Lviv region, Старий Самбір) - managed by https://www.facebook.com/profile.php?id=100040914701293",
       "Олег Сохацький (Дзвиняч, Тернопільска область) 🇺🇦",
       "Roman Kozan, Liski, більше Polska 🇵🇱 (але частково Ukraine 🇺🇦)",
       "Ivan Ivanushchak (Babche)",
-      "Andrii Lavrinenko"
+      "... Z17855+, Oleg Yantytskyy 🇺🇦"
     ]
   },
   "I-Y3120",
@@ -80,13 +80,13 @@
     "snp": "I-Y3106",
     "people": [
       "... I-BY112455 - Szamoskozi 🇭🇺 (FTDNA)",
-      "MAYBE Oleg Yantytskyy 🇺🇦",
       "... I-Y47356 - L. Masterov (my Y12 STR match)",
       "... I-Y47356 - another Lithuanian man",
       "... I-A13916 - Szemiet (my Big Y 700 match, but not-STR match)",
       "... I-BY199341 - Vorobev (my Y67 STR match)",
       "... I-FT18774 - Kravets (my Y67 STR match)",
-      "... I-FT2413 - Trajkov (my Y67 STR match)"
+      "... I-FT2413 - Trajkov (my Y67 STR match)",
+      "... I-Y3118+ Andrii Lavrinenko 🇺🇦"
     ]
   },
   {
@@ -107,8 +107,7 @@
     "people": [
       "... FT8963, Gulevich/Hulewicz 🇵🇱 de Wojuytcze 🇺🇦 (maternal: Romania🇷🇴)",
       "... FT8688, Kokov 🇷🇺 (FTDNA, YFULL)",
-      "... FT8688, Koshman 🇨🇦 (Koszmann, Kussman), (🇸🇰 => Tužina), (🇺🇦 => Tudorovychi, Uhryniv)",
-      "MAYBE Oleg Yantytskyy 🇺🇦"
+      "... FT8688, Koshman 🇨🇦 (Koszmann, Kussman), (🇸🇰 => Tužina), (🇺🇦 => Tudorovychi, Uhryniv)"
     ]
   },
   {
@@ -135,11 +134,11 @@
       "(FTDNA) Known 4 - ROMPPAINEN 🇫🇮🇷🇺",
       "(FTDNA) Known 5 - NOCHOVKIN 🇺🇦",
       "(FTDNA) Known 6 - PALONKO (Паленчук => Палёнко) 🇺🇦",
-      "Palonko father - TBD"
+      "(Ancestry => FTDNA) Palonko father - TBD"
     ]
   },
   {
-    "snp": "I-FGC63213-*",
+    "snp": "I-FGC63213*",
     "people": [
       "(YFULL) Anton POLYAKOV 🇷🇺 (states that MRCA is Brothers CHEREPANOV)"
     ]
@@ -179,9 +178,7 @@
     ],
     "people": [
       "(FTDNA) Andrii LUNDIAK 🇺🇦",
-      "(FTDNA) DAUJOTAS 🇱🇹",
-      "(FTDNA) KOSAREO 🇺🇦🇷🇺🇵🇱🇺🇸",
-      "(FTNDA) KRIAUCIAUNAS 🇧🇪🇱🇹 (Tyszkiewicz 🇵🇱) - I paid for his Big Y 700 UPGRADE"
+      "(FTDNA) KOSAREO 🇺🇦🇷🇺🇵🇱🇺🇸"
     ]
   },
   {
@@ -190,6 +187,16 @@
       "(YFULL) Andrii LUNDIAK 🇺🇦",
       "(YFULL) DAUJOTAS 🇱🇹",
       "(YFULL) ZAGORUIKO 🇺🇦"
+    ]
+  },
+  {
+    "snp": "I-BY181496",
+    "sameLevelSNPs": [
+      "BY181083, BY181540, BY181952, BY181986, BY182011, BY182079, BY182148, FGC4953, FT181931"
+    ],
+    "people": [
+      "(FTDNA) DAUJOTAS 🇱🇹",
+      "(FTNDA) KRIAUCIAUNAS 🇧🇪🇱🇹 (Tyszkiewicz 🇵🇱) - I paid for his Big Y 700 UPGRADE"
     ]
   },
   "I-FT88512",

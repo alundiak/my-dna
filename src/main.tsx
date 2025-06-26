@@ -5,8 +5,11 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App.tsx';
 // import { MyExperiments } from './base-components/other/MyExperiments';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+// TBD @import in CSS as layer(packages)
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import './index_from_boilerplate.css';
+import './index_w_layers.css';
 
 const basePath = '/my-dna';
 

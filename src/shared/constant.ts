@@ -44,8 +44,8 @@ export const sideNavData = [
   { id: 'y-group-time-tree', label: 'Y-DNA Group Time Tree' },
   // { id: 'mt-group-time-tree', label: 'mt-DNA Group Time Tree' },
 
-  { id: 'y-dna-pages-by-snp', label: 'Y-DNA Discover' },
-  { id: 'mt-dna-pages-by-snp', label: 'mtDNA Discover' },
+  { id: 'y-dna-pages-by-snp', label: 'Y-DNA pages' },
+  { id: 'mt-dna-pages-by-snp', label: 'mtDNA pages' },
 
   { id: 'discover-by-person', label: 'Discover (other)' },
   // { id: 'y-discover-by-person', label: 'Y-DNA Time Tree pages by Person' },

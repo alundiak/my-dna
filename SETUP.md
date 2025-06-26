@@ -1,5 +1,29 @@
 ## SETUP
 
+# 2025
+
+Decides to rework base `index.css` from Vite + React boilerplate into using CSS Layers aka `@layer`.
+
+| Feature                     | Standard? | Notes                               |
+| --------------------------- | --------- | ----------------------------------- |
+| `@layer` syntax             | ✅ Yes    | Part of official CSS                |
+| Named layers (`reset`, etc) | ❌ No     | Developer-defined, not standardized |
+| Built-in browser layers     | ❌ No     | No predefined or automatic layers   |
+
+| Layer name   | Standard in spec? | Common in practice? |
+| ------------ | ----------------- | ------------------- |
+| `reset`      | ❌ No             | ✅ Yes              |
+| `tokens`     | ❌ No             | ✅ Yes              |
+| `base`       | ❌ No             | ✅ Yes              |
+| `components` | ❌ No             | ✅ Yes              |
+| `utilities`  | ❌ No             | ✅ Yes              |
+| `frameworks` | ❌ No             | ⚠️ Sometimes        |
+| `packages`   | ❌ No             | ⚠️ Rare             |
+
+![example in browser](./images/css-layers.png)
+
+# 2024
+
 https://vite.dev/guide/
 
 Initially project bootstrapped with minimal setup within Vite, with HMR and some ESLint rules.
