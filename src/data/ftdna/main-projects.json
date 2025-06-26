@@ -54,6 +54,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "lvivregion",
+    "idPublic": "Lvivregion",
+    "myMembership": false
+  },
+  {
     "idGroup": "braclawszczyzna",
     "idPublic": "Braclawszczyzna",
     "myMembership": false
@@ -111,6 +116,11 @@
   {
     "idGroup": "moldova",
     "idPublic": "Moldova",
+    "myMembership": false
+  },
+  {
+    "idGroup": "jewish-polesie",
+    "idPublic": "jewish-polesie",
     "myMembership": false
   },
   {
