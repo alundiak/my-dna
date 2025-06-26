@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+
+// BrowserRouter is OK, but when page refreshed route is gone, and it's 404 then
+import { HashRouter } from 'react-router-dom';
 
 import App from './App.tsx';
 // import { MyExperiments } from './base-components/other/MyExperiments';
@@ -11,15 +13,15 @@ import App from './App.tsx';
 // import './index_from_boilerplate.css';
 import './index_w_layers.css';
 
-const basePath = '/my-dna';
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <div className="m-3">
       {/* <MyExperiments /> */}
-      <BrowserRouter basename={basePath}>
+      {/* <BrowserRouter basename="/my-dna"}> */}
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
+      {/* <BrowserRouter/> */}
     </div>
   </React.StrictMode>,
 );
