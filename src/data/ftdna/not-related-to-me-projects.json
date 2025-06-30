@@ -1,14 +1,38 @@
 [
   {
+    "idGroup": "holopainen-dna",
+    "idPublic": "HolopainenDNA",
+    "myMembership": false
+  },
+  {
+    "idGroup": "savo-dna",
+    "idPublic": "janhunen-janhonen",
+    "myMembership": false
+  },
+  {
+    "idGroup": "kowallis-and-kowalis",
+    "idPublic": "kowallis_and_kowalis",
+    "myMembership": false
+  },
+  {
+    "idGroup": "poliakov",
+    "idPublic": "Poliakov",
+    "myMembership": false
+  },
+  {
     "idGroup": "piastdynasty",
     "idPublic": "piastdynasty",
     "myMembership": false,
     "resultsRequireLogin": true
   },
   {
-    "idGroup": "poliakov",
-    "idPublic": "Poliakov",
-    "myMembership": false
+    "idGroup": "haplogroup-iydna",
+    "idPublic": "haplogroup-iydna",
+    "resultsRequireLogin": true,
+    "resultsDisabled": true,
+    "mtDnaResults": false,
+    "myMembership": false,
+    "comment": "This is I-M170 root, just before I1 and I2 split"
   },
   {
     "idGroup": "i-2a-l161",
@@ -55,6 +79,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "e-v13",
+    "idPublic": "E-v13",
+    "myMembership": false
+  },
+  {
     "idGroup": "hebrew",
     "idPublic": "Hebrew",
     "myMembership": false
@@ -75,10 +104,35 @@
     "myMembership": false
   },
   {
+    "idGroup": "tatarstan",
+    "idPublic": "Tatarstan",
+    "myMembership": false
+  },
+  {
+    "idGroup": "circassian",
+    "idPublic": "UbykhSochi",
+    "myMembership": false
+  },
+  {
+    "idGroup": "georgia",
+    "idPublic": "georgia",
+    "myMembership": false
+  },
+  {
     "idGroup": "karachev-dna-project",
     "idPublic": "Karachev_DNA_project",
     "myMembership": false,
     "H13a1d": "true"
+  },
+  {
+    "idGroup": "caucasus",
+    "idPublic": "Сaucasus",
+    "myMembership": false
+  },
+  {
+    "idGroup": "k-balkar-dna",
+    "idPublic": "KBalkarDNA",
+    "myMembership": false
   },
   {
     "idGroup": "armeniadnaproject",
@@ -87,20 +141,20 @@
     "H13a1d": "true"
   },
   {
+    "idGroup": "anatol-balkan-caucas",
+    "idPublic": "Anatol-Balkan-Caucas",
+    "myMembership": false
+  },
+  {
+    "idGroup": "Greece",
+    "idPublic": "Greece",
+    "myMembership": false
+  },
+  {
     "idGroup": "wiki-tree",
     "idPublic": "WikiTree",
     "myMembership": false,
     "H13a1d": "true"
-  },
-  {
-    "idGroup": "holopainen-dna",
-    "idPublic": "HolopainenDNA",
-    "myMembership": false
-  },
-  {
-    "idGroup": "savo-dna",
-    "idPublic": "janhunen-janhonen",
-    "myMembership": false
   },
   {
     "idGroup": "patriots-and-royalty",

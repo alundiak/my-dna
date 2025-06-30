@@ -26,7 +26,7 @@
   {
     "idGroup": "ukraine",
     "idPublic": "ukraine",
-    "myMembership": true
+    "myMembership": false
   },
   {
     "idGroup": "bereziv-berezw",
@@ -46,7 +46,7 @@
   {
     "idGroup": "dinaric-alps-dna",
     "idPublic": "dinaric_alps_dna",
-    "myMembership": true
+    "myMembership": false
   },
   {
     "idGroup": "volyn",
@@ -189,7 +189,7 @@
   {
     "idGroup": "balto-slavic-dna",
     "idPublic": "Balto-SlavicDNA",
-    "myMembership": true
+    "myMembership": false
   },
   {
     "idGroup": "ostpreussen-east-prussia",
@@ -262,11 +262,6 @@
     "myMembership": true
   },
   {
-    "idGroup": "kowallis-and-kowalis",
-    "idPublic": "kowallis_and_kowalis",
-    "myMembership": false
-  },
-  {
     "idGroup": "norway",
     "idPublic": "norway",
     "resultsDisabled": false,
@@ -313,31 +308,6 @@
   {
     "idGroup": "russian-ethnic-project",
     "idPublic": "RussianEthnicProject",
-    "myMembership": false
-  },
-  {
-    "idGroup": "tatarstan",
-    "idPublic": "Tatarstan",
-    "myMembership": false
-  },
-  {
-    "idGroup": "circassian",
-    "idPublic": "UbykhSochi",
-    "myMembership": false
-  },
-  {
-    "idGroup": "georgia",
-    "idPublic": "georgia",
-    "myMembership": false
-  },
-  {
-    "idGroup": "anatol-balkan-caucas",
-    "idPublic": "Anatol-Balkan-Caucas",
-    "myMembership": false
-  },
-  {
-    "idGroup": "Greece",
-    "idPublic": "Greece",
     "myMembership": false
   },
   {
@@ -465,6 +435,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "slovenianorigin",
+    "idPublic": "Slovenianorigin",
+    "myMembership": false
+  },
+  {
     "idGroup": "italy",
     "idPublic": "Italy",
     "myMembership": false
@@ -559,14 +534,6 @@
   {
     "idGroup": "colonial-usa-deutsch",
     "idPublic": "colonial-usa-deutsch",
-    "myMembership": false
-  },
-  {
-    "idGroup": "haplogroup-iydna",
-    "idPublic": "haplogroup-iydna",
-    "resultsRequireLogin": true,
-    "resultsDisabled": true,
-    "mtDnaResults": false,
     "myMembership": false
   }
 ]
