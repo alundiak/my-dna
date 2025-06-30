@@ -15033,15 +15033,39 @@ function ListOfProjects({ data }) {
 }
 const notRelatedProjects = [
   {
+    idGroup: "holopainen-dna",
+    idPublic: "HolopainenDNA",
+    myMembership: false
+  },
+  {
+    idGroup: "savo-dna",
+    idPublic: "janhunen-janhonen",
+    myMembership: false
+  },
+  {
+    idGroup: "kowallis-and-kowalis",
+    idPublic: "kowallis_and_kowalis",
+    myMembership: false
+  },
+  {
+    idGroup: "poliakov",
+    idPublic: "Poliakov",
+    myMembership: false
+  },
+  {
     idGroup: "piastdynasty",
     idPublic: "piastdynasty",
     myMembership: false,
     resultsRequireLogin: true
   },
   {
-    idGroup: "poliakov",
-    idPublic: "Poliakov",
-    myMembership: false
+    idGroup: "haplogroup-iydna",
+    idPublic: "haplogroup-iydna",
+    resultsRequireLogin: true,
+    resultsDisabled: true,
+    mtDnaResults: false,
+    myMembership: false,
+    comment: "This is I-M170 root, just before I1 and I2 split"
   },
   {
     idGroup: "i-2a-l161",
@@ -15088,6 +15112,11 @@ const notRelatedProjects = [
     myMembership: false
   },
   {
+    idGroup: "e-v13",
+    idPublic: "E-v13",
+    myMembership: false
+  },
+  {
     idGroup: "hebrew",
     idPublic: "Hebrew",
     myMembership: false
@@ -15108,10 +15137,35 @@ const notRelatedProjects = [
     myMembership: false
   },
   {
+    idGroup: "tatarstan",
+    idPublic: "Tatarstan",
+    myMembership: false
+  },
+  {
+    idGroup: "circassian",
+    idPublic: "UbykhSochi",
+    myMembership: false
+  },
+  {
+    idGroup: "georgia",
+    idPublic: "georgia",
+    myMembership: false
+  },
+  {
     idGroup: "karachev-dna-project",
     idPublic: "Karachev_DNA_project",
     myMembership: false,
     H13a1d: "true"
+  },
+  {
+    idGroup: "caucasus",
+    idPublic: "Сaucasus",
+    myMembership: false
+  },
+  {
+    idGroup: "k-balkar-dna",
+    idPublic: "KBalkarDNA",
+    myMembership: false
   },
   {
     idGroup: "armeniadnaproject",
@@ -15120,20 +15174,20 @@ const notRelatedProjects = [
     H13a1d: "true"
   },
   {
+    idGroup: "anatol-balkan-caucas",
+    idPublic: "Anatol-Balkan-Caucas",
+    myMembership: false
+  },
+  {
+    idGroup: "Greece",
+    idPublic: "Greece",
+    myMembership: false
+  },
+  {
     idGroup: "wiki-tree",
     idPublic: "WikiTree",
     myMembership: false,
     H13a1d: "true"
-  },
-  {
-    idGroup: "holopainen-dna",
-    idPublic: "HolopainenDNA",
-    myMembership: false
-  },
-  {
-    idGroup: "savo-dna",
-    idPublic: "janhunen-janhonen",
-    myMembership: false
   },
   {
     idGroup: "patriots-and-royalty",
@@ -15200,7 +15254,7 @@ const notRelatedProjects = [
     myMembership: false
   }
 ];
-const ftDnaProjects = /* @__PURE__ */ JSON.parse('[{"idGroup":"lunda","idPublic":"LUNDA","myMembership":true,"admin":true},{"idGroup":"ivano-frankivskregion","idPublic":"Ivano-Frankivskregion","myMembership":true,"admin":true},{"idGroup":"i-2a-hap-group","idPublic":"I2aHapGroup","mtDnaResults":false,"myMembership":true},{"idGroup":"ukrainian-dna","idPublic":"UkrainianDNA","myMembership":true,"resultsRequireLogin":true},{"idGroup":"ukraine","idPublic":"ukraine","myMembership":true},{"idGroup":"bereziv-berezw","idPublic":"BerezivBerezw","myMembership":false},{"idGroup":"carpatho-rusyn","idPublic":"carpatho-rusyn","myMembership":true},{"idGroup":"lemko-genealogy","idPublic":"LemkoGenealogy","myMembership":false},{"idGroup":"dinaric-alps-dna","idPublic":"dinaric_alps_dna","myMembership":true},{"idGroup":"volyn","idPublic":"Volyn","myMembership":false},{"idGroup":"lvivregion","idPublic":"Lvivregion","myMembership":false},{"idGroup":"braclawszczyzna","idPublic":"Braclawszczyzna","myMembership":false},{"idGroup":"skarbek-awdaniec","idPublic":"skarbek_awdaniec","myMembership":false},{"idGroup":"desna-dna","idPublic":"zadesennya_dna","yDnaResultsOnly":true,"myMembership":false},{"idGroup":"poltavaregion","idPublic":"poltavaregion","myMembership":false},{"idGroup":"cossacks","idPublic":"Cossacks","mtDnaResults":false,"myMembership":false},{"idGroup":"cossack-dna","idPublic":"CossackDNA","mtDnaResults":true,"myMembership":false},{"idGroup":"ukraine-black-sea","idPublic":"UkraineBlackSea","myMembership":false},{"idGroup":"crimean-tatar-dna","idPublic":"CrimeanTatarDNA","myMembership":false},{"idGroup":"bessarabia","idPublic":"Bessarabia","myMembership":false},{"idGroup":"romanian-moldovaand-bucovina","idPublic":"RomanianMoldovaandBucovina","myMembership":false,"yDnaResultsOnly":true,"mtDnaResults":false},{"idGroup":"moldova","idPublic":"Moldova","myMembership":false},{"idGroup":"jewish-polesie","idPublic":"jewish-polesie","myMembership":false},{"idGroup":"jewish-ukraine-west","idPublic":"Jewish_Ukraine_West","myMembership":false},{"idGroup":"polish","idPublic":"polish","myMembership":true,"resultsRequireLogin":true},{"idGroup":"pol-lithnobility","idPublic":"POL-LITHNOBILITY","myMembership":false},{"idGroup":"ossolinski","idPublic":"ossolinski","mtDnaResults":false,"myMembership":false},{"idGroup":"otwock","idPublic":"otwock","mtDnaResults":false,"myMembership":false},{"idGroup":"dna-stia","idPublic":"DNA-stia","myMembership":false},{"idGroup":"podlasie","idPublic":"Podlasie","myMembership":true},{"idGroup":"masovian-nob","idPublic":"MasovianNob","myMembership":false},{"idGroup":"belarus","idPublic":"belarus","myMembership":true},{"idGroup":"chechersk-dna","idPublic":"ChecherskDNA","myMembership":false},{"idGroup":"belarusian-nobility-dna","idPublic":"Belarusian_Nobility_DNA","myMembership":false},{"idGroup":"balticsea","idPublic":"balticsea","myMembership":true},{"idGroup":"balto-slavic-dna","idPublic":"Balto-SlavicDNA","myMembership":true},{"idGroup":"ostpreussen-east-prussia","idPublic":"Ostpreussen_East_Prussia","myMembership":false},{"idGroup":"prussia-preussen","idPublic":"PrussiaPreussen","myMembership":false},{"idGroup":"lituania-propria","idPublic":"LituaniaPropria","myMembership":true},{"idGroup":"latvia","idPublic":"Latvia","myMembership":false},{"idGroup":"estonia","idPublic":"Estonia","myMembership":false},{"idGroup":"finland","idPublic":"Finland","myMembership":true},{"idGroup":"forrestfinn","idPublic":"forrestfinn","myMembership":false},{"idGroup":"finno-ugric-dna","idPublic":"Finno-UgricDNA","myMembership":false},{"idGroup":"estonian-swedes-dna","idPublic":"EstonianSwedesDNA","myMembership":false},{"idGroup":"rurikid","idPublic":"rurikid","myMembership":false},{"idGroup":"denmark","idPublic":"Denmark","myMembership":false},{"idGroup":"sweden","idPublic":"Sweden","myMembership":false},{"idGroup":"gotland","idPublic":"gotland","myMembership":false},{"idGroup":"lund","idPublic":"Lund","myMembership":true},{"idGroup":"kowallis-and-kowalis","idPublic":"kowallis_and_kowalis","myMembership":false},{"idGroup":"norway","idPublic":"norway","resultsDisabled":false,"myMembership":false},{"idGroup":"vikingydna","idPublic":"vikingydna","mtDnaResults":null,"resultsDisabled":true,"myMembership":false},{"idGroup":"kursk-dna-project","idPublic":"KurskDNAProject","myMembership":false},{"idGroup":"ponticandanatoliangreeksdna","idPublic":"russiangreeks","myMembership":false,"activityFeed":"disabledBecauseNotMember"},{"idGroup":"russian-nobility-dna","idPublic":"RussianNobilityDNA","myMembership":false},{"idGroup":"russia","idPublic":"Russia","myMembership":false},{"idGroup":"russiadna","idPublic":"russiadna","myMembership":false},{"idGroup":"russian-dna","idPublic":"RussianDNA","myMembership":false},{"idGroup":"russian-ethnic-project","idPublic":"RussianEthnicProject","myMembership":false},{"idGroup":"tatarstan","idPublic":"Tatarstan","myMembership":false},{"idGroup":"circassian","idPublic":"UbykhSochi","myMembership":false},{"idGroup":"georgia","idPublic":"georgia","myMembership":false},{"idGroup":"anatol-balkan-caucas","idPublic":"Anatol-Balkan-Caucas","myMembership":false},{"idGroup":"Greece","idPublic":"Greece","myMembership":false},{"idGroup":"pontic-greek","idPublic":"PonticGreek","myMembership":false},{"idGroup":"europe-east-groups-eij","idPublic":"EuropeEastGroupsEIJ","myMembership":false},{"idGroup":"alpine-y-mt-dna","idPublic":"Alpine_DNA_Project_AlpGen_Genealogy","myMembership":false},{"idGroup":"balkangenetics","idPublic":"balkangenetics","myMembership":true},{"idGroup":"central-balkan-mountains","idPublic":"CentralBalkanMountains","myMembership":true,"maybeLeave":false},{"idGroup":"hungarian-magyar-y-dna-project","idPublic":"Hungarian_Magyar_Y-DNA_Project","resultsDisabled":true,"_mtDnaResults":false,"yDnaResultsOnly":true,"myMembership":false,"actually":"pending"},{"idGroup":"jaszsag","idPublic":"Jaszsag","myMembership":false},{"idGroup":"romania","idPublic":"Romania","myMembership":false},{"idGroup":"romanydna","idPublic":"romanydna","myMembership":false,"resultsDisabled":true},{"idGroup":"serbian-dna-project","idPublic":"SerbianDNAProject","myMembership":false},{"idGroup":"croatian-dna","idPublic":"CroatianDNA","myMembership":false},{"idGroup":"czech","idPublic":"czech","myMembership":false,"resultsDisabled":true},{"idGroup":"slovakia","idPublic":"slovakia","myMembership":false},{"idGroup":"spis-county-slovakia","idPublic":"Spis_County_Slovakia","myMembership":false,"resultsDisabled":true,"onlyMapResults":true},{"idGroup":"osturna","idPublic":"osturna","myMembership":false,"resultsDisabled":true},{"idGroup":"jewish-prague","idPublic":"JewishPrague","myMembership":false},{"idGroup":"jewish-czech-slovak","idPublic":"jewish-czech-slovak","myMembership":false,"resultsDisabled":true},{"idGroup":"germany","idPublic":"germany","myMembership":false},{"idGroup":"luther","idPublic":"Luther","myMembership":false},{"idGroup":"austria-hungary","idPublic":"austria-hungary","myMembership":"pending","resultsDisabled":true},{"idGroup":"austriamt-dn-asearch","idPublic":"AustriamtDNAsearch","myMembership":false,"mtDnaResults":true,"verySmallGroup":true},{"idGroup":"slovenia","idPublic":"slovenia","myMembership":false},{"idGroup":"italy","idPublic":"Italy","myMembership":false},{"idGroup":"england","idPublic":"England","myMembership":false,"mtDnaResults":false},{"idGroup":"anglo-saxonydnaproject","idPublic":"AngloSaxonydnaproject","myMembership":false,"yDnaResultsOnly":true,"mtDnaResults":false},{"idGroup":"british-isles","idPublic":"BritishIsles","myMembership":false,"mtDnaResults":true},{"idGroup":"britton","idPublic":"Britton","myMembership":false,"mtDnaResults":false},{"idGroup":"ireland","idPublic":"IRELAND","myMembership":false},{"idGroup":"ireland-heritage","idPublic":"IrelandHeritage","myMembership":false,"mtDnaResults":false,"yDnaResultsOnly":true},{"idGroup":"nifhs","idPublic":"NIFHS","myMembership":false},{"idGroup":"scandinavianswith-british-ydna","idPublic":"ScandinavianswithBritishYDNA","myMembership":false,"verySmallGroup":true},{"idGroup":"brittons-of-ireland","idPublic":"BrittonsofIreland","myMembership":false,"yDnaResultsOnly":true,"mtDnaResults":false,"mapsDisabled":true,"onlyMapResults":false},{"idGroup":"scottishdna","idPublic":"Scottishdna","myMembership":false},{"idGroup":"portugal","idPublic":"portugal","myMembership":false},{"idGroup":"frenchheritage","idPublic":"frenchheritage","myMembership":false},{"idGroup":"acadian-heritage","idPublic":"AcadianHeritage","myMembership":false},{"idGroup":"canadiananusim","idPublic":"canadiananusim","myMembership":false},{"idGroup":"ontario-province-canada","idPublic":"Ontario-Province-Canada","myMembership":false},{"idGroup":"colonial-usa-deutsch","idPublic":"colonial-usa-deutsch","myMembership":false},{"idGroup":"haplogroup-iydna","idPublic":"haplogroup-iydna","resultsRequireLogin":true,"resultsDisabled":true,"mtDnaResults":false,"myMembership":false}]');
+const ftDnaProjects = /* @__PURE__ */ JSON.parse('[{"idGroup":"lunda","idPublic":"LUNDA","myMembership":true,"admin":true},{"idGroup":"ivano-frankivskregion","idPublic":"Ivano-Frankivskregion","myMembership":true,"admin":true},{"idGroup":"i-2a-hap-group","idPublic":"I2aHapGroup","mtDnaResults":false,"myMembership":true},{"idGroup":"ukrainian-dna","idPublic":"UkrainianDNA","myMembership":true,"resultsRequireLogin":true},{"idGroup":"ukraine","idPublic":"ukraine","myMembership":false},{"idGroup":"bereziv-berezw","idPublic":"BerezivBerezw","myMembership":false},{"idGroup":"carpatho-rusyn","idPublic":"carpatho-rusyn","myMembership":true},{"idGroup":"lemko-genealogy","idPublic":"LemkoGenealogy","myMembership":false},{"idGroup":"dinaric-alps-dna","idPublic":"dinaric_alps_dna","myMembership":false},{"idGroup":"volyn","idPublic":"Volyn","myMembership":false},{"idGroup":"lvivregion","idPublic":"Lvivregion","myMembership":false},{"idGroup":"braclawszczyzna","idPublic":"Braclawszczyzna","myMembership":false},{"idGroup":"skarbek-awdaniec","idPublic":"skarbek_awdaniec","myMembership":false},{"idGroup":"desna-dna","idPublic":"zadesennya_dna","yDnaResultsOnly":true,"myMembership":false},{"idGroup":"poltavaregion","idPublic":"poltavaregion","myMembership":false},{"idGroup":"cossacks","idPublic":"Cossacks","mtDnaResults":false,"myMembership":false},{"idGroup":"cossack-dna","idPublic":"CossackDNA","mtDnaResults":true,"myMembership":false},{"idGroup":"ukraine-black-sea","idPublic":"UkraineBlackSea","myMembership":false},{"idGroup":"crimean-tatar-dna","idPublic":"CrimeanTatarDNA","myMembership":false},{"idGroup":"bessarabia","idPublic":"Bessarabia","myMembership":false},{"idGroup":"romanian-moldovaand-bucovina","idPublic":"RomanianMoldovaandBucovina","myMembership":false,"yDnaResultsOnly":true,"mtDnaResults":false},{"idGroup":"moldova","idPublic":"Moldova","myMembership":false},{"idGroup":"jewish-polesie","idPublic":"jewish-polesie","myMembership":false},{"idGroup":"jewish-ukraine-west","idPublic":"Jewish_Ukraine_West","myMembership":false},{"idGroup":"polish","idPublic":"polish","myMembership":true,"resultsRequireLogin":true},{"idGroup":"pol-lithnobility","idPublic":"POL-LITHNOBILITY","myMembership":false},{"idGroup":"ossolinski","idPublic":"ossolinski","mtDnaResults":false,"myMembership":false},{"idGroup":"otwock","idPublic":"otwock","mtDnaResults":false,"myMembership":false},{"idGroup":"dna-stia","idPublic":"DNA-stia","myMembership":false},{"idGroup":"podlasie","idPublic":"Podlasie","myMembership":true},{"idGroup":"masovian-nob","idPublic":"MasovianNob","myMembership":false},{"idGroup":"belarus","idPublic":"belarus","myMembership":true},{"idGroup":"chechersk-dna","idPublic":"ChecherskDNA","myMembership":false},{"idGroup":"belarusian-nobility-dna","idPublic":"Belarusian_Nobility_DNA","myMembership":false},{"idGroup":"balticsea","idPublic":"balticsea","myMembership":true},{"idGroup":"balto-slavic-dna","idPublic":"Balto-SlavicDNA","myMembership":false},{"idGroup":"ostpreussen-east-prussia","idPublic":"Ostpreussen_East_Prussia","myMembership":false},{"idGroup":"prussia-preussen","idPublic":"PrussiaPreussen","myMembership":false},{"idGroup":"lituania-propria","idPublic":"LituaniaPropria","myMembership":true},{"idGroup":"latvia","idPublic":"Latvia","myMembership":false},{"idGroup":"estonia","idPublic":"Estonia","myMembership":false},{"idGroup":"finland","idPublic":"Finland","myMembership":true},{"idGroup":"forrestfinn","idPublic":"forrestfinn","myMembership":false},{"idGroup":"finno-ugric-dna","idPublic":"Finno-UgricDNA","myMembership":false},{"idGroup":"estonian-swedes-dna","idPublic":"EstonianSwedesDNA","myMembership":false},{"idGroup":"rurikid","idPublic":"rurikid","myMembership":false},{"idGroup":"denmark","idPublic":"Denmark","myMembership":false},{"idGroup":"sweden","idPublic":"Sweden","myMembership":false},{"idGroup":"gotland","idPublic":"gotland","myMembership":false},{"idGroup":"lund","idPublic":"Lund","myMembership":true},{"idGroup":"norway","idPublic":"norway","resultsDisabled":false,"myMembership":false},{"idGroup":"vikingydna","idPublic":"vikingydna","mtDnaResults":null,"resultsDisabled":true,"myMembership":false},{"idGroup":"kursk-dna-project","idPublic":"KurskDNAProject","myMembership":false},{"idGroup":"ponticandanatoliangreeksdna","idPublic":"russiangreeks","myMembership":false,"activityFeed":"disabledBecauseNotMember"},{"idGroup":"russian-nobility-dna","idPublic":"RussianNobilityDNA","myMembership":false},{"idGroup":"russia","idPublic":"Russia","myMembership":false},{"idGroup":"russiadna","idPublic":"russiadna","myMembership":false},{"idGroup":"russian-dna","idPublic":"RussianDNA","myMembership":false},{"idGroup":"russian-ethnic-project","idPublic":"RussianEthnicProject","myMembership":false},{"idGroup":"pontic-greek","idPublic":"PonticGreek","myMembership":false},{"idGroup":"europe-east-groups-eij","idPublic":"EuropeEastGroupsEIJ","myMembership":false},{"idGroup":"alpine-y-mt-dna","idPublic":"Alpine_DNA_Project_AlpGen_Genealogy","myMembership":false},{"idGroup":"balkangenetics","idPublic":"balkangenetics","myMembership":true},{"idGroup":"central-balkan-mountains","idPublic":"CentralBalkanMountains","myMembership":true,"maybeLeave":false},{"idGroup":"hungarian-magyar-y-dna-project","idPublic":"Hungarian_Magyar_Y-DNA_Project","resultsDisabled":true,"_mtDnaResults":false,"yDnaResultsOnly":true,"myMembership":false,"actually":"pending"},{"idGroup":"jaszsag","idPublic":"Jaszsag","myMembership":false},{"idGroup":"romania","idPublic":"Romania","myMembership":false},{"idGroup":"romanydna","idPublic":"romanydna","myMembership":false,"resultsDisabled":true},{"idGroup":"serbian-dna-project","idPublic":"SerbianDNAProject","myMembership":false},{"idGroup":"croatian-dna","idPublic":"CroatianDNA","myMembership":false},{"idGroup":"czech","idPublic":"czech","myMembership":false,"resultsDisabled":true},{"idGroup":"slovakia","idPublic":"slovakia","myMembership":false},{"idGroup":"spis-county-slovakia","idPublic":"Spis_County_Slovakia","myMembership":false,"resultsDisabled":true,"onlyMapResults":true},{"idGroup":"osturna","idPublic":"osturna","myMembership":false,"resultsDisabled":true},{"idGroup":"jewish-prague","idPublic":"JewishPrague","myMembership":false},{"idGroup":"jewish-czech-slovak","idPublic":"jewish-czech-slovak","myMembership":false,"resultsDisabled":true},{"idGroup":"germany","idPublic":"germany","myMembership":false},{"idGroup":"luther","idPublic":"Luther","myMembership":false},{"idGroup":"austria-hungary","idPublic":"austria-hungary","myMembership":"pending","resultsDisabled":true},{"idGroup":"austriamt-dn-asearch","idPublic":"AustriamtDNAsearch","myMembership":false,"mtDnaResults":true,"verySmallGroup":true},{"idGroup":"slovenia","idPublic":"slovenia","myMembership":false},{"idGroup":"slovenianorigin","idPublic":"Slovenianorigin","myMembership":false},{"idGroup":"italy","idPublic":"Italy","myMembership":false},{"idGroup":"england","idPublic":"England","myMembership":false,"mtDnaResults":false},{"idGroup":"anglo-saxonydnaproject","idPublic":"AngloSaxonydnaproject","myMembership":false,"yDnaResultsOnly":true,"mtDnaResults":false},{"idGroup":"british-isles","idPublic":"BritishIsles","myMembership":false,"mtDnaResults":true},{"idGroup":"britton","idPublic":"Britton","myMembership":false,"mtDnaResults":false},{"idGroup":"ireland","idPublic":"IRELAND","myMembership":false},{"idGroup":"ireland-heritage","idPublic":"IrelandHeritage","myMembership":false,"mtDnaResults":false,"yDnaResultsOnly":true},{"idGroup":"nifhs","idPublic":"NIFHS","myMembership":false},{"idGroup":"scandinavianswith-british-ydna","idPublic":"ScandinavianswithBritishYDNA","myMembership":false,"verySmallGroup":true},{"idGroup":"brittons-of-ireland","idPublic":"BrittonsofIreland","myMembership":false,"yDnaResultsOnly":true,"mtDnaResults":false,"mapsDisabled":true,"onlyMapResults":false},{"idGroup":"scottishdna","idPublic":"Scottishdna","myMembership":false},{"idGroup":"portugal","idPublic":"portugal","myMembership":false},{"idGroup":"frenchheritage","idPublic":"frenchheritage","myMembership":false},{"idGroup":"acadian-heritage","idPublic":"AcadianHeritage","myMembership":false},{"idGroup":"canadiananusim","idPublic":"canadiananusim","myMembership":false},{"idGroup":"ontario-province-canada","idPublic":"Ontario-Province-Canada","myMembership":false},{"idGroup":"colonial-usa-deutsch","idPublic":"colonial-usa-deutsch","myMembership":false}]');
 const mtDnaOnlyProjects = [
   {
     idGroup: "h-mt-dna-haplogroup",
