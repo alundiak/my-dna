@@ -15904,145 +15904,27 @@ function DiscoverPagesByPerson() {
     /* @__PURE__ */ jsxRuntimeExports.jsxs(Container, { className: "bg-light border", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Y-DNA" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("section", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/I-FT278687",
-            target: "_blank",
-            children: "I2a-Y3118+ - Taras Kravchenko"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/I-BY78168",
-            target: "_blank",
-            children: "I2a-BY78168 - Vasyl Popovych (MRCA: Rev. Joachimi Lewicki)"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/I-FTF87323",
-            target: "_blank",
-            children: "I2a-FTF87323 Ivan Zenevych (level of Krakauer 8)"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/I-BY37221",
-            target: "_blank",
-            children: "I2a-BY37221 - Mr from Lugansk (and also Rivne, Polatava and Mr Rajkov from Macedonia) - all nearby Zarubino/Irkutsk 32 ancient sample"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/N-M6921",
-            target: "_blank",
-            children: "N1c-M6921 - Igor Dychta (Ukraine, Poland, Lithuania ... Gediminids )"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/R-BY20951",
-            target: "_blank",
-            children: "R1b-BY20951 - Dmitriy Romanyuk"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/R-BY50762",
-            target: "_blank",
-            children: "R1b-U152\\BY50762 - Vasyl Josypenko"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/R-Y2905",
-            target: "_blank",
-            children: "R-Y2905 - Ігор Розкладай"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/I-Z63",
-            target: "_blank",
-            children: "I1-Z63 - Сергій Фазульянов"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/R-L1029",
-            target: "_blank",
-            children: "R1a-L1029 - Mykhailo Iskiv"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/I-Y7477",
-            target: "_blank",
-            children: "I1-Y7477 (200 BCE) - Albert Sayin"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/y-dna/I-FT417135",
-            target: "_blank",
-            children: "I2a-Y3118+ - Андрій Лавріненко"
-          }
-        ) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-FT278687", target: "_blank", children: "I2a-Y3118+ Taras Kravchenko" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-BY78168", target: "_blank", children: "I2a-BY78168+ Vasyl Popovych (MRCA: Rev. Joachimi Lewicki)" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-FTF87323", target: "_blank", children: "I2a-FTF87323+ Ivan Zenevych (level of Krakauer 8)" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-BY37221", target: "_blank", children: "I2a-BY37221+ Mr from Lugansk (and also Rivne, Polatava and Mr Rajkov from Macedonia) - all nearby Zarubino/Irkutsk 32 ancient sample" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-FT417135", target: "_blank", children: "I2a-Y3118+ Андрій Лавріненко" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-BY133369/tree", target: "_blank", children: "I2a-Z17855+ Yanytskyy" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-Z63", target: "_blank", children: "I1-Z63 - Сергій Фазульянов" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/I-Y7477", target: "_blank", children: "I1-Y7477 (200 BCE) - Albert Sayin" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/R-Y2905", target: "_blank", children: "R1a-Y2905+ Ігор Розкладай" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/R-L1029", target: "_blank", children: "R1a-L1029+ Mykhailo Iskiv" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/R-BY20951", target: "_blank", children: "R1b-BY20951+ Dmitriy Romanyuk" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/R-BY50762", target: "_blank", children: "R1b-U152\\BY50762 Vasyl Josypenko" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/y-dna/N-M6921", target: "_blank", children: "N1c-M6921 Igor Dychta (Ukraine, Poland, Lithuania, Gediminids)" }) })
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "mt-DNA" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("section", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/mtdna/J1b1a1b",
-            target: "_blank",
-            children: "J1b1a1b - Jaroslav Sumyshyn"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/mtdna/TBD",
-            target: "_blank",
-            children: "TBD - Ігор Розкладай"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/mtdna/U5b2a1a",
-            target: "_blank",
-            children: "U5b2a1a-T16311C! - Сергій Фазульянов"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/mtdna/H1b2",
-            target: "_blank",
-            children: "мама Dmitriy Romanyuk"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://discover.familytreedna.com/mtdna/W3a1/",
-            target: "_blank",
-            children: "Sebastian Magnowski(Jezupol)"
-          }
-        ) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/mtdna/J1b1a1b", target: "_blank", children: "J1b1a1b - Jaroslav Sumyshyn" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/mtdna/TBD", target: "_blank", children: "TBD - Ігор Розкладай" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/mtdna/U5b2a1a", target: "_blank", children: "U5b2a1a-T16311C! - Сергій Фазульянов" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/mtdna/H1b2", target: "_blank", children: "мама Dmitriy Romanyuk" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://discover.familytreedna.com/mtdna/W3a1/", target: "_blank", children: "Sebastian Magnowski(Jezupol)" }) })
       ] }) })
     ] })
   ] });
@@ -16054,30 +15936,10 @@ function YfullPagesByPerson() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Y-DNA pages" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://www.yfull.com/tree/I-FT278687/", target: "_blank", children: "I2a+ Taras Kravchenko" }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://www.yfull.com/live/tree/I-Y225862/",
-            target: "_blank",
-            children: "I2a-S17250+ Sebastian Piotrowski"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://www.yfull.com/live/tree/N-M6921/",
-            target: "_blank",
-            children: "N1c+ Igor Dychta"
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://www.yfull.com/live/tree/N-Y304511/",
-            target: "_blank",
-            children: "N1c+ Максим Лактионов (+ москвич)"
-          }
-        ) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://www.yfull.com/live/tree/I-Y225862/", target: "_blank", children: "I2a-S17250+ Sebastian Piotrowski" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://www.yfull.com/live/tree/I-BY114557/", target: "_blank", children: "I2a-Z17855++ Yanytskyy" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://www.yfull.com/live/tree/N-M6921/", target: "_blank", children: "N1c+ Igor Dychta" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://www.yfull.com/live/tree/N-Y304511/", target: "_blank", children: "N1c+ Максим Лактионов (+ москвич)" }) })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "mt-DNA pages" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "TBD" })
