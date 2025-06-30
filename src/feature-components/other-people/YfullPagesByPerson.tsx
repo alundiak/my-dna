@@ -1,4 +1,4 @@
-import { Container } from 'reactstrap';
+import { Container } from "reactstrap";
 
 export function YfullPagesByPerson() {
   return (
@@ -14,26 +14,22 @@ export function YfullPagesByPerson() {
               </a>
             </li>
             <li>
-              <a
-                href="https://www.yfull.com/live/tree/I-Y225862/"
-                target="_blank"
-              >
+              <a href="https://www.yfull.com/live/tree/I-Y225862/" target="_blank">
                 I2a-S17250+ Sebastian Piotrowski
               </a>
             </li>
             <li>
-              <a
-                href="https://www.yfull.com/live/tree/N-M6921/"
-                target="_blank"
-              >
+              <a href="https://www.yfull.com/live/tree/I-BY114557/" target="_blank">
+                I2a-Z17855++ Yanytskyy
+              </a>
+            </li>
+            <li>
+              <a href="https://www.yfull.com/live/tree/N-M6921/" target="_blank">
                 N1c+ Igor Dychta
               </a>
             </li>
             <li>
-              <a
-                href="https://www.yfull.com/live/tree/N-Y304511/"
-                target="_blank"
-              >
+              <a href="https://www.yfull.com/live/tree/N-Y304511/" target="_blank">
                 N1c+ Максим Лактионов (+ москвич)
               </a>
             </li>
