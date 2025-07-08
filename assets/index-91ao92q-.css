@@ -1,4 +1,6 @@
-@charset "UTF-8";#my-side-nav {
+@charset "UTF-8";/* MySideNav component */
+
+#my-side-nav {
   position: sticky;
   top: 10px;
   left: 10px;
@@ -27,13 +29,7 @@ footer {
     }
   }
 }
-#root {
-  /* max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem; */
-  /* text-align: center; */
-}
-
+/* My Main App.css */
 .y-dna-app {
   .col-10 {
     min-width: 1300px;
@@ -41,14 +37,14 @@ footer {
   }
 }
 
-/* LAYERS order, must be declared at the top of file */
 @layer packages, tokens, reset, base, links, components, utilities, andrii, lundiak;
+/* LAYERS order, must be declared at the top of file */
 /* It works, injects CSS properly from node_modules */
 /* But if layers used it may depend on which level other CSS chunks included... */
 /* As experiment I will leave it here for some time */
 @layer packages{
 /*!
- * Bootstrap  v5.3.6 (https://getbootstrap.com/)
+ * Bootstrap  v5.3.7 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
