@@ -121,19 +121,20 @@
     "people": [
       "(FTDNA) Unknown Origin 1 - SADOWY 🇺🇦🇵🇱🇺🇸 (Звиняч, Тернопільска обл.)",
       "(FTDNA) Unknown Origin 2 - KLOPOCHUK 🇺🇦",
-      "(FTDNA) Unknown Origin 3 - VLADYCHENKO 🇺🇦",
       "(FTDNA) Unknown Origin 4 - KIANENKO 🇺🇦?",
-      "(FTDNA) Unknown Origin 5 - MIKHALCHUK 🇧🇾🇺🇦",
-      "(FTDNA) Unknown Origin 6 - PESHKOV 🇺🇦?🇷🇺?🇧🇾?",
-      "(FTDNA) Unknown Origin 7 - DŁUGOSZ 🇵🇱",
-      "(FTDNA) Unknown Origin 8 - TKACH 🇷🇺🇺🇦",
-      "(FTDNA) Unknown Origin 9 - BOGOMOLOV 🇺🇦",
-      "(FTDNA) Known 1 - Mykhailo LUNDIAK 🇺🇦 - my father",
-      "(FTDNA) Known 2 - PISKUN 🇺🇦",
-      "(FTDNA) Known 3 - HERMAN 🇺🇦🇵🇱",
-      "(FTDNA) Known 4 - ROMPPAINEN 🇫🇮🇷🇺",
-      "(FTDNA) Known 5 - NOCHOVKIN 🇺🇦",
-      "(FTDNA) Known 6 - PALONKO (Паленчук => Палёнко) 🇺🇦",
+      "(FTDNA) Unknown Origin 5 - PESHKOV 🇺🇦?🇷🇺?🇧🇾?",
+      "(FTDNA) Unknown Origin 6 - TKACH 🇷🇺🇺🇦",
+      "(FTDNA) Unknown Origin 7 - BOGOMOLOV 🇺🇦",
+      "(FTDNA) Known Mykhailo LUNDIAK 🇺🇦 - my father",
+      "(FTDNA) Known HERMAN 🇺🇦🇵🇱",
+      "(FTDNA) Known PISKUN 🇺🇦",
+      "(FTDNA) Known VLADYCHENKO 🇺🇦",
+      "(FTDNA) Known MIKHALCHUK 🇧🇾🇺🇦",
+      "(FTDNA) Known ROMPPAINEN 🇫🇮🇷🇺",
+      "(FTDNA) Known NOCHOVKIN 🇺🇦",
+      "(23andme => FTDNA) Nochovkin son - TBD",
+      "(FTDNA) Known DŁUGOSZ 🇵🇱",
+      "(FTDNA) Known PALONKO (Паленчук => Палёнко) 🇺🇦",
       "(Ancestry => FTDNA) Palonko father - TBD"
     ]
   },
@@ -163,7 +164,10 @@
   },
   {
     "snp": "I-FTF29262",
-    "sameLevelSNPs": [],
+    "sameLevelSNPs": [
+      "FTF28380",
+      "FTF28871"
+    ],
     "people": [
       "(FTDNA) HOLOPAINEN 🇫🇮?🇷🇺",
       "(FTDNA) ONTTINEN (via Kononen) 🇫🇮?🇷🇺 (Holopainen STR match)"
@@ -196,7 +200,7 @@
     ],
     "people": [
       "(FTDNA) DAUJOTAS 🇱🇹",
-      "(FTNDA) KRIAUCIAUNAS 🇧🇪🇱🇹 (Tyszkiewicz 🇵🇱) - I paid for his Big Y 700 UPGRADE"
+      "(FTNDA) KRIAUCIAUNAS 🇧🇪🇱🇹 (EKA: Tyszkiewicz 🇵🇱) [daujotas STR-match], [I paid for his Big Y 700 UPGRADE]"
     ]
   },
   "I-FT88512",
