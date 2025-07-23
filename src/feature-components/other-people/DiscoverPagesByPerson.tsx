@@ -15,7 +15,12 @@ export function DiscoverPagesByPerson() {
             </li>
             <li>
               <a href="https://discover.familytreedna.com/y-dna/I-BY78168" target="_blank">
-                I2a-BY78168+ Vasyl Popovych (MRCA: Rev. Joachimi Lewicki)
+                I2a-BY128+ Vasyl Popovych (MRCA: Rev. Joachimi Lewicki)
+              </a>
+            </li>
+            <li>
+              <a href="https://discover.familytreedna.com/y-dna/I-FTG3189" target="_blank">
+                I2a-BY128+ Stefurak
               </a>
             </li>
             <li>
@@ -34,8 +39,13 @@ export function DiscoverPagesByPerson() {
               </a>
             </li>
             <li>
-              <a href="https://discover.familytreedna.com/y-dna/I-BY133369/tree" target="_blank">
+              <a href="https://discover.familytreedna.com/y-dna/I-BY133369" target="_blank">
                 I2a-Z17855+ Yanytskyy
+              </a>
+            </li>
+            <li>
+              <a href="https://discover.familytreedna.com/y-dna/I-FT233531/" target="_blank">
+                I2a-S17250+ Lewandowski
               </a>
             </li>
             <li>
@@ -58,7 +68,6 @@ export function DiscoverPagesByPerson() {
                 R1a-L1029+ Mykhailo Iskiv
               </a>
             </li>
-
             <li>
               <a href="https://discover.familytreedna.com/y-dna/R-BY20951" target="_blank">
                 R1b-BY20951+ Dmitriy Romanyuk

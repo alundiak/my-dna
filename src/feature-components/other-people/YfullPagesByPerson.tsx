@@ -19,6 +19,11 @@ export function YfullPagesByPerson() {
               </a>
             </li>
             <li>
+              <a href="https://www.yfull.com/live/tree/I-Y225862/" target="_blank">
+                I2a-S17250+ Piotr Lewandowski
+              </a>
+            </li>
+            <li>
               <a href="https://www.yfull.com/live/tree/I-BY114557/" target="_blank">
                 I2a-Z17855++ Yanytskyy
               </a>
