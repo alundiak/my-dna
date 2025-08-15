@@ -1,7 +1,8 @@
+import type { GroupInfo } from '../models/projects';
 import { FTDNA_PUBLIC } from '../shared/constant';
 import { KeyIcon } from './icons/KeyIcon';
 
-const mapper = (item: any, index: number) => {
+const mapper = (item: GroupInfo, index: number) => {
   if (item.mtDnaResults === false) {
     return null;
   }
@@ -14,17 +15,17 @@ const mapper = (item: any, index: number) => {
   return (
     <li key={key}>
       <span>{item.idPublic}</span>
-      {' | '}
+      <span> | </span>
       <a href={mtDNAResultsURL} target="_blank">
         mtResults
       </a>
-      {' | '}
+      <span> | </span>
       <a href={mtMapResultsURL} target="_blank">
         mtMap
       </a>
       {item.resultsRequireLogin && (
         <>
-          {' | '}
+          <span> | </span>
           <KeyIcon />
         </>
       )}
@@ -32,10 +33,10 @@ const mapper = (item: any, index: number) => {
   );
 };
 
-export function MTdnaPublicResults({ data }: { data: any }) {
-  return (
-    <>
-      <ul>{data.map(mapper)}</ul>
-    </>
-  );
+interface Props {
+  data: GroupInfo[];
+}
+
+export function MTdnaPublicResults({ data }: Props) {
+  return <ul>{data.map(mapper)}</ul>;
 }
