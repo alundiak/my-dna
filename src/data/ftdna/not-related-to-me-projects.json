@@ -10,6 +10,11 @@
     "myMembership": false
   },
   {
+    "idGroup": "suges",
+    "idPublic": "SUGES",
+    "myMembership": false
+  },
+  {
     "idGroup": "kowallis-and-kowalis",
     "idPublic": "kowallis_and_kowalis",
     "myMembership": false

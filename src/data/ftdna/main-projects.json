@@ -162,6 +162,11 @@
     "myMembership": true
   },
   {
+    "idGroup": "polesfrom-kresy",
+    "idPublic": "PolesfromKresy",
+    "myMembership": false
+  },
+  {
     "idGroup": "masovian-nob",
     "idPublic": "MasovianNob",
     "myMembership": false
