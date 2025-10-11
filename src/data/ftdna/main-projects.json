@@ -164,7 +164,7 @@
   {
     "idGroup": "polesfrom-kresy",
     "idPublic": "PolesfromKresy",
-    "myMembership": false
+    "myMembership": true
   },
   {
     "idGroup": "masovian-nob",
