@@ -1,5 +1,5 @@
 import { Container } from 'reactstrap';
-import i2aSNPdata from '../../data/ftdna-I2-SNP-chain.json';
+import i2aSNPdata from '../../data/I2a-P37-SNP-chain.json';
 import { parseSNP_data } from '../../shared/common';
 import {
   FTDNA_DISCOVER_Y_DNA,

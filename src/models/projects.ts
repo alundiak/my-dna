@@ -6,6 +6,7 @@ export interface GroupInfo {
 
   mtDnaResults?: boolean;
   resultsRequireLogin?: boolean;
+  activityFeed?: boolean;
 }
 
 export interface GroupInfo2 {

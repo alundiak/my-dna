@@ -10,7 +10,14 @@ export function ListOfProjects({ data }: Props) {
     <ul>
       {data.map((item: any, index: number) => {
         const key = `${index}-${item.idGroup}-group`;
-        const url = `${FTDNA_GROUP}/${item.idGroup}`;
+
+        let suffix = '/activity-feed';
+        if (item.activityFeed === false) {
+          suffix = '';
+        }
+
+        const url = `${FTDNA_GROUP}/${item.idGroup}${suffix}`;
+
         return (
           <li key={key}>
             <a href={url} target="_blank">

@@ -1,5 +1,5 @@
 import { Container } from 'reactstrap';
-import H13a1d_SNP_data from '../../data/ftdna-H13a1d-SNP-chain.json';
+import H13a1d_SNP_data from '../../data/H13a1d-SNP-chain.json';
 import { parseSNP_data } from '../../shared/common';
 import {
   FTDNA_DISCOVER_MT_DNA,
