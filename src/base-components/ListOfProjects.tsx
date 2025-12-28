@@ -11,10 +11,10 @@ export function ListOfProjects({ data }: Props) {
       {data.map((item: any, index: number) => {
         const key = `${index}-${item.idGroup}-group`;
 
-        let suffix = '/activity-feed';
-        if (item.activityFeed === false) {
-          suffix = '';
-        }
+        const suffix = '/about';
+        // if (item.activityFeed === false) {
+        //   suffix = '';
+        // }
 
         const url = `${FTDNA_GROUP}/${item.idGroup}${suffix}`;
 

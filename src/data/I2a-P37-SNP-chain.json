@@ -3,7 +3,6 @@
     "snp": "I-P37",
     "people": [
       "Andrei BELEI 🇺🇦",
-      "Ron DŁUGOSZ 🇵🇱",
       "Dave St john",
       "Gary Bernard Kulaw",
       "Mr. ANTE MARTINOVIC",
@@ -20,8 +19,7 @@
       "Mr. Veselin Borislavov Vouchkov 🇧🇬",
       "Nikolay Ryzhov",
       "Oleg Andriyovych Savko",
-      "Raymond George Dellefield",
-      "new Daujotas 🇱🇹 (most probably also I-FT89045)"
+      "Raymond George Dellefield"
     ]
   },
   "I-M423",
@@ -34,7 +32,8 @@
     "snp": "I-L621",
     "people": [
       "Roman Drogomirecki 🇺🇦, Kornych",
-      "Yuriy Palonko - Ancestry transfer to FTDNA "
+      "Yuriy Palonko - Ancestry transfer to FTDNA ",
+      "Ronald DŁUGOSZ 🇵🇱 (changed from P37 in at least Autumn 2025)"
     ]
   },
   "I-CTS10936",
@@ -62,7 +61,7 @@
       "Velyslav Lesyk 🇺🇦 (Lviv region, Старий Самбір) - managed by https://www.facebook.com/profile.php?id=100040914701293",
       "Олег Сохацький (Дзвиняч, Тернопільска область) 🇺🇦",
       "Roman Kozan, Liski, більше Polska 🇵🇱 (але частково Ukraine 🇺🇦)",
-      "Ivan Ivanushchak (Babche)",
+      "Ivan Ivanushchak (Babche) - TBD",
       "... Z17855+, Oleg Yantytskyy 🇺🇦",
       "Savaryn, Braha, Khmelntsk region"
     ]
@@ -137,7 +136,8 @@
       "(23andme => FTDNA) Nochovkin son - TBD",
       "(FTDNA) Known DŁUGOSZ 🇵🇱",
       "(FTDNA) Known PALONKO (Паленчук => Палёнко) 🇺🇦",
-      "(Ancestry => FTDNA) Palonko father - TBD"
+      "(Ancestry => FTDNA) Palonko father - TBD",
+      "(FTDNA) Oleg Frolov 🇷🇺 (related to Sergey Frolov)"
     ]
   },
   {
@@ -202,8 +202,9 @@
       "BY181083, BY181540, BY181952, BY181986, BY182011, BY182079, BY182148, FGC4953, FT181931"
     ],
     "people": [
-      "(FTDNA) DAUJOTAS 🇱🇹",
-      "(FTNDA) KRIAUCIAUNAS 🇧🇪🇱🇹 (EKA: Tyszkiewicz 🇵🇱) [daujotas STR-match], [I paid for his Big Y 700 UPGRADE]"
+      "(FTDNA) Giedrius DAUJOTAS 🇱🇹 [I paid for his Big Y 700 UPGRADE]",
+      "(FTDNA) Michael DAUJOTAS 🇱🇹🇺🇸 [I paid for his Big Y 700 UPGRADE]",
+      "(FTNDA) KRIAUCIAUNAS 🇧🇪🇱🇹 (EKA: Tyszkiewicz 🇵🇱) [Daujotas STR-match], [I paid for his Big Y 700 UPGRADE]"
     ]
   },
   "I-FT88512",

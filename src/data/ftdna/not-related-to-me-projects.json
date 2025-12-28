@@ -230,5 +230,10 @@
     "idGroup": "zielinski",
     "idPublic": "zielinski",
     "myMembership": false
+  },
+  {
+    "idGroup": "bure-dna",
+    "idPublic": "BureDNA",
+    "myMembership": false
   }
 ]
