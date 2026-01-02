@@ -1,5 +1,10 @@
 [
   {
+    "idGroup": "terra-pilsnensis",
+    "idPublic": "TerraPilsnensis",
+    "myMembership": false
+  },
+  {
     "idGroup": "holopainen-dna",
     "idPublic": "HolopainenDNA",
     "myMembership": false
