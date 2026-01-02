@@ -117,6 +117,7 @@
       "I-BY182167 (also same level as I-FGC63213)",
       "I-FGC8449 (also same level as Q-FGC8433)",
       "I-Y4298 (also same level as Q-FGC8433)",
+      "my-father-Y-SNP: FGC8449_Y4298,Y,13062433,AA",
       "I-MF803497"
     ],
     "people": [
@@ -133,11 +134,12 @@
       "(FTDNA) Known MIKHALCHUK 🇧🇾🇺🇦",
       "(FTDNA) Known ROMPPAINEN 🇫🇮🇷🇺",
       "(FTDNA) Known NOCHOVKIN 🇺🇦",
-      "(23andme => FTDNA) Nochovkin son - TBD",
+      "(23andme => FTDNA) Nochovkin son - I-CTS10228",
       "(FTDNA) Known DŁUGOSZ 🇵🇱",
       "(FTDNA) Known PALONKO (Паленчук => Палёнко) 🇺🇦",
-      "(Ancestry => FTDNA) Palonko father - TBD",
-      "(FTDNA) Oleg Frolov 🇷🇺 (related to Sergey Frolov)"
+      "Ancestry => FTDNA I-L621 Palonko father",
+      "(FTDNA) Known Oleg Frolov 🇷🇺 (related to Sergey Frolov)",
+      "(FTDNA) Known PAPUGA 🇵🇱"
     ]
   },
   {
