@@ -10,6 +10,11 @@ export function DiscoverPagesByPerson() {
           <ul>
             <li>
               <a href="https://discover.familytreedna.com/y-dna/I-FT278687" target="_blank">
+                I2-FT394473 Juozas Dowiatt-Antanaitis (Daujotas) who is also from Šiauliai
+              </a>
+            </li>
+            <li>
+              <a href="https://discover.familytreedna.com/y-dna/I-FT278687" target="_blank">
                 I2a-Y3118+ Taras Kravchenko
               </a>
             </li>
