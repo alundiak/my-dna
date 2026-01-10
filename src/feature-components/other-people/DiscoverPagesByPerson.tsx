@@ -110,12 +110,12 @@ export function DiscoverPagesByPerson() {
             </li>
             <li>
               <a href="https://discover.familytreedna.com/mtdna/H1b2" target="_blank">
-                мама Dmitriy Romanyuk
+                H1b2 - мама Dmitriy Romanyuk
               </a>
             </li>
             <li>
               <a href="https://discover.familytreedna.com/mtdna/W3a1/" target="_blank">
-                Sebastian Magnowski(Jezupol)
+                W3a1 - Sebastian Magnowski(Jezupol)
               </a>
             </li>
           </ul>
