@@ -137,10 +137,11 @@
       "(FTDNA) Known NOCHOVKIN 🇺🇦",
       "(23andme => FTDNA) Nochovkin son - I-CTS10228",
       "(FTDNA) Known DŁUGOSZ 🇵🇱",
-      "(FTDNA) Known PALONKO (Паленчук => Палёнко) 🇺🇦",
       "Ancestry => FTDNA I-L621 Palonko father",
-      "(FTDNA) Known Oleg Frolov 🇷🇺 (related to Sergey Frolov)",
-      "(FTDNA) Known PAPUGA 🇵🇱"
+      "(FTDNA) Known PALONKO (Паленчук => Палёнко) 🇺🇦 (FORECAST - FT89045 but closer to Kosareo)",
+      "(FTDNA) Known Oleg Frolov 🇷🇺 (related to Sergey Frolov) (FORECAST - FTF28876)",
+      "(FTDNA) Known PAPUGA 🇵🇱 (FORECAST - FT89045/BY181496 or NEW SNP close to Herman and Sadowy and LUNDIAK's)",
+      "(FTDNA) Known Vasyl LUNDIAK Jr 🇺🇦 (FORECAST - FT89045 but closer to Andrii Lundiak)"
     ]
   },
   {
@@ -202,7 +203,15 @@
   {
     "snp": "I-BY181496",
     "sameLevelSNPs": [
-      "BY181083, BY181540, BY181952, BY181986, BY182011, BY182079, BY182148, FGC4953, FT181931"
+      "___ since 2025",
+      "BY181083, BY181540, BY181952, BY181986, BY182011, BY182079, BY182148, FGC4953, FT181931",
+      "___ after Jan-2026",
+      "FT462250",
+      "FT462538",
+      "FTH30151",
+      "FTH30425",
+      "FTJ13774",
+      "Y138391"
     ],
     "people": [
       "(FTDNA) Giedrius DAUJOTAS 🇱🇹 [I paid for his Big Y 700 UPGRADE]",
