@@ -23,8 +23,8 @@ export function MyDNARoutes() {
       <Route path="y-dna-public" element={<PublicYdnaResults />} />
       <Route path="mt-dna-public" element={<PublicMtdnaResults />} />
       <Route path="y-group-time-tree" element={<YdnaDiscoverGroupTimeTree />} />
-      <Route path="y-dna-pages-by-snp" element={<YdnaPagesBySNP />} />
-      <Route path="mt-dna-pages-by-snp" element={<MtdnaPagesBySNP />} />
+      <Route path="my-y-dna" element={<YdnaPagesBySNP />} />
+      <Route path="my-mt-dna" element={<MtdnaPagesBySNP />} />
 
       <Route path="discover-by-person" element={<DiscoverPagesByPerson />} />
       <Route path="yfull-pages-py-person" element={<YfullPagesByPerson />} />

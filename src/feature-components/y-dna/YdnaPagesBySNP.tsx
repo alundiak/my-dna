@@ -57,7 +57,7 @@ const renderListItems = (element: MyYDnaCustomData | string, index: number) => {
 export function YdnaPagesBySNP() {
   return (
     <>
-      <h3 id="y-dna-pages-by-snp">Y-DNA pages by SNP</h3>
+      <h3 id="my-y-dna">My I2a+ chain</h3>
       <Container className="bg-light border">
         <section>
           <ul>

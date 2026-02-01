@@ -65,7 +65,7 @@ const renderListItems = (
 export function MtdnaPagesBySNP() {
   return (
     <>
-      <h3 id="mt-dna-pages-by-snp">mt-DNA pages by SNP</h3>
+      <h3 id="my-mt-dna">My H13a1d chain</h3>
       <Container className="bg-light border">
         <section>
           <ul>
