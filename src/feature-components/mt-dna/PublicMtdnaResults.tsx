@@ -22,7 +22,9 @@ export function PublicMtdnaResults() {
 
   return (
     <>
-      <h3 id="mt-dna-public">mtDNA Public results</h3>
+      <h3 style={{ backgroundColor: 'palevioletred' }} id="mt-dna-public">
+        mtDNA Public results
+      </h3>
       <Container className="bg-light border">
         <Row>
           <Col>

@@ -18,7 +18,9 @@ export function PublicYdnaResults() {
 
   return (
     <>
-      <h3 id="y-dna-public">Y-DNA Public results</h3>
+      <h3 style={{ backgroundColor: 'royalblue' }} id="y-dna-public">
+        Y-DNA Public results
+      </h3>
       <Container className="bg-light border">
         <Row>
           <Col>

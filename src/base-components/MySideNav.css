@@ -12,5 +12,12 @@
   .active {
     color: white;
     background-color: #007bff;
+    &[href='#/mt-dna-public'] {
+      background-color: palevioletred;
+    }
+
+    &[href='#/y-dna-public'] {
+      background-color: royalblue;
+    }
   }
 }
