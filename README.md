@@ -1,6 +1,14 @@
 # My DNA app
 
-A place to aggregate Y-DNA and mt-DNA info from services I use ([FamilyTreeDNA](https://www.familytreedna.com/), [YFULL](https://www.yfull.com/), [YSeq](https://www.yseq.net/), etc.)
+A place to aggregate Y-DNA and mt-DNA info from different services.
+
+I use
+- [FamilyTreeDNA](https://www.familytreedna.com/)
+- [SNP Tracker](https://scaledinnovation.com/gg/snpTracker.html)
+- [YFULL](https://www.yfull.com/)
+- [YSeq](https://www.yseq.net/)
+- [TheYTree](https://www.theytree.com/)
+- [DnaChron](https://www.dnachron.com/)
 
 ## Idea 1 - DONE
 
