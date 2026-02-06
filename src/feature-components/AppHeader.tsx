@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'reactstrap';
 export function AppHeader() {
   return (
     <header>
-      <h2 id="home">Y-DNA info (FTDNA, YFULL, SNP Tracker)</h2>
+      <h2 id="home">my DNA info (FTDNA, YFULL, SNP Tracker)</h2>
       <Container>
         <Row>
           <Col>
