@@ -19,15 +19,15 @@ const mapper = (item: GroupInfo, index: number) => {
       <span>{item.idPublic}</span>
       <span> | </span>
       <a href={yDnaResultsOverviewURL} target="_blank">
-        yResults
+        STR
       </a>
       <span> | </span>
       <a href={ySNPResultsURL} target="_blank">
-        ySnp
+        SNP
       </a>
       <span> | </span>
       <a href={yMapResultsURL} target="_blank">
-        yMap
+        map
       </a>
     </li>
   );
