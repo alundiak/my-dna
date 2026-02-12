@@ -2,7 +2,7 @@ import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
 
 import { Profile, Similarity } from './models.js';
-import { isTsvFile, logMatch, normalizeLineToArray, simpleLogMatch } from './utils.js';
+import { isTsvFile, normalizeLineToArray, simpleLogMatch } from './utils.js';
 
 const DIR = './data/FGC63213';
 // const DIR = './data/FT8963';
@@ -71,7 +71,8 @@ async function main() {
     const percentage = r.score * 100;
     // maybe optional
     if (percentage > 70) {
-      simpleLogMatch(r)
+      // logWithColorette(r); // does have bad performance
+      simpleLogMatch(r);
     }
   }
 }

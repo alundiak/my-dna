@@ -15,7 +15,7 @@ export function normalizeLineToArray(line: string): string[] {
     .split('\t');
 }
 
-export function logMatch(result: Similarity): void {
+export function logWithColorette(result: Similarity): void {
   const { a, b, score } = result;
   const percentage = score * 100;
 
