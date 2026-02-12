@@ -51,7 +51,21 @@ Left side could be SNP + age info and right side could be History notes, ancient
 Maybe use Bootstrap Accordion => https://getbootstrap.com/docs/5.3/components/accordion/
 or https://getbootstrap.com/docs/5.3/components/card/
 
-## Idea 4 - my Matches
+## Idea 4 - STR compare
+
+In my Y-DNA research I frequently have a need to compare STR results for some or many men samples from FamilyTreeDNA [Y-DNA public page](https://www.familytreedna.com/public/I2aHapGroup?iframe=ydna-results-overview) where results are exposed in `TSV` format.
+
+So, after `cd STR_compare` I run `npm start` and it compares `*.tsv` file I created in `data` folder, giving me result like this:
+
+![img](./STR_compare/img.png)
+
+Script does NOT need the STR names as it shown on page table header. Script simply compares values positionally (from left to right).
+- First value → first marker (`DYS393`)
+- Second value → second marker (`DYS390`)
+- and so on
+
+
+## Idea 5 - my Matches
 
 But it contradicts then with [My Genealogy](https://github.com/alundiak/my-genealogy) purpose and in general [gen-end-gen](https://github.com/alundiak/gen-and-gen) project purpose.
 

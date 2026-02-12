@@ -1,0 +1,16 @@
+{
+  "name": "@alundiak/str-compare",
+  "description": "A small script to compare STR *.TSV files scraped from FamilyTreeDNA",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "colorette": "^2.0.20",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "start": "tsx compare.ts",
+    "check": "tsc --noEmit"
+  }
+}
