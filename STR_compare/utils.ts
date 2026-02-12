@@ -1,3 +1,4 @@
+import { randLastName } from '@ngneat/falso';
 import { bold, gray, green, yellow } from 'colorette';
 import * as path from 'node:path';
 import { Similarity } from './models.js';
@@ -29,11 +30,19 @@ const fgGreen = '\x1b[32m';
 const fgYellow = '\x1b[33m';
 const fgRed = '\x1b[31m';
 
-export function simpleLogMatch(result: Similarity): void {
+export function simpleLogMatch(
+  result: Similarity,
+  hide: boolean = false,
+): void {
   const { a, b, score } = result;
   const percentage = score * 100;
 
-  const val = `${percentage.toFixed(2)}% <- ${a} vs ${b}`;
+  let val = '';
+  if (hide) {
+    val = `${percentage.toFixed(2)}% <- ${randLastName()} vs ${randLastName()}`;
+  } else {
+    val = `${percentage.toFixed(2)}% <- ${a} vs ${b}`;
+  }
 
   let coloredText = '';
 
