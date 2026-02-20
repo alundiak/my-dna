@@ -1,12 +1,13 @@
-import js from '@eslint/js';
+import { defineConfig } from 'eslint/config';
+import eslint from '@eslint/js';
+import tsESlint from 'typescript-eslint';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
-import tsESlint from 'typescript-eslint';
 
-export default tsESlint.config(
+export default defineConfig(
   { ignores: ['dist', 'build'] },
   {
-    extends: [js.configs.recommended, ...tsESlint.configs.recommended],
+    extends: [eslint.configs.recommended, ...tsESlint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
       ecmaVersion: 2026
@@ -17,6 +18,7 @@ export default tsESlint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      'no-useless-assignment': 'warn',
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
