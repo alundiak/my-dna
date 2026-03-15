@@ -130,22 +130,17 @@
       "(FTDNA) Unknown Origin 4 - PESHKOV 🇺🇦?🇷🇺?🇧🇾? (email INVALID)",
       "(FTDNA) Unknown Origin 5 - BOGOMOLOV 🇺🇦",
       "(FTDNA) Unknown Origin 6 - MIKHALCHUK 🇧🇾🇺🇦",
-
-      "(FTDNA) Known TKACH 🇷🇺🇺🇦",
-      "(FTDNA) Known LUNDIAK Mykhailo 🇺🇦, father of Andrii",
-      "(FTDNA) Known HERMAN 🇺🇦🇵🇱",
-      "(FTDNA) Known PISKUN 🇺🇦",
-      "(FTDNA) Known VLADYCHENKO 🇺🇦",
-      "(FTDNA) Known ROMPPAINEN 🇫🇮🇷🇺",
-      "(FTDNA) Known NOCHOVKIN 🇺🇦",
+      "(FTDNA) 1🇷🇺 Known TKACH + (maternal🇺🇦)",
+      "(FTDNA) 1🇺🇦  Known LUNDIAK Mykhailo, father of Andrii",
+      "(FTDNA) 2🇺🇦  Known LUNDIAK Vasyl Jr (FORECAST - FT89045 but closer to cousin Andrii Lundiak)",
+      "(FTDNA) 3🇺🇦 Known HERMAN +🇵🇱",
+      "(FTDNA) 4🇺🇦 Known PISKUN ",
+      "(FTDNA) 5🇺🇦 Known VLADYCHENKO",
+      "(FTDNA) 6🇺🇦 Known NOCHOVKIN",
       "(FTDNA) Nochovkin Jr, son, I-CTS10228 (transfer from 23andme)",
-      "(FTDNA) Known DŁUGOSZ E. 🇵🇱",
-      "(FTDNA) Palonko Sr, father, I-L621 (transfer from Ancestry)",
-      "(FTDNA) Known PALONKO Jr, son (Паленчук => Палёнко) 🇺🇦 (FORECAST - FT89045 but closer to Kosareo), [I paid for his Big Y 700 UPGRADE]",
-      "(FTDNA) Known FROLOV Oleg 🇷🇺 (related to Sergey Frolov) (FORECAST - FTF28876)",
-      "(FTDNA) Known PAPUGA 🇵🇱 (FORECAST - FT89045/BY181496 or NEW SNP close to Herman and Sadowy and LUNDIAK's), [I paid for his Big Y 700 UPGRADE]",
-      "(FTDNA) Known LUNDIAK Vasyl Jr 🇺🇦 (FORECAST - FT89045 but closer to cousin Andrii Lundiak)",
-      "(FTDNA) Known DŁUGOSZ Sławomir 🇵🇱"
+      "(FTDNA) 1🇫🇮 Known ROMPPAINEN  (EKA: 🇷🇺)",
+      "(FTDNA) 1🇵🇱 Known DŁUGOSZ E/A. + ",
+      "(FTDNA) 2🇵🇱 Known DŁUGOSZ Sławomir"
     ]
   },
   {
@@ -155,33 +150,16 @@
     ]
   },
   {
-    "snp": "I-F7424",
-    "sameLevelSNPs": [
-      "tbd"
-    ],
-    "people": [
-      "tbd"
-    ]
-  },
-  {
     "snp": "I-FTF28876",
     "sameLevelSNPs": [
       "FTF48764"
     ],
     "people": [
-      "(FTDNA) FROLOV Sergey 🇷🇺🇺🇦 (YFULL defines under Y4298)"
-    ]
-  },
-  {
-    "snp": "I-FTF29262",
-    "sameLevelSNPs": [
-      "FTF28380",
-      "FTF28871"
-    ],
-    "people": [
-      "(FTDNA) HOLOPAINEN 🇫🇮?🇷🇺, Soanlakhti",
-      "(FTDNA) ONTTINEN (via Kononen) 🇫🇮?🇷🇺 (Holopainen STR match), Suojärvi",
-      "(FTDNA) TURHANEN 🇫🇮, Suojärvi ?NPE"
+      "I-FTG39340, (FTDNA) FROLOV Sergey 🇷🇺🇺🇦 (YFULL defines under Y4298)",
+      "I-FTG39340, (FTDNA) Known FROLOV Oleg 🇷🇺 (related to Sergey Frolov) (FORECAST - FTF28876)",
+      "I-FTF29262, (FTDNA) HOLOPAINEN 🇫🇮?🇷🇺, Soanlakhti",
+      "I-FTF29262 - I-FTH5402, (FTDNA) ONTTINEN (via Kononen) 🇫🇮?🇷🇺 (Holopainen STR match), Suojärvi",
+      "I-FTF29262 - I-FTH5402, (FTDNA) TURHANEN 🇫🇮, Suojärvi ?NPE"
     ]
   },
   {
@@ -192,16 +170,17 @@
       "I-Y128456"
     ],
     "people": [
+      "YFULL: Y128456: LUNDIAK, DAUJOTAS, ZAGORUIKO🇺🇦",
       "(FTDNA) LUNDIAK Andrii, son of Mykhailo 🇺🇦",
-      "(FTDNA) KOSAREO 🇺🇦🇷🇺🇵🇱🇺🇸"
+      "(FTDNA) Known PAPUGA 🇵🇱 (FT89045+ or NEW SNP close to Herman and Sadowy and LUNDIAK's), [I paid for his Big Y 700 UPGRADE]"
     ]
   },
   {
-    "snp": "I-Y128456",
+    "snp": "I-FTC40273",
     "people": [
-      "(YFULL) LUNDIAK Andrii, son of Mykhailo 🇺🇦",
-      "(YFULL) DAUJOTAS 🇱🇹",
-      "(YFULL) ZAGORUIKO 🇺🇦"
+      "(FTDNA) KOSAREO 🇺🇦🇷🇺🇵🇱🇺🇸",
+      "(FTDNA) PALONKO Sr, father, I-L621 (transfer from Ancestry)",
+      "(FTDNA) Known PALONKO Jr, son (Паленчук => Палёнко) 🇺🇦 (FT89045, but STR-closer to Kosareo), [I paid for his Big Y 700 UPGRADE]"
     ]
   },
   {

@@ -10,5 +10,11 @@
     "idPublic": "LUNDA",
     "myMembership": true,
     "admin": true
+  },
+  {
+    "idGroup": "I-FGC63213",
+    "idPublic": "I-FGC63213",
+    "myMembership": true,
+    "admin": true
   }
 ]

@@ -12,6 +12,12 @@
     "admin": true
   },
   {
+    "idGroup": "I-FGC63213",
+    "idPublic": "I-FGC63213",
+    "myMembership": true,
+    "admin": true
+  },
+  {
     "idGroup": "i-2a-hap-group",
     "idPublic": "I2aHapGroup",
     "mtDnaResults": false,
