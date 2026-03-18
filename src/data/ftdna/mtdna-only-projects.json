@@ -10,7 +10,7 @@
     "idGroup": "hungarian-mt-dn-aproject",
     "idPublic": "HungarianMtDNAproject",
     "mtDnaResults": true,
-    "myMembership": true
+    "myMembership": false
   },
   {
     "idGroup": "mt-dna-h13",
