@@ -2,20 +2,17 @@ import ftDnaProjects from '../data/ftdna/main-projects.json';
 import mtDnaOnlyProjects from '../data/ftdna/mtdna-only-projects.json';
 
 export function parseSNP_data(element: any) {
-  let SNP = '';
-  let people = [];
-
   if (typeof element === 'string') {
-    SNP = element;
+    return {
+      SNP: element,
+      people: [],
+    };
   } else {
-    SNP = element.snp;
-    people = element.people;
+    return {
+      SNP: element.snp,
+      people: element.people,
+    };
   }
-
-  return {
-    SNP,
-    people,
-  };
 }
 
 interface FilterParams {
@@ -60,8 +57,15 @@ export function useProjectsData() {
   const otherFtdnaProjects = filterFTDNAprojects({ myMembership: false });
 
   const myMtDnaProjects = filterFTDNAmtDNAonlyProjects({ myMembership: true });
-  const otherMtDnaProjects = filterFTDNAmtDNAonlyProjects({ myMembership: false });
+  const otherMtDnaProjects = filterFTDNAmtDNAonlyProjects({
+    myMembership: false,
+  });
 
   // Improve maybe by using .pop()
-  return [memberProjects, otherFtdnaProjects, myMtDnaProjects, otherMtDnaProjects];
+  return [
+    memberProjects,
+    otherFtdnaProjects,
+    myMtDnaProjects,
+    otherMtDnaProjects,
+  ];
 }
