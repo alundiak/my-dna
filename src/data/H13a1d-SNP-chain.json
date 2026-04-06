@@ -1,59 +1,24 @@
 [
   {
     "snp": "H13a1d",
-    "haplotypes": [
-      {
-        "value": "F9120919",
-        "people": [
-          "Bodnar",
-          "Krężel"
-        ]
-      }
-    ],
     "people": [
       "🇺🇦 Kateryna Babij",
       "🇺🇦 Andrii LUNDIAK",
-      "+ 2 🇺🇦",
+      "+ 2 🇺🇦 (F9120919, Bodnar, Krężel)",
       "5 🇫🇮",
-      "2 🇮🇷",
-      "2 🇸🇪",
+      "3 🇸🇪 (including latest Hellquist)",
       "1 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "1 🇮🇹"
+      "1 🇧🇬",
+      "1 🇮🇹",
+      "1 🇷🇺",
+      "7 Unknown"
     ]
   },
   {
-    "snp": "H13a1d2'6",
+    "snp": "H13a1d1",
     "people": [
-      "1 🇮🇪",
-      "1 🇹🇷",
-      "1 🇭🇺",
-      "4 🇫🇮",
-      "1 Unknown"
-    ]
-  },
-  {
-    "snp": "H13a1d2",
-    "people": [
-      "1 Unknown",
-      "🇸🇪 Hellquist"
-    ],
-    "haplotypes": [
-      {
-        "value": "F1621813",
-        "people": [
-          "1 🇭🇺",
-          "3 Unknown"
-        ]
-      },
-      {
-        "value": "F5654829",
-        "people": [
-          "1 🇧🇾",
-          "1 🇺🇦",
-          "3 🇵🇱",
-          "1 Unknown - Pryer from 🇨🇦"
-        ]
-      }
+      "1 🇮🇷",
+      "1 🇹🇷"
     ]
   },
   {
@@ -79,17 +44,72 @@
     ]
   },
   {
-    "snp": "H13a1d2'6+195",
+    "snp": "H13a1d9",
+    "people": [
+      "1 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "1 Unknown"
+    ]
+  },
+  {
+    "snp": "H13a1d10",
+    "people": [
+      "2 🇮🇷",
+      "1 🇹🇷"
+    ]
+  },
+  {
+    "snp": "H13a1d2'6'7'8",
+    "people": [
+      "2 🇹🇷",
+      "1 🇮🇪",
+      "1 🇷🇺",
+      "1 🇭🇺",
+      "4 🇫🇮",
+      "1 Unknown"
+    ]
+  },
+  {
+    "snp": "H13a1d2",
+    "people": [
+      "1 Unknown"
+    ],
+    "haplotypes": [
+      {
+        "value": "F1621813",
+        "people": [
+          "1 🇭🇺",
+          "3 Unknown"
+        ]
+      },
+      {
+        "value": "F5654829",
+        "people": [
+          "1 🇧🇾",
+          "1 🇺🇦",
+          "3 🇵🇱",
+          "1 Unknown - Pryer from 🇨🇦"
+        ]
+      }
+    ]
+  },
+  {
+    "snp": "H13a1d2'6'7'8+195",
     "people": [
       "1 🇷🇺",
       "3 Unknown (also 🇷🇺)"
     ]
   },
   {
-    "snp": "H13a1d2'6+16129",
+    "snp": "H13a1d7^",
     "people": [
-      "8 Finland",
+      "5 🇫🇮",
       "1 Unknown"
+    ]
+  },
+  {
+    "snp": "H13a1d7",
+    "people": [
+      "3 🇫🇮"
     ]
   },
   "ABC",
