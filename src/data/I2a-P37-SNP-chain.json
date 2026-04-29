@@ -139,7 +139,7 @@
       "(FTDNA) Nochovkin Jr, son, I-CTS10228 (transfer from 23andme)",
       "(FTDNA) 1🇫🇮 Known ROMPPAINEN  (EKA: 🇷🇺)",
       "(FTDNA) 1🇵🇱 Known DŁUGOSZ Sławomir",
-      "Oleksii Goliaka/Holiaka 🇺🇦 (FORECAST S20602 => FGC63213) бо близький до Długosz A/E"
+      "Oleksii Goliaka/Holiaka 🇺🇦 (FORECAST S20602 => FGC63213) бо близький до Długosz Andrzej"
     ]
   },
   {
@@ -174,14 +174,20 @@
   },
   {
     "snp": "I-Y128232",
+    "sameLevelSNPs": [
+      "Since Apr-2026: FT442532, FT89488, Y128209, Y129356, Y130339, Y151656"
+    ],
     "people": [
       "(FTDNA) 🇺🇦 LUNDIAK Andrii, son of Mykhailo",
-      "(FTDNA) 🇵🇱 PAPUGA (FT89045+ or NEW SNP close to Herman and Sadowy and LUNDIAK's), [I paid for his Big Y 700 UPGRADE]",
+      "(FTDNA) 🇵🇱 PAPUGA Łukasz, [I paid for his Big Y 700 UPGRADE], my first Big Y-Match since Mar-2026",
       "(FTDNA) 🇵🇱 DŁUGOSZ Andrzej, Poland, USA (Big Y-Match since 28-Apr-2026)"
     ]
   },
   {
     "snp": "I-FTC40273",
+    "sameLevelSNPs": [
+      "Since Apr-2026: FTC40273, FTC40846, FTC41102, FTC44050, FTC44195, FTJ48848, Y53848"
+    ],
     "people": [
       "(FTDNA) KOSAREO 🇺🇦🇷🇺🇵🇱🇺🇸",
       "(FTDNA) PALONKO Sr, father, I-L621 (transfer from Ancestry)",
@@ -191,23 +197,13 @@
   {
     "snp": "I-BY181496",
     "sameLevelSNPs": [
-      "___ since 2025",
-      "BY181083, BY181540, BY181952, BY181986, BY182011, BY182079, BY182148, FGC4953, FT181931",
-      "___ after Jan-2026",
-      "FT462250",
-      "FT462538",
-      "FTH30151",
-      "FTH30425",
-      "FTJ13774",
-      "Y138391"
+      "Since 2025: BY181083, BY181540, BY181952, BY181986, BY182011, BY182079, BY182148, FGC4953, FT181931",
+      "Since Jan-2026: FT462250, FT462538, FTH30151, FTH30425, FTJ13774, Y138391"
     ],
     "people": [
       "(FTDNA) DAUJOTAS Giedrius 🇱🇹 [I paid for his Big Y 700 UPGRADE]",
       "(FTDNA) DAUJOTAS Michael 🇱🇹🇺🇸 [I paid for his Big Y 700 UPGRADE]",
       "(FTNDA) KRIAUCIAUNAS 🇧🇪🇱🇹 (EKA: Tyszkiewicz 🇵🇱) [Daujotas STR-match], [I paid for his Big Y 700 UPGRADE]"
     ]
-  },
-  "I-FT88512",
-  "I-FT88745",
-  "I-FT88796"
+  }
 ]
