@@ -23,5 +23,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </HashRouter>
       {/* <BrowserRouter/> */}
     </div>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
