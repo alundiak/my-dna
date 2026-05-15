@@ -24,7 +24,7 @@
     "@types/eslint__js": "^8.42.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@typescript/native-preview": "^7.0.0-dev.20260429.1",
+    "@typescript/native-preview": "^7.0.0-dev.20260515.1",
     "@vitejs/plugin-react-swc": "^4.3.1",
     "bootstrap": "^5.3.8",
     "eslint": "^10.4.0",
