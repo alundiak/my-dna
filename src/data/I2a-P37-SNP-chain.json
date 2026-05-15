@@ -131,15 +131,15 @@
       "(FTDNA) Unknown Origin 6 - MIKHALCHUK 🇧🇾🇺🇦",
       "(FTDNA) 1🇷🇺 Known TKACH + (maternal🇺🇦)",
       "(FTDNA) 1🇺🇦 Known LUNDIAK Mykhailo, father of Andrii",
-      "(FTDNA) 2🇺🇦 Known LUNDIAK Vasyl Jr (FORECAST - FT89045 but closer to cousin Andrii Lundiak)",
-      "(FTDNA) 3🇺🇦 Known HERMAN +🇵🇱",
-      "(FTDNA) 4🇺🇦 Known PISKUN ",
-      "(FTDNA) 5🇺🇦 Known VLADYCHENKO",
-      "(FTDNA) 6🇺🇦 Known NOCHOVKIN",
+      "(FTDNA) 2🇺🇦 Known HERMAN +🇵🇱",
+      "(FTDNA) 3🇺🇦 Known PISKUN ",
+      "(FTDNA) 4🇺🇦 Known VLADYCHENKO",
+      "(FTDNA) 5🇺🇦 Known NOCHOVKIN",
       "(FTDNA) Nochovkin Jr, son, I-CTS10228 (transfer from 23andme)",
       "(FTDNA) 1🇫🇮 Known ROMPPAINEN  (EKA: 🇷🇺)",
       "(FTDNA) 1🇵🇱 Known DŁUGOSZ Sławomir",
-      "Oleksii Goliaka/Holiaka 🇺🇦 (FORECAST S20602 => FGC63213) бо близький до Długosz Andrzej"
+      "Oleksii Goliaka/Holiaka 🇺🇦 (FORECAST S20602 => FGC63213) бо близький до Długosz Andrzej, Stepan Lundiak Y37 match",
+      "TBD LUNDIAK Stepan, I-P37"
     ]
   },
   {
@@ -178,7 +178,17 @@
       "Since Apr-2026: FT442532, FT89488, Y128209, Y129356, Y130339, Y151656"
     ],
     "people": [
-      "(FTDNA) 🇺🇦 LUNDIAK Andrii, son of Mykhailo",
+      "(FTDNA) 🇺🇦 LUNDIAK Andrii 1982 (son of Mykhailo 1949), 1st cousin",
+      "(FTDNA) 🇺🇦 LUNDIAK Vasyl Jr 1995 (son of Vasyl 1961), 1st cousin",
+      "FORECAST (FTDNA) 🇺🇦 LUNDIAK Stepan 1937 (son of Georgius 1889), 1st cousin"
+    ]
+  },
+  {
+    "snp": "I-FTJ35141",
+    "sameLevelSNPs": [
+      "Since May-2026: C177893 (N1b), A34460 (N1c)"
+    ],
+    "people": [
       "(FTDNA) 🇵🇱 PAPUGA Łukasz, [I paid for his Big Y 700 UPGRADE], my first Big Y-Match since Mar-2026",
       "(FTDNA) 🇵🇱 DŁUGOSZ Andrzej, Poland, USA (Big Y-Match since 28-Apr-2026)"
     ]

@@ -14,7 +14,7 @@ export function DiscoverPagesByPerson() {
               </a>
             </li>
             <li>
-              <a href="https://discover.familytreedna.com/y-dna/I-FT278687" target="_blank">
+              <a href="https://discover.familytreedna.com/y-dna/I-FTF22148" target="_blank">
                 I2a-Y3118+ Taras Kravchenko
               </a>
             </li>
@@ -69,7 +69,7 @@ export function DiscoverPagesByPerson() {
               </a>
             </li>
             <li>
-              <a href="https://discover.familytreedna.com/y-dna/R-L1029" target="_blank">
+              <a href="https://discover.familytreedna.com/y-dna/R-FTG28034" target="_blank">
                 R1a-L1029+ Mykhailo Iskiv
               </a>
             </li>
@@ -86,6 +86,11 @@ export function DiscoverPagesByPerson() {
             <li>
               <a href="https://discover.familytreedna.com/y-dna/N-M6921" target="_blank">
                 N1c-M6921 Igor Dychta (Ukraine, Poland, Lithuania, Gediminids)
+              </a>
+            </li>
+            <li>
+              <a href="https://discover.familytreedna.com/y-dna/N-FTC5451" target="_blank">
+                N1c-L550+ Kostiantyn Panennko (Ukraine, Slovakia, Lithuania, Gediminids)
               </a>
             </li>
           </ul>
