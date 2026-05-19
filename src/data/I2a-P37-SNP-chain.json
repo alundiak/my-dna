@@ -50,7 +50,7 @@
   {
     "snp": "I-S20602",
     "people": [
-      "Kifa (FTDNA YDNA-37) 🇺🇦",
+      "Kifa (FTDNA YDNA-37, S20602) 🇺🇦. Big Y-700 in progress",
       "Sergiusz Mały 🇺🇦",
       "Oleksii Striapko 🇺🇦 - https://www.facebook.com/oleksii.striapko",
       "Ivan Simeonov Stojkov",
@@ -61,7 +61,7 @@
       "Velyslav Lesyk 🇺🇦 (Lviv region, Старий Самбір) - managed by https://www.facebook.com/profile.php?id=100040914701293",
       "Олег Сохацький (Дзвиняч, Тернопільска область) 🇺🇦",
       "Roman Kozan, Liski, більше Polska 🇵🇱 (але частково Ukraine 🇺🇦)",
-      "Ivan Ivanushchak (Babche) - TBD",
+      "Ivan Ivanushchak (Babche) - S2801+",
       "... Z17855+, Oleg Yantytskyy 🇺🇦",
       "... Z17855+, Oleksandr Kuchanskyi 🇺🇦 (Київ+)",
       "Savaryn, Braha, Khmelntsk region"
@@ -88,7 +88,8 @@
       "... I-BY199341 - Vorobev (my Y67 STR match)",
       "... I-FT18774 - Kravets (my Y67 STR match)",
       "... I-FT2413 - Trajkov (my Y67 STR match)",
-      "... I-Y3118+ Andrii Lavrinenko🇺🇦, Ostap Lylo🇺🇦, David Kumhyr🇺🇸🇺🇦"
+      "... I-Y3118+ Andrii Lavrinenko🇺🇦, Ostap Lylo🇺🇦, David Kumhyr🇺🇸🇺🇦",
+      "Oleksii Goliaka/Holiaka 🇺🇦 (FORECAST S20602 => FGC63213 або Y3118) бо близький до Długosz Andrzej, Stepan Lundiak Y37 match"
     ]
   },
   {
@@ -138,7 +139,6 @@
       "(FTDNA) Nochovkin Jr, son, I-CTS10228 (transfer from 23andme)",
       "(FTDNA) 1🇫🇮 Known ROMPPAINEN  (EKA: 🇷🇺)",
       "(FTDNA) 1🇵🇱 Known DŁUGOSZ Sławomir",
-      "Oleksii Goliaka/Holiaka 🇺🇦 (FORECAST S20602 => FGC63213) бо близький до Długosz Andrzej, Stepan Lundiak Y37 match",
       "TBD LUNDIAK Stepan, I-P37"
     ]
   },
@@ -178,9 +178,17 @@
       "Since Apr-2026: FT442532, FT89488, Y128209, Y129356, Y130339, Y151656"
     ],
     "people": [
+      "FORECAST (FTDNA) 🇺🇦 LUNDIAK Stepan 1937 (son of Georgius 1889), far-related paternal uncle"
+    ]
+  },
+  {
+    "snp": "I-FT89565",
+    "sameLevelSNPs": [
+      "Since May-2026: BY148115, BZ1987, FT88512, FT88745, FT88796, FT89167, FT431366, FTJ69014, Y128119, Y128159, Y128563, Y129161, Y129345"
+    ],
+    "people": [
       "(FTDNA) 🇺🇦 LUNDIAK Andrii 1982 (son of Mykhailo 1949), 1st cousin",
-      "(FTDNA) 🇺🇦 LUNDIAK Vasyl Jr 1995 (son of Vasyl 1961), 1st cousin",
-      "FORECAST (FTDNA) 🇺🇦 LUNDIAK Stepan 1937 (son of Georgius 1889), 1st cousin"
+      "(FTDNA) 🇺🇦 LUNDIAK Vasyl Jr 1995 (son of Vasyl 1961), 1st cousin"
     ]
   },
   {
