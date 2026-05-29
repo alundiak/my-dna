@@ -18,6 +18,12 @@
     "admin": true
   },
   {
+    "idGroup": "I-Y3118",
+    "idPublic": "I-Y3118",
+    "myMembership": false,
+    "admin": false
+  },
+  {
     "idGroup": "i-2a-hap-group",
     "idPublic": "I2aHapGroup",
     "mtDnaResults": false,
