@@ -157,8 +157,8 @@
       "I-FTG39340, (FTDNA) FROLOV Sergey 🇷🇺🇺🇦 (YFULL defines under Y4298)",
       "I-FTG39340, (FTDNA) FROLOV Oleg 🇷🇺 (related to Sergey Frolov)",
       "I-FTF29262, (FTDNA) HOLOPAINEN 🇫🇮?🇷🇺, Soanlakhti",
-      "I-FTF29262 - I-FTH5402, (FTDNA) ONTTINEN (via Kononen) 🇫🇮?🇷🇺 (Holopainen STR match), Suojärvi",
-      "I-FTF29262 - I-FTH5402, (FTDNA) TURHANEN 🇫🇮, Suojärvi ?NPE"
+      "I-FTF29262 - FTH5402, (FTDNA) ONTTINEN (via Kononen) 🇫🇮?🇷🇺 (Holopainen STR match), Suojärvi",
+      "I-FTF29262 - FTH5402, (FTDNA) TURHANEN 🇫🇮, Suojärvi ?NPE"
     ]
   },
   {
@@ -182,7 +182,8 @@
   {
     "snp": "I-FT89565",
     "sameLevelSNPs": [
-      "Since May-2026: BY148115, BZ1987, FT88512, FT88745, FT88796, FT89167, FT431366, FTJ69014, Y128119, Y128159, Y128563, Y129161, Y129345"
+      "Since May-2026: BY148115, BZ1987, FT88512, FT88745, FT88796, FT89167, FT431366, FTJ69014, Y128119, Y128159, Y128563, Y129161, Y129345",
+      "Since 01-Jun-2026: Y128119 (YFULL) - terminal SNP"
     ],
     "people": [
       "(FTDNA) 🇺🇦 LUNDIAK Andrii 1982 (son of Mykhailo 1949), 1st cousin",
