@@ -1,13 +1,13 @@
-import react from '@vitejs/plugin-react-swc';
+import reactPlugin from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [reactPlugin()],
   build: {
     minify: true,
     outDir: 'build', // default value = 'dist
-    rollupOptions: {
+    rolldownOptions: {
       output: {
         manualChunks(id: string) {
           if (id.includes('node_modules')) {
@@ -32,9 +32,9 @@ export default defineConfig({
           }
 
           return undefined;
-        },
-      },
-    },
+        }
+      }
+    }
   },
   base: '/my-dna',
   server: {
@@ -45,8 +45,8 @@ export default defineConfig({
         '**/build/**',
         '**/.git/**',
         '**/*.log',
-        '**/temp/**',
-      ],
-    },
-  },
+        '**/temp/**'
+      ]
+    }
+  }
 });

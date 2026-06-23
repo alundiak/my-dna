@@ -16,11 +16,5 @@
     "idPublic": "I-FGC63213",
     "myMembership": true,
     "admin": true
-  },
-  {
-    "idGroup": "I-Y3118",
-    "idPublic": "I-Y3118",
-    "myMembership": false,
-    "admin": false
   }
 ]
