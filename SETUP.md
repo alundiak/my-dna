@@ -1,38 +1,4 @@
-## SETUP
-
-# 2026
-
-- Upgraded to TypeScript v6. But also trying [v7-beta](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/)
-- tsconfig remain same but seems to be that after v7 releases MANY field sin `tsconfig.json` can be removed.
-
-# 2025
-
-Decides to rework base `index.css` from Vite + React boilerplate into using CSS Layers aka `@layer`.
-
-| Feature                     | Standard? | Notes                               |
-| --------------------------- | --------- | ----------------------------------- |
-| `@layer` syntax             | ✅ Yes    | Part of official CSS                |
-| Named layers (`reset`, etc) | ❌ No     | Developer-defined, not standardized |
-| Built-in browser layers     | ❌ No     | No predefined or automatic layers   |
-
-| Layer name   | Standard in spec? | Common in practice? |
-| ------------ | ----------------- | ------------------- |
-| `reset`      | ❌ No             | ✅ Yes              |
-| `tokens`     | ❌ No             | ✅ Yes              |
-| `base`       | ❌ No             | ✅ Yes              |
-| `components` | ❌ No             | ✅ Yes              |
-| `utilities`  | ❌ No             | ✅ Yes              |
-| `frameworks` | ❌ No             | ⚠️ Sometimes        |
-| `packages`   | ❌ No             | ⚠️ Rare             |
-
-Cascade Order (from lowest to highest priority):
-
-- Browser styles
-- Layered styles (via `@layer`)
-- Unlayered styles (`@import` or direct CSS)
-- Inline styles or JS-modified styles
-
-![example in browser](./images/css-layers.png)
+## Initial Setup
 
 # 2024
 

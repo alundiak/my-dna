@@ -3,6 +3,7 @@
 A place to aggregate Y-DNA and mt-DNA info from different services.
 
 I use
+
 - [FamilyTreeDNA](https://www.familytreedna.com/)
 - [SNP Tracker](https://scaledinnovation.com/gg/snpTracker.html)
 - [YFULL](https://www.yfull.com/)
@@ -55,19 +56,10 @@ or https://getbootstrap.com/docs/5.3/components/card/
 
 Moved to [dna-scripts](https://github.com/alundiak/dna-scripts) repo.
 
-
 ## Idea 5 - my Matches
 
 But it contradicts then with [My Genealogy](https://github.com/alundiak/my-genealogy) purpose and in general [gen-end-gen](https://github.com/alundiak/gen-and-gen) project purpose.
 
-## Tech stack
+[Technical Notes](/TECH_NOTES.md)
 
-- Used [React + TS SWC Vite setup ](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
-- Used [Reactstrap](https://reactstrap.github.io) + [Bootstrap](https://getbootstrap.com)
-- [Bootstrap Scrollspy](https://getbootstrap.com/docs/4.0/components/scrollspy/) at first but ended up changing to [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-- CSS
-  - I used [CSS React Hooks](https://css-hooks.com/docs/react/configuration) at first. After attempt to [migrate from v2 to v3](https://css-hooks.com/docs/migration/v3/), I realized CSS hooks became too complicated for my brain.
-  - I could use [Styled Components](https://github.com/styled-components/styled-components) because it looks most reasonable solution, for complex projects.
-  - Because of [CSS Nesting](https://caniuse.com/css-nesting) support since Dec-2023 I decided to use basic, native CSS, and relying on `import "./MyFile.css"` is very much enough for me.
-- Deployment via GitHub Pages (with Vite config).
-- Maybe use https://ui.shadcn.com/ to create new components
+[Initial Setup](./SETUP.md)
