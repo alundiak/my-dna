@@ -1,29 +1,21 @@
-import eslint from '@eslint/js';
+import js from '@eslint/js';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
-import { defineConfig } from 'eslint/config';
+import { defineConfig, globalIgnores } from 'eslint/config';
 import tsESlint from 'typescript-eslint';
 
-export default defineConfig(
-  { ignores: ['dist', 'build'] },
+export default defineConfig([
+  globalIgnores(['dist', 'build']),
   {
-    extends: [eslint.configs.recommended, ...tsESlint.configs.recommended],
     files: ['**/*.{ts,tsx}'],
-    languageOptions: {
-      ecmaVersion: 2026
-    },
-    plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh
-    },
+    extends: [
+      js.configs.recommended,
+      tsESlint.configs.recommended,
+      reactHooks.configs.flat.recommended,
+      reactRefresh.configs.vite
+    ],
     rules: {
-      ...reactHooks.configs.recommended.rules,
-      'no-useless-assignment': 'warn',
-      'react-refresh/only-export-components': [
-        'warn',
-        { allowConstantExport: true }
-      ],
       '@typescript-eslint/no-explicit-any': 'off'
     }
   }
-);
+]);
