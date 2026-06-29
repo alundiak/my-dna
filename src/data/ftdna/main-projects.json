@@ -2,8 +2,7 @@
   {
     "idGroup": "I-Y3118",
     "idPublic": "I-Y3118",
-    "myMembership": false,
-    "admin": false
+    "myMembership": false
   },
   {
     "idGroup": "i-2a-hap-group",
@@ -282,7 +281,7 @@
     "idGroup": "ponticandanatoliangreeksdna",
     "idPublic": "russiangreeks",
     "myMembership": false,
-    "activityFeed": "disabledBecauseNotMember"
+    "activityFeed": false
   },
   {
     "idGroup": "russian-nobility-dna",
@@ -418,7 +417,7 @@
   {
     "idGroup": "austria-hungary",
     "idPublic": "austria-hungary",
-    "myMembership": "pending",
+    "myMembership": false,
     "resultsDisabled": true
   },
   {

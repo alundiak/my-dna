@@ -2,13 +2,9 @@ export interface GroupInfo {
   idGroup: string;
   idPublic: string;
   myMembership: boolean;
-  admin: boolean;
+  admin?: boolean | null;
 
-  mtDnaResults?: boolean;
-  resultsRequireLogin?: boolean;
-  activityFeed?: boolean;
-}
-
-export interface GroupInfo2 {
-  [key: PropertyKey]: string;
+  mtDnaResults?: boolean | null;
+  resultsRequireLogin?: boolean | null;
+  activityFeed?: boolean | null;
 }

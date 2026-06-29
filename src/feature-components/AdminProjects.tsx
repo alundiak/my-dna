@@ -1,14 +1,11 @@
 import { Col, Container, Row } from 'reactstrap';
-import { ListOfProjects } from '../base-components/ListOfProjects';
-// import { useProjectsData } from '../shared/common';
 import { ListOfGroupTimeTree } from '../base-components/ListOfGroupTimeTree';
+import { ListOfProjects } from '../base-components/ListOfProjects';
 import { MTdnaPublicResults } from '../base-components/MTdnaPublicResults';
 import { YdnaPublicResults } from '../base-components/YdnaPublicResults';
 import adminProjects from '../data/ftdna/admin-projects.json';
 
 export function AdminProjects() {
-  // const [memberProjects, otherFtdnaProjects] = useProjectsData();
-
   return (
     <>
       <h3 id="my-ftdna-projects">My Projects</h3>
