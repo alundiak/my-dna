@@ -4,9 +4,9 @@ import { ListOfProjects } from '../base-components/ListOfProjects';
 import { ListOfGroupTimeTree } from '../base-components/ListOfGroupTimeTree';
 import { MTdnaPublicResults } from '../base-components/MTdnaPublicResults';
 import { YdnaPublicResults } from '../base-components/YdnaPublicResults';
-import myProjects from '../data/ftdna/my-projects.json';
+import adminProjects from '../data/ftdna/admin-projects.json';
 
-export function MyProjects() {
+export function AdminProjects() {
   // const [memberProjects, otherFtdnaProjects] = useProjectsData();
 
   return (
@@ -17,7 +17,7 @@ export function MyProjects() {
           <Col>
             <h4>Pages</h4>
             <section>
-              <ListOfProjects data={myProjects} />
+              <ListOfProjects data={adminProjects} />
             </section>
           </Col>
 
@@ -25,12 +25,12 @@ export function MyProjects() {
             <h4>Public</h4>
             <strong>Y-DNA public</strong>
             <section>
-              <YdnaPublicResults data={myProjects} />
+              <YdnaPublicResults data={adminProjects} />
             </section>
 
             <strong>mtDNA public</strong>
             <section>
-              <MTdnaPublicResults data={myProjects} />
+              <MTdnaPublicResults data={adminProjects} />
             </section>
           </Col>
 
@@ -38,7 +38,7 @@ export function MyProjects() {
             <h4>Discover</h4>
             <strong>Y Group Time Tree</strong>
             <section>
-              <ListOfGroupTimeTree data={myProjects} />
+              <ListOfGroupTimeTree data={adminProjects} />
             </section>
 
             <strong>mt Group Time Tree</strong>

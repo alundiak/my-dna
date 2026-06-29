@@ -19,7 +19,7 @@ export const FTDNA_DISCOVER_Y_DNA_SECTIONS = [
   'projects',
   'scientific',
   'compare',
-  'classic',
+  'classic'
 ];
 export const FTDNA_DISCOVER_MT_DNA_SECTIONS = FTDNA_DISCOVER_Y_DNA_SECTIONS;
 
@@ -35,8 +35,8 @@ export const THEY_TREE_URL = 'https://www.theytree.com';
 export const sideNavData = [
   // { id: 'home', label: 'back to top' }, // skipping in new approach
 
-  // { id: 'my-ftdna-projects', label: 'My FTDNA Projects' },
-  { id: 'other-ftdna-projects', label: 'FTDNA Projects' },
+  { id: 'my-ftdna-projects', label: 'My FTDNA Projects' },
+  { id: 'other-ftdna-projects', label: 'Other FTDNA Projects' },
 
   { id: 'y-dna-public', label: 'Y-DNA Public' },
   { id: 'mt-dna-public', label: 'mtDNA Public' },
@@ -51,7 +51,7 @@ export const sideNavData = [
   // { id: 'y-discover-by-person', label: 'Y-DNA Time Tree pages by Person' },
   // { id: 'mt-discover-by-person", label: "mt-DNA Discover pages by Person' },
 
-  { id: 'yfull-pages-py-person', label: 'YFULL (other)' },
+  { id: 'yfull-pages-py-person', label: 'YFULL (other)' }
 
   // { id: 'contacts', label: 'My Contacts' },
 ];
