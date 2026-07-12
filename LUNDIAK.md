@@ -13,8 +13,9 @@
 └── 1853 Paulus
     └── 1901 Nicolaus
         └── 1925 Vasyl I (our grandfather)
-            └── 1949 Michael (my father)
-                └── 1982 Andrii (my)
+            ├── 1949 Michael (my father)
+            │   └── 1982 Andrii (me)
+            │
             └── 1961 Vasyl II (my paternal uncle)
                 └── 1995 Vasyl III (my 1st cousin)
 ```
@@ -39,18 +40,18 @@ NOT SURE (to be verified), but expected amount of shared autosomal DNA is
 
 ```text
 1787 Joannes - common ancestor
-├── Eustachius (1820)
-│   └── Paulus (1853)
-│       └── Nicolaus (1901)
-│           └── Vasyl I (1925)
-│               ├── Michael (1949)
-│               │   └── Andrii (1982)
-│               └── Vasyl II (1961)
-│                   └── Vasyl III (1995)
+├── Basilius (1836)
+│   └── Georgius (1889)
+│       └── Stepan (1937)
 │
-└── Basilius (1836)
-    └── Georgius (1889)
-        └── Stepan (1937)
+└── Eustachius (1820)
+    └── Paulus (1853)
+        └── Nicolaus (1901)
+            └── Vasyl I (1925)
+                ├── Michael (1949)
+                │   └── Andrii (1982)
+                └── Vasyl II (1961)
+                    └── Vasyl III (1995)
 ```
 
 Then:
