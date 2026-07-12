@@ -4,8 +4,8 @@
 
 ### Theory 1 - Basilius was son of Eustachius
 
-```
-1815/1820 Eustachius
+```text
+1815 Eustachius - common ancestor
 ├── 1836 Basilius
 │   └── 1889 Georgius
 │       └── 1937 Stepan
@@ -37,4 +37,25 @@ NOT SURE (to be verified), but expected amount of shared autosomal DNA is
 
 ### Theory 2 - Basilius was brother of Eustachius
 
-TBD
+```text
+1787 Joannes - common ancestor
+├── Eustachius (1820)
+│   └── Paulus (1853)
+│       └── Nicolaus (1901)
+│           └── Vasyl I (1925)
+│               ├── Michael (1949)
+│               │   └── Andrii (1982)
+│               └── Vasyl II (1961)
+│                   └── Vasyl III (1995)
+│
+└── Basilius (1836)
+    └── Georgius (1889)
+        └── Stepan (1937)
+```
+
+Then:
+
+- Stepan ↔ Vasyl I = 2C1R → ~23 cM
+- Stepan ↔ Michael = 2C2R → ~12 cM
+- Stepan ↔ Andrii = 2C3R → ~6 cM
+- Stepan ↔ Vasyl III = 2C3R → ~6 cM
