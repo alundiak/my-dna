@@ -27,7 +27,7 @@ const mapper = (item: GroupInfo, index: number) => {
       </a>
       <span> | </span>
       <a href={yMapResultsURL} target="_blank">
-        map
+        yMap
       </a>
     </li>
   );
