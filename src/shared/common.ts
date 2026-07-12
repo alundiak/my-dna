@@ -5,12 +5,12 @@ export function parseSNP_data(element: any) {
   if (typeof element === 'string') {
     return {
       SNP: element,
-      people: [],
+      people: []
     };
   } else {
     return {
       SNP: element.snp,
-      people: element.people,
+      people: element.people
     };
   }
 }
@@ -19,13 +19,13 @@ interface FilterParams {
   myMembership: boolean;
 }
 
-export function filterFTDNAprojects({ myMembership }: FilterParams) {
+export function filterFtdnaProjects({ myMembership }: FilterParams) {
   return ftDnaProjects.filter((item) => {
     return item.myMembership === myMembership;
   });
 }
 
-export function filterFTDNAmtDNAonlyProjects({ myMembership }: FilterParams) {
+export function filterMitoOnlyProjects({ myMembership }: FilterParams) {
   return mtDnaOnlyProjects.filter((item) => {
     return item.myMembership === myMembership;
   });
@@ -47,18 +47,18 @@ export function extractProjectsWithDisabledResults(allProjects: any) {
       }
       return result;
     },
-    { enabled: [], disabled: [] },
+    { enabled: [], disabled: [] }
   );
 }
 
 // TBD
 export function useProjectsData() {
-  const memberProjects = filterFTDNAprojects({ myMembership: true });
-  const otherFtdnaProjects = filterFTDNAprojects({ myMembership: false });
+  const memberProjects = filterFtdnaProjects({ myMembership: true });
+  const otherFtdnaProjects = filterFtdnaProjects({ myMembership: false });
 
-  const myMtDnaProjects = filterFTDNAmtDNAonlyProjects({ myMembership: true });
-  const otherMtDnaProjects = filterFTDNAmtDNAonlyProjects({
-    myMembership: false,
+  const myMtDnaProjects = filterMitoOnlyProjects({ myMembership: true });
+  const otherMtDnaProjects = filterMitoOnlyProjects({
+    myMembership: false
   });
 
   // Improve maybe by using .pop()
@@ -66,6 +66,6 @@ export function useProjectsData() {
     memberProjects,
     otherFtdnaProjects,
     myMtDnaProjects,
-    otherMtDnaProjects,
+    otherMtDnaProjects
   ];
 }

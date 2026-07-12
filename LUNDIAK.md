@@ -29,6 +29,12 @@ And:
 - Stepan is Andrii's second cousin twice removed (2C2R).
 - Stepan is Vasyl III's second cousin twice removed (2C2R).
 
+NOT SURE (to be verified), but expected amount of shared autosomal DNA is
+
+- around ~46 cM between Stepan and 2C: Vasyl I.
+- around ~23 cM between Stepan and 2C1R: Michael or Vasyl II.
+- around ~12 cM between Stepan and 2C2R: Andrii or Vasyl III.
+
 ### Theory 2 - Basilius was brother of Eustachius
 
 TBD

@@ -16,5 +16,11 @@
     "idPublic": "I-FGC63213",
     "myMembership": true,
     "admin": true
+  },
+  {
+    "idGroup": "H13a1d",
+    "idPublic": "H13a1d",
+    "myMembership": true,
+    "admin": true
   }
 ]
