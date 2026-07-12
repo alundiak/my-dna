@@ -1,8 +1,8 @@
 # LUNDIAK theories
 
-## Who was Basilius 18236 in regards to Eustachius 1815/1820 LUNDIAK?
+## Who was Basilius 1836 in regards to Eustachius 1815/1820 LUNDIAK?
 
-Theory 1 - Basilius was his son
+### Theory 1 - Basilius was son of Eustachius
 
 ```
 1815/1820 Eustachius
@@ -29,4 +29,6 @@ And:
 - Stepan is Andrii's second cousin twice removed (2C2R).
 - Stepan is Vasyl III's second cousin twice removed (2C2R).
 
-Theory 2 - Basilius was his brother
+### Theory 2 - Basilius was brother of Eustachius
+
+TBD
