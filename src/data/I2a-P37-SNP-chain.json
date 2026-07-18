@@ -182,24 +182,39 @@
   {
     "snp": "I-FT89565",
     "sameLevelSNPs": [
-      "Since May-2026: BY148115, BZ1987, FT88512, FT88745, FT88796, FT89167, FT431366, FTJ69014, Y128119, Y128159, Y128563, Y129161, Y129345",
-      "Since 01-Jun-2026: Y128119 (YFULL) - terminal SNP"
+      "FT89565, FT431366, FT88512, FT88745, FT88796, FT89167, FTJ69014, Y128119 (YFull terminal SNP), Y128159, Y128563, Y129161"
+    ],
+    "people": [
+      "(FTDNA) 🇺🇦 LUNDIAK Stepan 1937 (son of Georgius 1889), far-related paternal uncle, CLOSER to Vasyl"
+    ]
+  },
+  {
+    "snp": "I-BY148115",
+    "sameLevelSNPs": [
+      "BY148115, BZ1987, Y129345 (YFull terminal SNP)"
     ],
     "people": [
       "(FTDNA) 🇺🇦 LUNDIAK Andrii 1982 (son of Mykhailo 1949), 1st cousin",
-      "(FTDNA) 🇺🇦 LUNDIAK Vasyl Jr 1995 (son of Vasyl 1961), 1st cousin",
-      "FORECAST (FTDNA) 🇺🇦 LUNDIAK Stepan 1937 (son of Georgius 1889), far-related paternal uncle, CLOSER to Vasyl"
+      "(FTDNA) 🇺🇦 LUNDIAK Vasyl Jr 1995 (son of Vasyl 1961), 1st cousin"
     ]
   },
   {
     "snp": "I-FTJ35141",
     "sameLevelSNPs": [
-      "Since May-2026: C177893 (N1b), A34460 (N1c)"
+      "FTJ35141, C177893 (N1b), A34460 (N1c)"
+    ],
+    "people": [
+      "(FTDNA) 🇵🇱 DŁUGOSZ Andrzej, Poland, USA (Big Y-Match since 28-Apr-2026)"
+    ]
+  },
+  {
+    "snp": "I-FTJ6772",
+    "sameLevelSNPs": [
+      "FTJ6772, FTJ35788"
     ],
     "people": [
       "(FTDNA) 🇵🇱 PAPUGA Łukasz, [I paid for his Big Y 700 UPGRADE], my first Big Y-Match since Mar-2026",
-      "(FTDNA) 🇵🇱 DŁUGOSZ Andrzej, Poland, USA (Big Y-Match since 28-Apr-2026)",
-      "(FTDNA) Unknwon Origin, but Big Y-700 Comepleted since 27.06.2026"
+      "(FTDNA) 🇵🇱 Paul Kaczor, Big Y-700 Comepleted since 27.06.2026"
     ]
   },
   {
