@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 // BrowserRouter is OK, but when page refreshed route is gone, and it's 404 then
-import { HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router';
 
 import App from './App.tsx';
 // import { MyExperiments } from './base-components/other/MyExperiments';

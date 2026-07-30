@@ -30,10 +30,11 @@
   {
     "snp": "H13a1d5",
     "people": [
-      "1 🇺🇦 Daigle + USA",
-      "1 🇨🇦 Smallwood",
-      "1 🇦🇹 Pryce/Hussar",
-      "1 ? Slovak"
+      "🇺🇦 Daigle + USA",
+      "F5359090, 🇨🇦 Smallwood",
+      "F5359090, ? Slovak",
+      "F2514067, 🇦🇹 Pryce/Hussar",
+      "F2514067, 🇺🇦 Danyluk"
     ]
   },
   {
@@ -75,19 +76,27 @@
     ],
     "haplotypes": [
       {
-        "value": "F1621813",
-        "people": [
-          "1 🇭🇺",
-          "3 Unknown"
-        ]
-      },
-      {
         "value": "F5654829",
         "people": [
           "1 🇧🇾",
           "1 🇺🇦",
           "3 🇵🇱",
           "1 Unknown - Pryer from 🇨🇦"
+        ]
+      }
+    ]
+  },
+  {
+    "snp": "H13a1d2a",
+    "people": [
+      "1 Slovak🇸🇰"
+    ],
+    "haplotypes": [
+      {
+        "value": "F1621813",
+        "people": [
+          "1 🇭🇺",
+          "3 Unknown"
         ]
       }
     ]
@@ -110,6 +119,12 @@
     "snp": "H13a1d7",
     "people": [
       "3 🇫🇮"
+    ]
+  },
+  {
+    "snp": "H13a1d8",
+    "people": [
+      "3 Unknown Origin"
     ]
   },
   "ABC",
