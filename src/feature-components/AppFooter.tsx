@@ -1,9 +1,12 @@
-import './AppFooter.css';
+import { Typography } from '@mui/material';
+import './appFooter.css';
 
 export function AppFooter() {
   return (
     <footer>
-      <h3 id="contacts">My contact info</h3>
+      <Typography variant="h4" color="success" id="contacts">
+        My contact info
+      </Typography>
       <div className="links">
         <div className="facebook">
           My{' '}

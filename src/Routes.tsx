@@ -27,6 +27,7 @@ export function MyDNARoutes() {
 
       <Route path="discover-by-person" element={<DiscoverPagesByPerson />} />
       <Route path="yfull-pages-py-person" element={<YfullPagesByPerson />} />
+      {/* <Route path="yfull-pages-py-person" element={<YfullPagesByPersonNew />} /> */}
     </Routes>
   );
 }

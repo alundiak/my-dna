@@ -5,6 +5,12 @@ import { AppFooter } from './feature-components/AppFooter';
 import { AppHeader } from './feature-components/AppHeader';
 import { MyDNARoutes } from './Routes';
 
+// TBD @import in CSS as layer(packages)
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import './index_from_boilerplate.css';
+// import './index_w_layers.css';
+
 import './App.css';
 
 function App() {

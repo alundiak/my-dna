@@ -13,6 +13,8 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^9.2.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router": "^8.3.0",

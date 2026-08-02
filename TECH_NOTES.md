@@ -2,6 +2,8 @@
 
 # 2026
 
+- Maybe migrate to [Material UI](https://mui.com/material-ui) or [Mantine](https://ui.mantine.dev/)
+  - Semantic UI seems to be long time not updated, most probably outdated with NodeJS dependencies.
 - [Reactstrap](https://github.com/reactstrap/reactstrap) seems to be stuck on v9.2.3 which depends on Bootstrap v5.x.
   - And I see NO NEW version to support latest `react` and `typescript` so maybe I will need to redesign.
 - TypeScript v 7.0.0rc is [available](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/).
