@@ -1,8 +1,8 @@
+import { ListItemText } from '@mui/material';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemText from '@mui/material/ListItemText';
 import { useState } from 'react';
 import { sideNavData } from '../shared/constant';
 
@@ -22,7 +22,7 @@ export function MySideNavRoutingNew() {
     <Box sx={{ width: '100%' }}>
       <nav>
         {/* <Link component={RouterLink} to="/"> */}
-        <List dense>
+        <List>
           {sideNavData.map((item: NavItemModel, index) => {
             const path = item.id === 'my-ftdna-projects' ? '' : item.id;
             return (
@@ -34,6 +34,7 @@ export function MySideNavRoutingNew() {
                   onClick={() => handleListItemClick(index)}
                 >
                   <ListItemText primary={item.label} />
+                  {/* {item.label} */}
                 </ListItemButton>
               </ListItem>
             );
