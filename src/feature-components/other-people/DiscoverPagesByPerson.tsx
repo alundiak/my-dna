@@ -49,6 +49,11 @@ export function DiscoverPagesByPerson() {
               </a>
             </li>
             <li>
+              <a href="https://discover.familytreedna.com/y-dna/I-FTH45840" target="_blank">
+                I2a-Z17855+ Kifa
+              </a>
+            </li>
+            <li>
               <a href="https://discover.familytreedna.com/y-dna/I-FT233531/" target="_blank">
                 I2a-S17250+ Lewandowski
               </a>
