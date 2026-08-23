@@ -1,8 +1,33 @@
 [
   {
-    "idGroup": "I-Y3118",
-    "idPublic": "I-Y3118",
-    "myMembership": false
+    "idGroup": "ivano-frankivskregion",
+    "idPublic": "Ivano-Frankivskregion",
+    "myMembership": true,
+    "admin": true
+  },
+  {
+    "idGroup": "lunda",
+    "idPublic": "LUNDA",
+    "myMembership": true,
+    "admin": true
+  },
+  {
+    "idGroup": "I-FGC63213",
+    "idPublic": "I-FGC63213",
+    "myMembership": true,
+    "admin": true
+  },
+  {
+    "idGroup": "H13a1d",
+    "idPublic": "H13a1d",
+    "myMembership": true,
+    "admin": true
+  },
+  {
+    "idGroup": "ukrainian-dna",
+    "idPublic": "UkrainianDNA",
+    "myMembership": true,
+    "resultsRequireLogin": true
   },
   {
     "idGroup": "i-2a-hap-group",
@@ -11,10 +36,9 @@
     "myMembership": true
   },
   {
-    "idGroup": "ukrainian-dna",
-    "idPublic": "UkrainianDNA",
-    "myMembership": true,
-    "resultsRequireLogin": true
+    "idGroup": "I-Y3118",
+    "idPublic": "I-Y3118",
+    "myMembership": false
   },
   {
     "idGroup": "ukraine",
