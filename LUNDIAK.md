@@ -38,23 +38,31 @@ After "NGS Family Finder" for Stepan (1937) LUNDIAK, 22-Aug-2026:
   FTDNA: 1st Cousin - 3rd Cousin, Great/Half Uncle/Aunt/Niece/Nephew, Great Grandparent/Grandchild
 - 279 cM, Stepan vs Andrii DNA file from Ancestry
 
+Stepan's atDNA admixture:
+
+- 85% West Slavic
+- 6% Greece & Balkans
+- 4% Magyar
+- 3% Malta
+- <2% Sephardic Jewish
+
 Also:
 
 FTDNA: 2nd Cousin - 3rd Cousin:
 
-- 178 cM, Petro Khudetskyi
+- 178 cM, Petro Khudetskyi (75% West Slavic, 11% Greece & Balkans, 9% Baltic, 3% Malta, 3% Central Europe, < 1% Sephardic Jewish)
 
 FTDNA: 2nd Cousin - 4th Cousin:
 
 - 138 cM, Vasyl Yosypenko
-- 120 cM, Vasyl Shybistyi
-- 100 cM, Violetta Solomon
+- 120 cM, Vasyl Shybistyi (West Slavic 67%, Greece & Balkans 23%, East Slavic 6%, Magyar 5%)
+- 100 cM, Violetta Solomon (West Slavic 53%, East Slavic 16%, Italian Peninsula 11%, Greece & Balkans 10%, Malta 6%, Baltic 4%, Sephardic Jewish <1%)
 - 97 cM, Nataliya Virstyuk
 - 91 cM, Vasyl (1995) Васильович Lundiak (Andrii 1C),
 
 FTDNA: 3rd Cousin - 5th Cousin
 
-- 165 cM, Hanna Yosypenko
+- 165 cM, Hanna Yosypenko (East Slavic 24%, Greece & Balkans 22%, West Slavic 21%, Central Europe 12%, Baltic 10%, Magyar 3%, Ashkenazi Jewish <1%)
 - 140 cM, Kateryna Babij
 
 If to simplified:
@@ -111,54 +119,113 @@ Stepan vs Hanna Yosypenko -> 14 shared segments (165 cM in total)
 Stepan vs Kateryna -> 11 shared segments (140 cM in total)
 Stepan vs Vasyl III -> 5 shared segments (91 cM in total)
 
-### Theory 1 3C1R - IF Basilius was son of Eustachius
+### Theory 1 2C1R/2C2R - IF Basilius was son of Eustachius
+
+v1
 
 ```text
-Eustachius LUNDIAK (1815)
-├── Basilius LUNDIAK (1836)
-│   └── Georgius LUNDIAK (1889)
-│       └── Stepan LUNDIAK (1937)
+Eustachius LUNDIAK (1815) - common ancestor
+├── Basilius LUNDIAK (1836) - sibling
+│   └── Georgius LUNDIAK (1889) - 1C
+│       └── Stepan LUNDIAK (1937) - 2C
 │
-└── Paulus LUNDIAK (1853)
-    └── Nicolaus LUNDIAK (1901)
-        └── Vasyl I LUNDIAK (1925) - my grandfather
-            ├── Mykhailo LUNDIAK (1949) - my father
-            │   └── Andrii LUNDIAK (1982) - me
+└── Paulus LUNDIAK (1853) - sibling
+    └── Nicolaus LUNDIAK (1901) - 1C
+        └── Vasyl I LUNDIAK (1925) - 2C (по відношенню до Степана), my grandfather
+            ├── Mykhailo LUNDIAK (1949) - 2C1R (по відношенню до Степана) - my father
+            │   └── Andrii LUNDIAK (1982) - 2C2R (по відношенню до Степана), me
             │
             └── Vasyl II LUNDIAK (1961) - my paternal uncle
                 └── Vasyl III LUNDIAK (1995) - my 1C
 ```
 
-Genealogical hypothesis for `3C1R` relation:
+v2
 
-> Eustachius 1815 → Basilius 1836 → Georgius 1889 → Stepan
+```text
+                Eustachius LUNDIAK (1815)
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+     Basilius (1836)              Paulus (1853)
+              │                         │
+       Georgius (1889)             Nicolaus (1901)
+              │                         │
+        Stepan (1937)              Vasyl I (1925)
+                                        │
+                                  Mykhailo (1949)
+                                        │
+                                   Andrii (1982)
+```
 
-> Eustachius 1815 → Paulus 1853 → Nicolaus 1901 → Vasyl I 1925 → Mykhailo
+Genealogical hypothesis for `2C1R` relation:
+
+> father: Eustachius 1815 → sibling/brother: Basilius 1836 → 1C: Georgius 1889 → 2C: Stepan
+
+> father: Eustachius 1815 → sibling/brother: Paulus 1853 → 1C: Nicolaus 1901 → 2C: Vasyl I 1925 → 2C1R: Mykhailo
+
+So:
+
+- Eustachius = father
+- Basilius ↔ Paulus = brothers
+- Georgius ↔ Nicolaus = 1C
+- Stepan ↔ Vasyl I = 2C
+- Stepan ↔ Mykhailo = 2C1R
+- Stepan ↔ Andrii = 2C2R
 
 And because Stepan also shares 140 cM with Kateryna, your 278 cM could be inflated by a second, independent maternal relationship. That explains Andrii's high value much better than the paternal relationship alone.
 
-### Theory 2 3C3R - IF Basilius was brother of Eustachius
+### Theory 2 2C2R/2C3R - IF Basilius was brother of Eustachius
+
+v1
 
 ```text
 Joannes (1787) - common ancestor
-├── Eustachius 1821
-│   └── Paulus 1853
-│       └── Nicolaus 1901
-│           └── Vasyl I 1925
-│               └── Mykhailo 1949
-|               │   └── Andrii 1982
+├── Eustachius 1821 - sibling
+│   └── Paulus 1853 - 1C
+│       └── Nicolaus 1901 - 2C
+│           └── Vasyl I 1925 - 2C1R (по відношенню до Степана)
+│               └── Mykhailo 1949 - 2C2R (по відношенню до Степана)
+|               │   └── Andrii 1982 - 2C3R (по відношенню до Степана)
 |               └── Vasyl II 1961
 |                   └── Vasyl III 1995
-└── Basilius LUNDIAK 1836
-    └── Georgius 1889
-        └── Stepan 1937
+└── Basilius LUNDIAK 1836 - sibling
+    └── Georgius 1889 - 1C
+        └── Stepan 1937 - 2C
 ```
 
-Then count generations for `3C2R`:
+v2
 
-> Joannes → Basilius → Georgius → Stepan = 3 generations
+```text
+                         Joannes LUNDIAK (1787)
+                                  │
+                    ┌─────────────┴─────────────┐
+                    │                           │
+            Eustachius (1821)            Basilius (1836)
+                    │                           │
+              Paulus (1853)              Georgius (1889)
+                    │                           │
+             Nicolaus (1901)               Stepan (1937)
+                    │
+              Vasyl I (1925)
+                    │
+              ┌─────┴─────┐
+              │           │
+       Mykhailo (1949)  Vasyl II (1961)
+              │           │
+        Andrii (1982)  Vasyl III (1995)
+```
 
-> Joannes → Eustachius → Paulus → Nicolaus → Vasyl → Mykhailo = 5 generations
+Then count generations for `2C2R` (for Mykhailo in regards to Stepan):
+
+- Joannes = father
+- Eustachius ↔ Basilius = siblings
+- Paulus ↔ Georgius = 1C
+- Nicolaus ↔ Stepan = 2C
+- Vasyl I ↔ Stepan = 2C1R
+- Mykhailo ↔ Stepan = 2C2R
+- Andrii ↔ Stepan = 2C3R
+- Vasyl II ↔ Stepan = 2C2R
+- Vasyl III ↔ Stepan = 2C3R
 
 ### BUT
 
