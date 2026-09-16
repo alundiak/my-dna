@@ -146,15 +146,15 @@ v2
                            │
               ┌────────────┴────────────┐
               │                         │
-     Basilius (1836)              Paulus (1853)
+       Basilius (1836)             Paulus (1853)
               │                         │
        Georgius (1889)             Nicolaus (1901)
               │                         │
         Stepan (1937)              Vasyl I (1925)
                                         │
-                                  Mykhailo (1949)
+                                   Mykhailo (1949)
                                         │
-                                   Andrii (1982)
+                                    Andrii (1982)
 ```
 
 Genealogical hypothesis for `2C1R` relation:
