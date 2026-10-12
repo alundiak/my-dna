@@ -9,6 +9,7 @@
 - Replaced `@vitejs/plugin-react-swc` by `@vitejs/plugin-react` because I actually don't use any SWC plugins. And seems that after latest `vite`, `vitest`, `typescript` react boilerplate seems to not rely on SWC. Not sure.
 - Upgraded to TypeScript v6. But also trying [v7-beta](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-beta/)
 - tsconfig remain same but seems to be that after v7 releases MANY field sin `tsconfig.json` can be removed.
+- Maybe migrate to https://viteplus.dev/
 
 # 2025
 
