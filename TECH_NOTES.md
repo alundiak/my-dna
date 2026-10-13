@@ -2,6 +2,7 @@
 
 # 2026
 
+- [Bootstrap v6-alpha](https://getbootstrap.com/docs/6.0/getting-started/install/)
 - [Reactstrap](https://github.com/reactstrap/reactstrap) seems to be stuck on v9.2.3 which depends on Bootstrap v5.x.
   - And I see NO NEW version to support latest `react` and `typescript` so maybe I will need to redesign.
 - TypeScript v 7.0.0rc is [available](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0-rc/).

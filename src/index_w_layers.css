@@ -4,7 +4,8 @@
 /* It works, injects CSS properly from node_modules */
 /* But if layers used it may depend on which level other CSS chunks included... */
 /* As experiment I will leave it here for some time */
-@import 'bootstrap' layer(packages);
+/* @import 'bootstrap' layer(packages); */
+@import 'bootstrap/dist/css/bootstrap.css' layer(packages);
 
 /* LAYERS implementations */
 
